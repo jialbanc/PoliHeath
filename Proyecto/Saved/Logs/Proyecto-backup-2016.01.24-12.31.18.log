@@ -1,0 +1,486 @@
+﻿Log file open, 01/24/16 12:24:59
+LogInit:Display: Running engine for game: Proyecto
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2016.01.24-17.24.59:242][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2016.01.24-17.24.59:308][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.01.24-17.24.59:358][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.24-17.24.59:381][  0]LogInit: Object subsystem initialized
+[2016.01.24-17.24.59:389][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.01.24-17.24.59:389][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jimmy/git/PoliHeath/Proyecto/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.24-17.24.59:389][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2016.01.24-17.24.59:389][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jimmy/git/PoliHeath/Proyecto/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.24-17.24.59:390][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.24-17.24.59:390][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.24-17.24.59:431][  0]LogInit: Computer: JIMMY-PC
+[2016.01.24-17.24.59:431][  0]LogInit: User: Jimmy
+[2016.01.24-17.24.59:434][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.01.24-17.24.59:434][  0]LogInit: High frequency timer resolution =2.746528 MHz
+[2016.01.24-17.24.59:434][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=131072.0GB
+[2016.01.24-17.24.59:434][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.24-17.24.59:434][  0]LogMemory: Process Physical Memory: 61.24 MB used, 61.37 MB peak
+[2016.01.24-17.24.59:434][  0]LogMemory: Process Virtual Memory: 39.44 MB used, 39.59 MB peak
+[2016.01.24-17.24.59:434][  0]LogMemory: Physical Memory: 2722.09 MB used, 4092.53 MB total
+[2016.01.24-17.24.59:434][  0]LogMemory: Virtual Memory: 283.72 MB used, 134217728.00 MB total
+[2016.01.24-17.24.59:509][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2016.01.24-17.24.59:509][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2046MB of shared system memory, 1 output[s]
+[2016.01.24-17.24.59:513][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.24-17.24.59:513][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.24-17.24.59:513][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.24-17.24.59:522][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.24-17.24.59:553][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.24-17.24.59:629][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.01.24-17.24.59:945][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.24-17.25.11:050][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.24-17.25.12:045][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.24-17.25.12:174][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.24-17.25.12:972][  0]LogDerivedDataCache: Loaded boot cache 0.80s 39MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2016.01.24-17.25.12:973][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jimmy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2016.01.24-17.25.12:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.24-17.25.12:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.24-17.25.13:122][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2016.01.24-17.25.13:136][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jimmy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.24-17.25.13:632][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.24-17.25.13:632][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.24-17.25.14:164][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.24-17.25.14:173][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.24-17.25.14:609][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.24-17.25.17:889][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.24-17.25.18:249][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jimmy/git/PoliHeath/Proyecto/Binaries/Win64. Error: 0
+[2016.01.24-17.25.18:597][  0]SourceControl: Info Source control is disabled
+[2016.01.24-17.25.18:597][  0]SourceControl: Info Source control is disabled
+[2016.01.24-17.25.18:614][  0]SourceControl: Info Source control is disabled
+[2016.01.24-17.25.18:927][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2016.01.24-17.25.18:927][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2016.01.24-17.25.19:068][  0]LogEngine: Initializing Engine...
+[2016.01.24-17.25.19:443][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.24-17.25.19:468][  0]LogInit: FAudioDevice initialized.
+[2016.01.24-17.25.19:518][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.24-17.25.19:575][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2016.01.24-17.25.19:590][  0]LogInit: Texture streaming: Enabled
+[2016.01.24-17.25.19:704][  0]LogInit: Transaction tracking system initialized
+[2016.01.24-17.25.19:933][  0]BlueprintLog: New page: Editor Load
+[2016.01.24-17.25.19:996][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.01.24-17.25.19:997][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.01.24-17.25.21:099][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.24-17.25.21:870][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.24-17.25.22:359][  0]LogConsoleResponse:Display: 
+[2016.01.24-17.25.22:993][  0]SourceControl: Info Source control is disabled
+[2016.01.24-17.25.22:993][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2016.01.24-17.25.22:994][  0]LightingResults: New page: Lighting Build
+[2016.01.24-17.25.23:017][  0]MapCheck: New page: Map Check
+[2016.01.24-17.25.23:017][  0]LightingResults: New page: Lighting Build
+[2016.01.24-17.25.23:034][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000088C98CDA80
+[2016.01.24-17.25.23:278][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.24-17.25.23:278][  0]LogAIModule: Creating AISystem for world Nivel_1
+[2016.01.24-17.25.23:279][  0]Cmd: MAP CHECKDEP
+[2016.01.24-17.25.23:279][  0]MapCheck: New page: Nivel_1 - Jan 24, 2016, 7:25:23 AM
+[2016.01.24-17.25.23:585][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 306.001ms to complete.
+[2016.01.24-17.25.23:585][  0]LogFileHelpers: Loading map 'Nivel_1' took 0.592
+[2016.01.24-17.25.23:728][  0]LogCollectionManager: Loaded 0 collections in 0.002461 seconds
+[2016.01.24-17.25.23:989][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.24-17.25.24:035][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.24-17.25.24:073][  0]LogLoad: Full Startup: 28.77 seconds (BP compile: 0.08 seconds)
+[2016.01.24-17.25.24:091][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones'
+[2016.01.24-17.25.24:413][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2016.01.24-17.25.24:881][  5]LogAssetRegistry: Asset discovery search completed in 4.8964 seconds
+[2016.01.24-17.25.36:809][741]LogEditorViewport: Clicking Background
+[2016.01.24-17.25.40:951][999]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2016.01.24-17.25.42:211][ 78]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Niveles'
+[2016.01.24-17.25.42:655][107]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlipBooks'
+[2016.01.24-17.25.43:902][184]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/MainChar'
+[2016.01.24-17.25.44:652][233]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2016.01.24-17.26.05:050][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones'
+[2016.01.24-17.26.08:108][429]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie'
+[2016.01.24-17.26.08:853][476]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Atlas'
+[2016.01.24-17.26.09:937][549]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie'
+[2016.01.24-17.26.11:183][615]LogTexture:Display: Building textures: zombie (BGRA8)
+[2016.01.24-17.26.22:173][ 65]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie/Reposo'
+[2016.01.24-17.26.27:949][367]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie/Camina'
+[2016.01.24-17.26.31:508][586]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie/Reposo'
+[2016.01.24-17.26.32:894][670]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie/Camina'
+[2016.01.24-17.26.34:611][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/MainChar'
+[2016.01.24-17.26.35:611][838]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie/Camina'
+[2016.01.24-17.26.36:686][900]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie'
+[2016.01.24-17.26.42:592][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2016.01.24-17.26.45:871][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones'
+[2016.01.24-17.26.47:613][560]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie'
+[2016.01.24-17.26.51:718][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/zombie.uasset" SILENT=true
+[2016.01.24-17.26.51:870][779]LogSavePackage: Save=141.690887ms
+[2016.01.24-17.26.51:870][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/zombie994C30B94AD5A4B241BB17AFD8195051.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/zombie.uasset'
+[2016.01.24-17.26.52:097][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Camina/C1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C1.uasset" SILENT=true
+[2016.01.24-17.26.52:274][779]LogSavePackage: Save=111.286324ms
+[2016.01.24-17.26.52:274][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C186CBB816463BB35FD52F3E8251D8319C.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C1.uasset'
+[2016.01.24-17.26.52:317][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Camina/C2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C2.uasset" SILENT=true
+[2016.01.24-17.26.52:496][779]LogSavePackage: Save=125.397957ms
+[2016.01.24-17.26.52:496][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C21625BA8C45F4C2D8E6DB5DBAC01A56B2.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C2.uasset'
+[2016.01.24-17.26.52:544][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Camina/C3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C3.uasset" SILENT=true
+[2016.01.24-17.26.52:720][779]LogSavePackage: Save=121.248352ms
+[2016.01.24-17.26.52:720][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C3F1BB59D04A099E65B15CAE80E54D1432.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C3.uasset'
+[2016.01.24-17.26.52:766][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Camina/C4" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C4.uasset" SILENT=true
+[2016.01.24-17.26.52:928][779]LogSavePackage: Save=104.550911ms
+[2016.01.24-17.26.52:928][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C492EE347749D7287D79821083ADA1F693.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C4.uasset'
+[2016.01.24-17.26.52:973][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Camina/C5" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C5.uasset" SILENT=true
+[2016.01.24-17.26.53:137][779]LogSavePackage: Save=110.321831ms
+[2016.01.24-17.26.53:137][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C5E5A714B443A4F69D850182BFC519479A.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Camina/C5.uasset'
+[2016.01.24-17.26.53:184][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Reposo/R1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R1.uasset" SILENT=true
+[2016.01.24-17.26.53:346][779]LogSavePackage: Save=107.886757ms
+[2016.01.24-17.26.53:347][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R13AD9CCC3477362FD12A737BD417AD980.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R1.uasset'
+[2016.01.24-17.26.53:390][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Reposo/R2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R2.uasset" SILENT=true
+[2016.01.24-17.26.53:559][779]LogSavePackage: Save=108.915695ms
+[2016.01.24-17.26.53:559][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R209D2D091442CC7C83EA1C384101CB039.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R2.uasset'
+[2016.01.24-17.26.53:607][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Reposo/R3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R3.uasset" SILENT=true
+[2016.01.24-17.26.53:775][779]LogSavePackage: Save=108.285446ms
+[2016.01.24-17.26.53:775][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R3F829028C4B56D4004CDDE189C9EC0E0A.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R3.uasset'
+[2016.01.24-17.26.53:819][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Reposo/R4" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R4.uasset" SILENT=true
+[2016.01.24-17.26.54:010][779]LogSavePackage: Save=111.635857ms
+[2016.01.24-17.26.54:010][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R46B62493A48F4179FAE1DEFB15BC5A56B.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R4.uasset'
+[2016.01.24-17.26.54:056][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/Zombie/Reposo/R5" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R5.uasset" SILENT=true
+[2016.01.24-17.26.54:221][779]LogSavePackage: Save=109.260857ms
+[2016.01.24-17.26.54:221][779]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R52CDD3FBD4DC7AB51F8301DB3AC987794.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/Zombie/Reposo/R5.uasset'
+[2016.01.24-17.26.55:770][875]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie/Camina'
+[2016.01.24-17.26.57:253][963]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar'
+[2016.01.24-17.26.58:268][ 30]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar/Caminar'
+[2016.01.24-17.27.08:705][361]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Atlas'
+[2016.01.24-17.27.09:191][393]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie'
+[2016.01.24-17.27.09:681][424]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie/Camina'
+[2016.01.24-17.27.11:660][543]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie/Camina'
+[2016.01.24-17.27.15:817][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C1.uasset" SILENT=true
+[2016.01.24-17.27.15:939][748]LogSavePackage: Save=113.991188ms
+[2016.01.24-17.27.15:939][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C1EF2A1B4A41965EFD2AC9E18F57B3D384.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C1.uasset'
+[2016.01.24-17.27.15:991][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C2.uasset" SILENT=true
+[2016.01.24-17.27.16:106][748]LogSavePackage: Save=104.143120ms
+[2016.01.24-17.27.16:106][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C23C718C6345596F08B7CC32B40F6EF181.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C2.uasset'
+[2016.01.24-17.27.16:156][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C3.uasset" SILENT=true
+[2016.01.24-17.27.16:293][748]LogSavePackage: Save=104.685989ms
+[2016.01.24-17.27.16:293][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C38962188A49C2D6083F83DFB55249A29B.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C3.uasset'
+[2016.01.24-17.27.16:343][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C4" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C4.uasset" SILENT=true
+[2016.01.24-17.27.16:456][748]LogSavePackage: Save=105.260170ms
+[2016.01.24-17.27.16:456][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C4C3DE16F44B89DA0D1687248254CF596F.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C4.uasset'
+[2016.01.24-17.27.16:504][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C5" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C5.uasset" SILENT=true
+[2016.01.24-17.27.16:622][748]LogSavePackage: Save=110.153618ms
+[2016.01.24-17.27.16:622][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C5A5D31ADA4CD450FABE00968C17599136.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C5.uasset'
+[2016.01.24-17.27.17:130][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/CaminaZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset" SILENT=true
+[2016.01.24-17.27.17:288][748]LogSavePackage: Save=101.350143ms
+[2016.01.24-17.27.17:289][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/CaminaZombie2C87219143B67E1E9755B393DD322F50.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset'
+[2016.01.24-17.27.17:301][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/CaminaZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset" SILENT=true
+[2016.01.24-17.27.17:365][748]LogSavePackage: Save=13.574229ms
+[2016.01.24-17.27.17:365][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/CaminaZombie5D75B8324320D8832630BE9299573ED4.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset'
+[2016.01.24-17.27.17:380][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/CaminaZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset" SILENT=true
+[2016.01.24-17.27.17:443][748]LogSavePackage: Save=12.895190ms
+[2016.01.24-17.27.17:443][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/CaminaZombieD9E4E5674A2A22156B7615979359C8D3.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset'
+[2016.01.24-17.27.17:457][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/CaminaZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset" SILENT=true
+[2016.01.24-17.27.17:521][748]LogSavePackage: Save=13.128575ms
+[2016.01.24-17.27.17:521][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/CaminaZombieD7E70E59407C69F54400709E547DC23B.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset'
+[2016.01.24-17.27.17:533][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/CaminaZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset" SILENT=true
+[2016.01.24-17.27.17:599][748]LogSavePackage: Save=16.803396ms
+[2016.01.24-17.27.17:599][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/CaminaZombie81DD457C4E17126A559A9BA670D995DE.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/CaminaZombie.uasset'
+[2016.01.24-17.27.17:849][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R1.uasset" SILENT=true
+[2016.01.24-17.27.17:966][748]LogSavePackage: Save=110.562500ms
+[2016.01.24-17.27.17:966][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R1CFC674C24F9248EB869B2B8BAD01DD76.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R1.uasset'
+[2016.01.24-17.27.18:019][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R2.uasset" SILENT=true
+[2016.01.24-17.27.18:134][748]LogSavePackage: Save=104.898254ms
+[2016.01.24-17.27.18:134][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R26F118A1B4439485520EEEB89AD577196.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R2.uasset'
+[2016.01.24-17.27.18:184][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R3.uasset" SILENT=true
+[2016.01.24-17.27.18:298][748]LogSavePackage: Save=106.582932ms
+[2016.01.24-17.27.18:298][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R3304BD812491D5B22B2E3B78CD0926187.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R3.uasset'
+[2016.01.24-17.27.18:346][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R4" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R4.uasset" SILENT=true
+[2016.01.24-17.27.18:461][748]LogSavePackage: Save=107.535767ms
+[2016.01.24-17.27.18:461][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R4CE4198B2466F8E88E2F55A816849B357.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R4.uasset'
+[2016.01.24-17.27.18:508][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R5" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R5.uasset" SILENT=true
+[2016.01.24-17.27.18:624][748]LogSavePackage: Save=108.417976ms
+[2016.01.24-17.27.18:624][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R5D2B67AC94526A08C3EF5F3ACBDEF6CC3.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R5.uasset'
+[2016.01.24-17.27.19:098][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/ReposoZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset" SILENT=true
+[2016.01.24-17.27.19:264][748]LogSavePackage: Save=105.930107ms
+[2016.01.24-17.27.19:264][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/ReposoZombieF58EC1024A8E9ECFEE500DAF5ECC8543.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset'
+[2016.01.24-17.27.19:280][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/ReposoZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset" SILENT=true
+[2016.01.24-17.27.19:349][748]LogSavePackage: Save=17.144554ms
+[2016.01.24-17.27.19:349][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/ReposoZombie5041659B437BAC67DCBA6AB534C02D3E.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset'
+[2016.01.24-17.27.19:362][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/ReposoZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset" SILENT=true
+[2016.01.24-17.27.19:425][748]LogSavePackage: Save=13.384535ms
+[2016.01.24-17.27.19:425][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/ReposoZombie469598474B75C250798007A9A5137755.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset'
+[2016.01.24-17.27.19:438][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/ReposoZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset" SILENT=true
+[2016.01.24-17.27.19:504][748]LogSavePackage: Save=14.878057ms
+[2016.01.24-17.27.19:505][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/ReposoZombie22D1CC514C62F2A4593133888825E733.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset'
+[2016.01.24-17.27.19:519][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animaciones/ReposoZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset" SILENT=true
+[2016.01.24-17.27.19:588][748]LogSavePackage: Save=16.755337ms
+[2016.01.24-17.27.19:588][748]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/ReposoZombie1A9930DC4939D1278DBC3BB44B8E2830.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Animaciones/ReposoZombie.uasset'
+[2016.01.24-17.27.19:604][748]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.01.24-17.27.19:605][748]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar/Camina'
+[2016.01.24-17.27.19:606][748]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar/Camina'
+[2016.01.24-17.27.20:779][806]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Atlas'
+[2016.01.24-17.27.21:748][870]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie'
+[2016.01.24-17.27.22:627][928]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones'
+[2016.01.24-17.27.29:669][313]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlipBooks'
+[2016.01.24-17.27.31:176][404]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones'
+[2016.01.24-17.27.36:065][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/CaminaZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/FlipBooks/CaminaZombie.uasset" SILENT=true
+[2016.01.24-17.27.36:186][654]LogSavePackage: Save=114.027603ms
+[2016.01.24-17.27.36:186][654]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/CaminaZombie451E4FE54A94A47AF4A07EA0D436BF03.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/FlipBooks/CaminaZombie.uasset'
+[2016.01.24-17.27.36:237][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/ReposoZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/FlipBooks/ReposoZombie.uasset" SILENT=true
+[2016.01.24-17.27.36:354][654]LogSavePackage: Save=107.260880ms
+[2016.01.24-17.27.36:354][654]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/ReposoZombie609E106F4AA29DB6A5D01DBC8B50D8F9.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/FlipBooks/ReposoZombie.uasset'
+[2016.01.24-17.27.37:864][736]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Atlas'
+[2016.01.24-17.27.38:282][763]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones/Zombie'
+[2016.01.24-17.27.38:834][799]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animaciones'
+[2016.01.24-17.27.46:264][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2016.01.24-17.27.47:496][352]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Niveles'
+[2016.01.24-17.27.48:046][388]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlipBooks'
+[2016.01.24-17.27.49:894][494]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar/Camina'
+[2016.01.24-17.28.06:481][261]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.01.24-17.28.14:025][443]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.01.24-17.28.14:387][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.24-17.28.14:534][443]LogSavePackage: Save=63.992428ms
+[2016.01.24-17.28.14:534][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_144774A41491943DFCD0258BAED62F138.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap'
+[2016.01.24-17.28.14:613][443]LogFileHelpers: Saving map 'Nivel_1' took 0.563
+[2016.01.24-17.28.14:686][443]LogSavePackage: Save=10.168839ms
+[2016.01.24-17.28.14:686][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/zombie2_Sprite2F1C9378245A519CF097427975BBCF80E.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Caminar/zombie2_Sprite2.uasset'
+[2016.01.24-17.28.14:782][443]LogSavePackage: Save=11.325936ms
+[2016.01.24-17.28.14:782][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/zombie2_Sprite6AF67D544871BBC07E248B99253F8BF5.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Caminar/zombie2_Sprite.uasset'
+[2016.01.24-17.28.14:872][443]LogSavePackage: Save=12.531458ms
+[2016.01.24-17.28.14:873][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/zombie2_Sprite3A6643D214251CA4F39329D88BF31EFEC.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Caminar/zombie2_Sprite3.uasset'
+[2016.01.24-17.28.14:966][443]LogSavePackage: Save=19.534845ms
+[2016.01.24-17.28.14:966][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/zombie2_Sprite4A871CA57473A9C4FE5E359999BB7350F.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Caminar/zombie2_Sprite4.uasset'
+[2016.01.24-17.28.15:056][443]LogSavePackage: Save=13.404560ms
+[2016.01.24-17.28.15:056][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/zombie2_Sprite51D706FAA45A6CF531312CA9B973603D2.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Caminar/zombie2_Sprite5.uasset'
+[2016.01.24-17.28.15:108][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C1.uasset" SILENT=true
+[2016.01.24-17.28.15:276][443]LogSavePackage: Save=111.339844ms
+[2016.01.24-17.28.15:276][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C1BADE1A1C44BF71CC50268BB2566D60A1.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C1.uasset'
+[2016.01.24-17.28.15:327][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C2.uasset" SILENT=true
+[2016.01.24-17.28.15:493][443]LogSavePackage: Save=106.007660ms
+[2016.01.24-17.28.15:493][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C2BAD849974599F85AA9477E9F3EC37CD7.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C2.uasset'
+[2016.01.24-17.28.15:545][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C3.uasset" SILENT=true
+[2016.01.24-17.28.15:705][443]LogSavePackage: Save=99.847153ms
+[2016.01.24-17.28.15:705][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C34E298CB44E78291AC26A98ABBF5A0CE1.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C3.uasset'
+[2016.01.24-17.28.15:756][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C4" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C4.uasset" SILENT=true
+[2016.01.24-17.28.15:921][443]LogSavePackage: Save=108.343697ms
+[2016.01.24-17.28.15:922][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C4C390FA894239C9D13CD80E97EC33A856.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C4.uasset'
+[2016.01.24-17.28.15:974][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Camina/C5" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C5.uasset" SILENT=true
+[2016.01.24-17.28.16:146][443]LogSavePackage: Save=114.593773ms
+[2016.01.24-17.28.16:146][443]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/C5D774B9CA4E79785F9CE777B88BE1B618.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Camina/C5.uasset'
+[2016.01.24-17.28.17:855][522]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar/Reposo'
+[2016.01.24-17.28.29:657][ 46]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.01.24-17.28.37:276][229]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.01.24-17.28.37:336][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R1.uasset" SILENT=true
+[2016.01.24-17.28.37:505][229]LogSavePackage: Save=112.041824ms
+[2016.01.24-17.28.37:505][229]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R1023E150445435303B5A85580145CB0A0.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R1.uasset'
+[2016.01.24-17.28.37:555][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R2.uasset" SILENT=true
+[2016.01.24-17.28.37:722][229]LogSavePackage: Save=107.092300ms
+[2016.01.24-17.28.37:722][229]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R29BB31254405784371A5ED8B11F58B7AE.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R2.uasset'
+[2016.01.24-17.28.37:772][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R3.uasset" SILENT=true
+[2016.01.24-17.28.37:943][229]LogSavePackage: Save=115.770164ms
+[2016.01.24-17.28.37:943][229]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R304EC840D42A28B2E1A458A9D02CCE1AA.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R3.uasset'
+[2016.01.24-17.28.37:993][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R4" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R4.uasset" SILENT=true
+[2016.01.24-17.28.38:163][229]LogSavePackage: Save=112.767464ms
+[2016.01.24-17.28.38:163][229]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R488B54C7C401563158B9DE3BA3066D1F2.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R4.uasset'
+[2016.01.24-17.28.38:212][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R5" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R5.uasset" SILENT=true
+[2016.01.24-17.28.38:380][229]LogSavePackage: Save=111.281952ms
+[2016.01.24-17.28.38:380][229]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R5317A2D94498738422026CB8A8B05A8F8.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R5.uasset'
+[2016.01.24-17.28.42:522][459]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar/Camina'
+[2016.01.24-17.28.43:414][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.01.24-17.28.44:582][572]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlipBooks'
+[2016.01.24-17.28.53:626][968]LogEditorViewport: Clicking Background
+[2016.01.24-17.29.01:101][367]LoadErrors:Error: Error Failed import for PaperSprite
+[2016.01.24-17.29.01:120][367]LoadErrors:Error: Error Failed import for PaperSprite
+[2016.01.24-17.29.01:121][367]LoadErrors:Error: Error Failed import for PaperSprite
+[2016.01.24-17.29.01:122][367]LoadErrors:Error: Error Failed import for PaperSprite
+[2016.01.24-17.29.05:794][530]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (ReposoZombie)
+[2016.01.24-17.29.06:987][581]LogEditorViewport: Clicking Background
+[2016.01.24-17.29.12:826][927]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (ReposoZombie)
+[2016.01.24-17.29.15:930][ 68]LogEditorViewport: Clicking Background
+[2016.01.24-17.29.18:349][204]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2016.01.24-17.29.19:082][246]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/MainChar'
+[2016.01.24-17.29.20:021][306]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar'
+[2016.01.24-17.29.20:707][351]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/MainChar'
+[2016.01.24-17.29.21:437][399]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Niveles'
+[2016.01.24-17.29.22:009][437]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2016.01.24-17.29.22:847][487]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Niveles'
+[2016.01.24-17.29.24:065][567]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2016.01.24-17.29.24:685][602]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/MainChar'
+[2016.01.24-17.29.25:843][676]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar'
+[2016.01.24-17.29.26:814][739]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/MainChar'
+[2016.01.24-17.29.39:256][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.24-17.29.39:391][  2]LogSavePackage: Save=49.328827ms
+[2016.01.24-17.29.39:391][  2]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_1E66FE1D3485D8573A4E1BC85DD7D2A82.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap'
+[2016.01.24-17.30.02:622][315]Cmd: QUIT_EDITOR
+[2016.01.24-17.30.03:359][315]LogExit: Preparing to exit.
+[2016.01.24-17.30.04:054][315]LogExit: Editor shut down
+[2016.01.24-17.30.04:054][315]LogExit: Transaction tracking system shut down
+[2016.01.24-17.30.04:057][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000088BDA27920
+[2016.01.24-17.30.04:058][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000088BC948220
+[2016.01.24-17.30.04:061][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000088BDA549A0
+[2016.01.24-17.30.04:109][315]LogExit: Object subsystem successfully closed.
+[2016.01.24-17.30.04:214][315]LogModuleManager: Shutting down and abandoning module TextureEditor (168)
+[2016.01.24-17.30.04:215][315]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (167)
+[2016.01.24-17.30.04:215][315]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2016.01.24-17.30.05:113][315]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2016.01.24-17.30.05:113][315]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2016.01.24-17.30.05:113][315]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2016.01.24-17.30.05:113][315]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2016.01.24-17.30.05:113][315]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2016.01.24-17.30.05:113][315]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2016.01.24-17.30.05:114][315]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2016.01.24-17.30.05:115][315]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2016.01.24-17.30.05:116][315]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2016.01.24-17.30.05:117][315]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2016.01.24-17.30.05:117][315]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2016.01.24-17.30.05:117][315]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2016.01.24-17.30.05:117][315]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2016.01.24-17.30.05:117][315]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2016.01.24-17.30.05:117][315]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2016.01.24-17.30.05:118][315]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2016.01.24-17.30.05:245][315]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2016.01.24-17.30.05:245][315]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2016.01.24-17.30.05:246][315]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2016.01.24-17.30.05:491][315]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2016.01.24-17.30.05:492][315]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2016.01.24-17.30.05:494][315]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2016.01.24-17.30.05:494][315]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2016.01.24-17.30.05:494][315]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2016.01.24-17.30.05:494][315]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2016.01.24-17.30.05:494][315]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2016.01.24-17.30.05:494][315]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2016.01.24-17.30.05:494][315]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2016.01.24-17.30.05:495][315]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2016.01.24-17.30.05:495][315]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2016.01.24-17.30.05:596][315]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2016.01.24-17.30.05:596][315]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module Media (66)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2016.01.24-17.30.05:602][315]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2016.01.24-17.30.05:606][315]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2016.01.24-17.30.05:606][315]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2016.01.24-17.30.05:606][315]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2016.01.24-17.30.05:606][315]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2016.01.24-17.30.05:606][315]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2016.01.24-17.30.05:606][315]LogModuleManager: Shutting down and abandoning module Core (47)
+[2016.01.24-17.30.05:606][315]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2016.01.24-17.30.05:607][315]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2016.01.24-17.30.05:607][315]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2016.01.24-17.30.05:607][315]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2016.01.24-17.30.05:700][315]LogDerivedDataCache: Shutdown
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.01.24-17.30.05:700][315]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.01.24-17.30.05:701][315]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.01.24-17.30.05:701][315]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2016.01.24-17.30.05:701][315]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2016.01.24-17.30.05:701][315]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2016.01.24-17.30.05:701][315]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2016.01.24-17.30.05:701][315]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2016.01.24-17.30.05:701][315]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.24-17.30.05:703][315]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.24-17.30.05:704][315]LogExit: Exiting.
+[2016.01.24-17.30.05:743][315]Log file closed, 01/24/16 12:30:05
