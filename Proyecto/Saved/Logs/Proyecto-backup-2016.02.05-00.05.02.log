@@ -1,0 +1,649 @@
+﻿Log file open, 02/04/16 23:12:38
+LogInit:Display: Running engine for game: Proyecto
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2016.02.05-04.12.38:522][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2016.02.05-04.12.38:587][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.02.05-04.12.38:637][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.05-04.12.38:660][  0]LogInit: Object subsystem initialized
+[2016.02.05-04.12.38:668][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.02.05-04.12.38:668][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jimmy/git/PoliHeath/Proyecto/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.02.05-04.12.38:668][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2016.02.05-04.12.38:668][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jimmy/git/PoliHeath/Proyecto/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.02.05-04.12.38:669][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.05-04.12.38:669][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.05-04.12.38:714][  0]LogInit: Computer: JIMMY-PC
+[2016.02.05-04.12.38:714][  0]LogInit: User: Jimmy
+[2016.02.05-04.12.38:716][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.02.05-04.12.38:716][  0]LogInit: High frequency timer resolution =2.746524 MHz
+[2016.02.05-04.12.38:716][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=131072.0GB
+[2016.02.05-04.12.38:716][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.05-04.12.38:716][  0]LogMemory: Process Physical Memory: 61.51 MB used, 61.51 MB peak
+[2016.02.05-04.12.38:716][  0]LogMemory: Process Virtual Memory: 39.57 MB used, 39.57 MB peak
+[2016.02.05-04.12.38:716][  0]LogMemory: Physical Memory: 2643.47 MB used, 4092.53 MB total
+[2016.02.05-04.12.38:716][  0]LogMemory: Virtual Memory: 283.72 MB used, 134217728.00 MB total
+[2016.02.05-04.12.38:808][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2016.02.05-04.12.38:808][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2046MB of shared system memory, 1 output[s]
+[2016.02.05-04.12.38:811][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.05-04.12.38:811][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.02.05-04.12.38:811][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.05-04.12.38:822][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.05-04.12.38:851][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.05-04.12.38:983][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.02.05-04.12.39:327][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.05-04.12.54:029][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.05-04.12.55:435][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.05-04.12.55:666][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.05-04.12.56:372][  0]LogDerivedDataCache: Loaded boot cache 0.69s 51MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2016.02.05-04.12.56:372][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jimmy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2016.02.05-04.12.56:372][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.05-04.12.56:372][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.05-04.12.56:606][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2016.02.05-04.12.56:656][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jimmy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.05-04.13.02:746][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.05-04.13.02:746][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.05-04.13.05:394][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.05-04.13.05:472][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.05-04.13.08:505][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.05-04.13.35:519][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.05-04.13.37:076][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jimmy/git/PoliHeath/Proyecto/Binaries/Win64. Error: 0
+[2016.02.05-04.13.38:577][  0]SourceControl: Info Source control is disabled
+[2016.02.05-04.13.38:577][  0]SourceControl: Info Source control is disabled
+[2016.02.05-04.13.38:594][  0]SourceControl: Info Source control is disabled
+[2016.02.05-04.13.39:482][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2016.02.05-04.13.39:482][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2016.02.05-04.13.40:252][  0]LogEngine: Initializing Engine...
+[2016.02.05-04.13.41:431][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.05-04.13.41:596][  0]LogInit: FAudioDevice initialized.
+[2016.02.05-04.13.42:468][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.05-04.13.42:723][  0]LogDerivedDataCache: Saved boot cache 0.15s 51MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2016.02.05-04.13.42:766][  0]LogInit: Texture streaming: Enabled
+[2016.02.05-04.13.43:183][  0]LogInit: Transaction tracking system initialized
+[2016.02.05-04.13.46:921][  0]BlueprintLog: New page: Editor Load
+[2016.02.05-04.13.47:761][  0]LogAssetRegistry: FAssetRegistry took 0.0584 seconds to start up
+[2016.02.05-04.13.47:762][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.02.05-04.13.54:145][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.05-04.13.54:937][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.05-04.14.02:678][  0]LogConsoleResponse:Display: 
+[2016.02.05-04.14.10:675][  0]SourceControl: Info Source control is disabled
+[2016.02.05-04.14.10:961][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2016.02.05-04.14.11:057][  0]LightingResults: New page: Lighting Build
+[2016.02.05-04.14.11:916][  0]MapCheck: New page: Map Check
+[2016.02.05-04.14.11:916][  0]LightingResults: New page: Lighting Build
+[2016.02.05-04.14.12:925][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000190709A80
+[2016.02.05-04.14.21:624][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.05-04.14.21:863][  0]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.05-04.14.22:185][  0]Cmd: MAP CHECKDEP
+[2016.02.05-04.14.22:236][  0]MapCheck: New page: Nivel_1 - Feb 4, 2016, 6:14:22 PM
+[2016.02.05-04.14.22:684][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 476.145ms to complete.
+[2016.02.05-04.14.22:684][  0]LogFileHelpers: Loading map 'Nivel_1' took 11.891
+[2016.02.05-04.14.26:001][  0]LogCollectionManager: Loaded 0 collections in 0.002593 seconds
+[2016.02.05-04.14.27:347][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.05-04.14.28:007][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.05-04.14.28:161][  0]LogLoad: Full Startup: 114.13 seconds (BP compile: 2.26 seconds)
+[2016.02.05-04.14.30:549][  0]LogRenderer:Warning: Reallocating scene render targets to support 1104x904.
+[2016.02.05-04.14.31:416][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Attributes'
+[2016.02.05-04.14.33:753][  7]LogAssetRegistry: Asset discovery search completed in 46.0496 seconds
+[2016.02.05-04.15.48:703][429]LogEditorViewport: Clicking Background
+[2016.02.05-04.15.49:880][503]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (ReposoZombie_2)
+[2016.02.05-04.15.55:060][713]LogEditorViewport: Clicking Background
+[2016.02.05-04.15.58:585][920]LogEditorViewport: Clicking Background
+[2016.02.05-04.16.02:036][140]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-04.16.03:559][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Player'
+[2016.02.05-04.16.08:240][497]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-04.16.15:631][961]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Player'
+[2016.02.05-04.16.17:283][ 66]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-04.16.24:676][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Player'
+[2016.02.05-04.16.26:976][636]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-04.16.32:381][938]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Player'
+[2016.02.05-04.16.37:287][186]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-04.16.42:411][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.02.05-04.16.42:411][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.02.05-04.16.42:740][459]LogMetaData: Removing '/Game/Blueprints/Zombie.SKEL_Zombie_C' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
+[2016.02.05-04.16.42:740][459]LogMetaData: Removing '/Game/Blueprints/Zombie.Zombie_C' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
+[2016.02.05-04.16.42:862][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset" SILENT=true
+[2016.02.05-04.16.43:553][459]LogSavePackage: Save=679.170471ms
+[2016.02.05-04.16.43:553][459]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Zombie263ADD4E487BF5335567ABB1CB256308.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset'
+[2016.02.05-04.16.43:609][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.02.05-04.16.53:822][673]LogRenderer:Warning: Reallocating scene render targets to support 1264x904.
+[2016.02.05-04.17.01:953][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.02.05-04.17.08:973][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset" SILENT=true
+[2016.02.05-04.17.09:654][204]LogSavePackage: Save=633.490906ms
+[2016.02.05-04.17.09:654][204]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/ZombieC7815DA0496668E66170AD9120A119EA.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset'
+[2016.02.05-04.17.11:986][313]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlipBooks'
+[2016.02.05-04.17.13:975][395]LogRenderer:Warning: Reallocating scene render targets to support 1520x904.
+[2016.02.05-04.17.29:389][ 45]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2016.02.05-04.17.30:468][ 99]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/MainChar'
+[2016.02.05-04.17.32:688][237]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar'
+[2016.02.05-04.17.34:373][340]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/ZombieChar/Reposo'
+[2016.02.05-04.17.53:779][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.02.05-04.17.53:829][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018CAA4FE0
+[2016.02.05-04.17.53:830][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001AA26F740
+[2016.02.05-04.17.53:830][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018608BEC0
+[2016.02.05-04.17.53:830][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001F31C0B80
+[2016.02.05-04.17.53:831][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018267DDA0
+[2016.02.05-04.17.53:920][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R1.uasset" SILENT=true
+[2016.02.05-04.17.54:050][128]LogSavePackage: Save=106.559784ms
+[2016.02.05-04.17.54:051][128]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R15E58C60144B59F46B12741A5651C205C.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R1.uasset'
+[2016.02.05-04.17.54:100][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R2.uasset" SILENT=true
+[2016.02.05-04.17.54:226][128]LogSavePackage: Save=102.405807ms
+[2016.02.05-04.17.54:226][128]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R25BA0AADD4F6A8B112E0E17B22780A8C1.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R2.uasset'
+[2016.02.05-04.17.54:281][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R3.uasset" SILENT=true
+[2016.02.05-04.17.54:406][128]LogSavePackage: Save=100.783394ms
+[2016.02.05-04.17.54:406][128]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R32311156D42F48A1D79D456A2533F49CF.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R3.uasset'
+[2016.02.05-04.17.54:454][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R4" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R4.uasset" SILENT=true
+[2016.02.05-04.17.54:582][128]LogSavePackage: Save=101.600060ms
+[2016.02.05-04.17.54:582][128]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R4FC61F4494D96EAA58E0D3CACFD533CFD.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R4.uasset'
+[2016.02.05-04.17.54:629][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/ZombieChar/Reposo/R5" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R5.uasset" SILENT=true
+[2016.02.05-04.17.54:756][128]LogSavePackage: Save=101.518501ms
+[2016.02.05-04.17.54:756][128]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/R5CE36754C47C64ADFA67619A857C3B07C.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Sprites/ZombieChar/Reposo/R5.uasset'
+[2016.02.05-04.17.54:772][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Player.uasset" SILENT=true
+[2016.02.05-04.17.54:784][128]LogSavePackage: Save=7.819702ms
+[2016.02.05-04.17.54:784][128]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/PlayerBC6ECC264166FF7C3D51B0B0D3C56BC4.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Player.uasset'
+[2016.02.05-04.17.57:507][267]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlipBooks'
+[2016.02.05-04.18.02:748][500]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-04.19.06:174][757]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.02.05-04.19.40:219][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.02.05-04.19.49:367][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.02.05-04.19.57:039][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:041][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:047][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:049][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:050][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:052][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:053][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:055][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:056][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:058][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:060][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.57:061][511]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:150][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:152][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:158][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:160][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:161][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:163][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:165][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:166][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:168][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:170][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:171][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.19.59:173][578]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.20.54:739][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.02.05-04.20.56:920][568]BlueprintLog: New page: Compile Zombie
+[2016.02.05-04.20.57:375][568]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.02.05-04.20.57:447][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018CAC82C0
+[2016.02.05-04.20.57:613][568]BlueprintEditorCompileResults: Info [0503.16] Compile of Zombie successful! [in 213 ms]
+[2016.02.05-04.20.58:397][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset" SILENT=true
+[2016.02.05-04.20.59:023][595]LogSavePackage: Save=604.143982ms
+[2016.02.05-04.20.59:023][595]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/ZombieD8915F474917A89B14001CA60FB94B3F.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset'
+[2016.02.05-04.22.36:087][139]BlueprintLog: New page: Compile Zombie
+[2016.02.05-04.22.36:383][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.02.05-04.22.36:574][139]BlueprintEditorCompileResults: Info [0602.23] Compile of Zombie successful! [in 124 ms]
+[2016.02.05-04.22.37:472][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset" SILENT=true
+[2016.02.05-04.22.38:123][152]LogSavePackage: Save=620.586243ms
+[2016.02.05-04.22.38:123][152]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Zombie7E83283C4914A426A533B9AF0C95AD0E.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset'
+[2016.02.05-04.22.52:343][702]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (ReposoZombie_2)
+[2016.02.05-04.22.54:018][775]Cmd: DELETE
+[2016.02.05-04.22.54:029][775]Cmd: ACTOR DELETE
+[2016.02.05-04.22.54:278][775]LogEditorActor: Deleted Actor: PaperFlipbookActor
+[2016.02.05-04.22.54:295][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.02.05-04.22.54:327][775]LogEditorActor: Deleted 1 Actors (0.116 secs)
+[2016.02.05-04.23.02:219][ 85]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.02.05-04.23.07:154][308]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.23.18:780][806]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.23.20:306][865]Cmd: DELETE
+[2016.02.05-04.23.20:306][865]Cmd: ACTOR DELETE
+[2016.02.05-04.23.20:307][865]LogEditorActor: Deleted Actor: Zombie_C
+[2016.02.05-04.23.20:333][865]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.02.05-04.23.20:364][865]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2016.02.05-04.23.21:857][948]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sp_Background)
+[2016.02.05-04.23.22:996][994]LogEditorViewport: Clicking Background
+[2016.02.05-04.23.27:030][218]LogEditorViewport: Clicking Background
+[2016.02.05-04.23.43:813][ 77]LogEditorViewport: Clicking Background
+[2016.02.05-04.24.29:399][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.02.05-04.24.29:399][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.02.05-04.24.29:475][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Autosaves/Game/Niveles/Nivel_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.02.05-04.24.29:648][295]LogSavePackage: Save=125.603851ms
+[2016.02.05-04.24.29:648][295]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_1_Auto1F111BB5F4412FA69160DBBB83D5935F7.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Autosaves/Game/Niveles/Nivel_1_Auto1.umap'
+[2016.02.05-04.24.29:665][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Nivel_1' took 0.266
+[2016.02.05-04.24.29:666][295]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.266
+[2016.02.05-04.25.47:163][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.02.05-04.25.47:164][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.02.05-04.25.47:194][667]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001C0AECEA0
+[2016.02.05-04.25.48:821][667]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001C37D4C20
+[2016.02.05-04.25.48:822][667]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000185F80A40
+[2016.02.05-04.26.02:737][843]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.26.02:737][843]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.26.02:925][843]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-04.26.17:842][657]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.26.51:026][ 30]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.26.53:027][102]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.26.57:573][267]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.27.18:981][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.02.05-04.27.18:981][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.02.05-04.27.19:011][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001C0584220
+[2016.02.05-04.27.19:012][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001AA010C20
+[2016.02.05-04.27.19:014][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001C0D18EA0
+[2016.02.05-04.27.37:097][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.02.05-04.27.39:610][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.02.05-04.27.41:423][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset" SILENT=true
+[2016.02.05-04.27.42:063][693]LogSavePackage: Save=602.351929ms
+[2016.02.05-04.27.42:063][693]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Zombie485ECA3244F8932F5428F38B6FB74B5B.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset'
+[2016.02.05-04.27.42:472][706]BlueprintLog: New page: Compile Zombie
+[2016.02.05-04.27.43:066][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.02.05-04.27.43:238][706]BlueprintEditorCompileResults: Info [0908.63] Compile of Zombie successful! [in 133 ms]
+[2016.02.05-04.27.45:452][784]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sp_Background)
+[2016.02.05-04.27.46:969][845]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.27.47:624][865]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.27.48:317][886]LogEditorViewport: Clicking Background
+[2016.02.05-04.27.49:445][948]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sp_Background)
+[2016.02.05-04.27.50:429][986]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.27.51:701][ 31]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sp_Background)
+[2016.02.05-04.27.52:593][ 64]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.28.00:253][389]LogEditorViewport: Clicking Background
+[2016.02.05-04.28.01:781][468]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.05-04.28.01:781][468]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2016.02.05-04.28.01:891][468]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.02.05-04.28.01:920][468]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
+[2016.02.05-04.28.01:920][468]PIE: New page: PIE session: Nivel_1 (Feb 4, 2016, 6:28:01 PM)
+[2016.02.05-04.28.01:964][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043779s)
+[2016.02.05-04.28.01:966][468]LogPlayLevel: PIE: World Init took: (0.001326s)
+[2016.02.05-04.28.01:966][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.045425s)
+[2016.02.05-04.28.02:158][468]LogWorld: Game class is '2D_C'
+[2016.02.05-04.28.02:424][468]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.05-04.28.02:437][468]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.04-23.28.02
+[2016.02.05-04.28.02:605][468]LogWorld: Bringing up level for play took: 0.180337
+[2016.02.05-04.28.02:837][468]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.768
+[2016.02.05-04.28.04:578][525]LogTemp: MouseLeave
+[2016.02.05-04.28.24:306][469]LogTemp: MouseLeave
+[2016.02.05-04.28.25:364][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018B676020
+[2016.02.05-04.29.01:970][858]LogEditorViewport: Clicking Background
+[2016.02.05-04.29.03:146][925]LogEditorViewport: Clicking Background
+[2016.02.05-04.29.06:038][ 94]LogEditorViewport: Clicking Background
+[2016.02.05-04.29.09:678][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.05-04.29.09:684][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.02.05-04.29.09:726][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001BECA13A0
+[2016.02.05-04.29.09:859][293]LogSavePackage: Save=101.957237ms
+[2016.02.05-04.29.09:859][293]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_1DCF7CEBF41608D610958D3BBC29206E5.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap'
+[2016.02.05-04.29.11:978][404]LogEditorViewport: Clicking Background
+[2016.02.05-04.29.25:365][896]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.29.25:381][896]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.29.27:597][981]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.29.27:599][981]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.29.34:329][256]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.29.34:329][256]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.30.01:959][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.02.05-04.30.06:142][430]BlueprintLog: New page: Compile Zombie
+[2016.02.05-04.30.06:483][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2016.02.05-04.30.06:507][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001BECC8CC0
+[2016.02.05-04.30.06:675][430]BlueprintEditorCompileResults: Info [1052.31] Compile of Zombie successful! [in 146 ms]
+[2016.02.05-04.30.06:700][430]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.30.06:707][430]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.30.06:712][430]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.30.06:714][430]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.30.07:392][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset" SILENT=true
+[2016.02.05-04.30.08:037][453]LogSavePackage: Save=619.208130ms
+[2016.02.05-04.30.08:037][453]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Zombie8A48D7D04C33DB24E433FA8191E8AFC2.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset'
+[2016.02.05-04.30.10:386][557]LogEditorViewport: Clicking Background
+[2016.02.05-04.34.51:606][755]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.39.10:680][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2016.02.05-04.39.10:738][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Autosaves/Game/Niveles/Nivel_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.02.05-04.39.10:877][422]LogSavePackage: Save=96.338135ms
+[2016.02.05-04.39.10:877][422]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_1_Auto285B15A8145AE93A0CC7D068A03BE2813.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Autosaves/Game/Niveles/Nivel_1_Auto2.umap'
+[2016.02.05-04.39.10:891][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Nivel_1' took 0.211
+[2016.02.05-04.39.10:892][422]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.211
+[2016.02.05-04.46.48:769][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:769][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:769][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:770][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:770][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:770][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:770][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:770][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:770][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:771][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:771][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:771][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:772][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:772][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:772][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:772][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:773][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:773][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.48:773][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.46.50:213][ 13]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.46.50:213][ 13]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.46.56:383][146]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.46.56:383][146]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.47.18:761][618]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.47.18:761][618]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.47.44:953][853]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.47.44:953][853]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.49.02:456][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset" SILENT=true
+[2016.02.05-04.49.03:267][399]LogSavePackage: Save=720.248230ms
+[2016.02.05-04.49.03:267][399]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Zombie34B323C74B9347E9097B7783541CBEC0.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset'
+[2016.02.05-04.49.03:789][412]BlueprintLog: New page: Compile Zombie
+[2016.02.05-04.49.04:375][412]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2016.02.05-04.49.04:608][412]BlueprintEditorCompileResults: Info [2189.94] Compile of Zombie successful! [in 132 ms]
+[2016.02.05-04.49.08:054][521]LogEditorViewport: Clicking Background
+[2016.02.05-04.49.13:383][793]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.02.05-04.49.14:563][837]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2016.02.05-04.49.14:585][837]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000185F50C20
+[2016.02.05-04.49.14:630][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Autosaves/Game/Niveles/Nivel_1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.02.05-04.49.14:777][837]LogSavePackage: Save=104.414886ms
+[2016.02.05-04.49.14:778][837]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_1_Auto313A9A71A4E8563B52DC5EBB3375FD8DB.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Autosaves/Game/Niveles/Nivel_1_Auto3.umap'
+[2016.02.05-04.49.14:792][837]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Nivel_1' took 0.229
+[2016.02.05-04.49.14:792][837]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.229
+[2016.02.05-04.49.15:346][870]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Attributes'
+[2016.02.05-04.49.19:258][ 82]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-04.49.20:279][139]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlipBooks'
+[2016.02.05-04.49.20:847][170]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Player'
+[2016.02.05-04.49.22:022][239]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Niveles'
+[2016.02.05-04.49.22:994][289]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2016.02.05-04.49.22:995][289]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2016.02.05-04.49.25:863][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.05-04.49.26:002][289]LogSavePackage: Save=85.538666ms
+[2016.02.05-04.49.26:002][289]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_1666AB90B4FD73716056E5F93AC6ABCC6.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap'
+[2016.02.05-04.49.26:115][289]LogFileHelpers: Saving map 'Nivel_1' took 0.615
+[2016.02.05-04.49.26:135][289]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2016.02.05-04.49.26:135][289]LightingResults: New page: Lighting Build
+[2016.02.05-04.49.26:219][289]LoadErrors: New page: Loading map: Nivel_1.umap
+[2016.02.05-04.49.26:220][289]MapCheck: New page: Map Check
+[2016.02.05-04.49.26:220][289]LightingResults: New page: Lighting Build
+[2016.02.05-04.49.26:241][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018D4B7D80
+[2016.02.05-04.49.26:241][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018D5CC4A0
+[2016.02.05-04.49.26:329][289]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.05-04.49.26:329][289]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.05-04.49.26:408][289]Cmd: MAP CHECKDEP
+[2016.02.05-04.49.26:409][289]MapCheck: New page: Nivel_1 - Feb 4, 2016, 6:49:26 PM
+[2016.02.05-04.49.26:738][289]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 328.913ms to complete.
+[2016.02.05-04.49.26:738][289]LogFileHelpers: Loading map 'Nivel_1' took 0.620
+[2016.02.05-04.49.45:451][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2016.02.05-04.49.45:498][292]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2016.02.05-04.49.45:498][292]LightingResults: New page: Lighting Build
+[2016.02.05-04.49.45:576][292]LoadErrors: New page: Loading map: Nivel_1.umap
+[2016.02.05-04.49.45:577][292]MapCheck: New page: Map Check
+[2016.02.05-04.49.45:577][292]LightingResults: New page: Lighting Build
+[2016.02.05-04.49.45:601][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001971D4B80
+[2016.02.05-04.49.45:653][292]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.05-04.49.45:654][292]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.05-04.49.45:733][292]Cmd: MAP CHECKDEP
+[2016.02.05-04.49.45:733][292]MapCheck: New page: Nivel_1 - Feb 4, 2016, 6:49:45 PM
+[2016.02.05-04.49.46:067][292]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 333.157ms to complete.
+[2016.02.05-04.49.46:067][292]LogFileHelpers: Loading map 'Nivel_1' took 0.573
+[2016.02.05-04.50.28:478][895]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.50.28:478][895]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.50.52:171][203]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.50.52:171][203]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.50.53:412][234]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.50.53:412][234]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2016.02.05-04.51.22:812][741]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.51.22:812][741]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.51.30:917][997]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.51.30:917][997]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.51.58:650][512]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.51.58:650][512]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.52.13:868][ 62]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.52.13:868][ 62]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.52.16:752][180]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.52.16:752][180]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.52.29:660][560]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.52.29:660][560]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.53.06:132][633]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.53.06:132][633]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.55.06:275][217]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.55.06:275][217]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.55.13:363][501]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.55.13:363][501]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.55.46:084][999]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.55.46:084][999]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.55.49:854][126]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.55.49:854][126]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.56.07:311][501]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.56.07:311][501]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.56.10:345][596]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.56.10:345][596]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.56.11:296][628]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.56.11:296][628]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.56.13:600][709]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.56.13:600][709]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.57.37:606][217]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.57.37:606][217]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.58.21:723][604]BlueprintLog: New page: Compile Nivel_1
+[2016.02.05-04.58.21:887][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2016.02.05-04.58.21:991][604]BlueprintEditorCompileResults: Info [2747.70] Compile of Nivel_1 successful! [in 1 ms]
+[2016.02.05-04.58.25:328][757]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.58.33:915][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.05-04.58.34:091][ 19]LogSavePackage: Save=105.451111ms
+[2016.02.05-04.58.34:091][ 19]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_156F4F59443863827259E40B4F556BF65.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap'
+[2016.02.05-04.58.37:072][142]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.58.56:034][979]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.58.56:034][979]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.59.01:899][231]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.59.01:899][231]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.59.02:095][239]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Sp_Background)
+[2016.02.05-04.59.17:350][813]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.59.21:996][  9]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.21:997][  9]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:026][ 10]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:027][ 10]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:029][ 10]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:285][ 22]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:309][ 23]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:310][ 23]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:312][ 23]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:314][ 23]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:338][ 24]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:339][ 24]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:341][ 24]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:343][ 24]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:344][ 24]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:346][ 24]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:372][ 25]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:757][ 42]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.22:813][ 44]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.34:891][565]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.05-04.59.37:989][700]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.59.37:989][700]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-04.59.40:810][833]LogEditorViewport: Clicking Background
+[2016.02.05-04.59.42:242][914]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-04.59.44:379][995]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:381][995]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:411][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:413][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:414][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:416][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:417][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:419][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:421][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:422][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:424][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:425][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:427][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:429][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:430][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:432][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:433][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:435][996]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-04.59.44:469][997]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.00.01:295][702]LogEditorViewport: Clicking Background
+[2016.02.05-05.00.08:196][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.05-05.00.08:345][901]LogSavePackage: Save=91.435211ms
+[2016.02.05-05.00.08:345][901]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Nivel_1AF93B2E9490E570F30758D9EFC51CF4F.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Niveles/Nivel_1.umap'
+[2016.02.05-05.00.16:335][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Zombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset" SILENT=true
+[2016.02.05-05.00.16:976][109]LogSavePackage: Save=608.157410ms
+[2016.02.05-05.00.16:976][109]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Saved/Zombie8C33E15749274A55A2BCF4AC30DA3DA7.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto/Content/Blueprints/Zombie.uasset'
+[2016.02.05-05.00.25:348][503]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.02.05-05.00.49:975][510]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.00.49:975][510]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.00.52:396][601]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2016.02.05-05.00.52:396][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2016.02.05-05.00.52:420][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001BE6A2B60
+[2016.02.05-05.00.52:429][601]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2016.02.05-05.01.35:408][428]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.01.35:408][428]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.02.04:097][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:098][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:105][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:106][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:108][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:109][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:111][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:112][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:114][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:116][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:117][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.04:119][110]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2016.02.05-05.02.23:842][698]LogEditorViewport: Clicking Background
+[2016.02.05-05.02.25:473][790]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.05-05.02.58:038][408]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.02.58:038][408]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.03.07:156][666]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.03.07:156][666]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.03.21:924][864]BlueprintLog: New page: Compile Nivel_1
+[2016.02.05-05.03.22:052][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2016.02.05-05.03.22:083][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000185095260
+[2016.02.05-05.03.22:114][864]BlueprintEditorCompileResults: Info [3047.91] Compile of Nivel_1 successful! [in 3 ms]
+[2016.02.05-05.03.26:092][ 15]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.05-05.03.26:092][ 15]LogPlayLevel: [PIE] Compiling Nivel_1 before PIE...
+[2016.02.05-05.03.26:230][ 15]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (1 blueprints)
+[2016.02.05-05.03.26:230][ 15]PIE: New page: PIE session: Nivel_1 (Feb 4, 2016, 7:03:26 PM)
+[2016.02.05-05.03.26:236][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006253s)
+[2016.02.05-05.03.26:238][ 15]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2016.02.05-05.03.26:238][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.007819s)
+[2016.02.05-05.03.26:273][ 15]LogWorld: Game class is '2D_C'
+[2016.02.05-05.03.26:278][ 15]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.05-05.03.26:280][ 15]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.05-00.03.26
+[2016.02.05-05.03.26:281][ 15]LogWorld: Bringing up level for play took: 0.002307
+[2016.02.05-05.03.26:287][ 15]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.218
+[2016.02.05-05.03.49:696][128]LogTemp: MouseLeave
+[2016.02.05-05.03.50:417][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000192856700
+[2016.02.05-05.03.52:944][255]LogEditorViewport: Clicking Background
+[2016.02.05-05.04.28:877][329]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.04.28:877][329]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2016.02.05-05.04.28:940][329]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.02.05-05.04.29:134][329]LogCrashTracker: 
+
+
+[2016.02.05-05.04.39:200][329]LogCrashTracker: 
+
+
+[2016.02.05-05.04.39:201][329]LogWindows: === Critical error: ===
+Assertion failed: StructPtrs.Num() != 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\DetailCustomizations\Private\KeyStructCustomization.cpp] [Line: 63] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffa4b175bf8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa364571c4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa362e98c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa362ce892) + 0 bytes [UnknownFile:0]
+UE4Editor-DetailCustomizations.dll!UnknownFunction (0x00007ffa1e771194) + 0 bytes [UnknownFile:0]
+UE4Editor-DetailCustomizations.dll!UnknownFunction (0x00007ffa1e754526) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa29bf4d8a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa29c077f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa29c108d6) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa29bf7032) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b2a1f) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b2cd6) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b4494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b1098) + 0 bytes [UnknownFile:0]
+UE4Editor-PropertyEditor.dll!UnknownFunction (0x00007ffa2ae1d50f) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359dd5e4) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b1098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e71c5) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b4494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b4494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa359b4494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e71c5) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e6f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e78af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e7bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x00007ffa355e72fc) + 0 bytes [UnknownFile:0]
+UnknownModule!UnknownFunction (0x0000db2b13f57059) + 0 bytes [UnknownFile:0]
+
+
+[2016.02.05-05.04.39:599][329]LogExit: Executing StaticShutdownAfterError
+[2016.02.05-05.04.40:203][329]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.02.05-05.04.40:203][329]Log file closed, 02/05/16 00:04:40
