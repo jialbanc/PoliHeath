@@ -1,0 +1,438 @@
+﻿[2016.02.13-19.37.31:770][  0]Log file open, 02/13/16 14:37:31
+[2016.02.13-19.37.31:770][  0]LogInit:Display: Running engine for game: Proyecto
+[2016.02.13-19.37.31:770][  0]LogInit:Display: RandInit(-1761884326) SRandInit(-1761884324).
+[2016.02.13-19.37.31:770][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.02.13-19.37.31:770][  0]LogStats: Stats thread started
+[2016.02.13-19.37.31:770][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.02.13-19.37.31:770][  0]LogInit: API Version: 2579680
+[2016.02.13-19.37.31:770][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.02.13-19.37.31:770][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.02.13-19.37.31:770][  0]LogInit: Build Configuration: Development
+[2016.02.13-19.37.31:770][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.02.13-19.37.31:770][  0]LogInit: Command line:  
+[2016.02.13-19.37.31:770][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.02.13-19.37.31:770][  0]LogInit: Rocket: 1
+[2016.02.13-19.37.32:018][  0]LogInit: Using libcurl 7.41.0
+[2016.02.13-19.37.32:018][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.13-19.37.32:018][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.13-19.37.32:018][  0]LogInit:  - other features:
+[2016.02.13-19.37.32:018][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.13-19.37.32:018][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.13-19.37.32:018][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.13-19.37.32:018][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.13-19.37.32:018][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.13-19.37.32:038][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.13-19.37.32:038][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.13-19.37.32:038][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.13-19.37.32:038][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.13-19.37.32:038][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.13-19.37.32:091][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.02.13-19.37.32:305][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.13-19.37.32:600][  0]LogInit: Object subsystem initialized
+[2016.02.13-19.37.32:808][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2016.02.13-19.37.32:808][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.02.13-19.37.32:867][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2016.02.13-19.37.32:895][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-19.37.32:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.13-19.37.33:042][  0]LogInit: Computer: JIMMY-PC
+[2016.02.13-19.37.33:042][  0]LogInit: User: Jimmy
+[2016.02.13-19.37.33:042][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.02.13-19.37.33:042][  0]LogInit: High frequency timer resolution =2.746524 MHz
+[2016.02.13-19.37.33:042][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.02.13-19.37.33:042][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.13-19.37.33:042][  0]LogMemory: Process Physical Memory: 48.23 MB used, 48.23 MB peak
+[2016.02.13-19.37.33:042][  0]LogMemory: Process Virtual Memory: 22.21 MB used, 22.21 MB peak
+[2016.02.13-19.37.33:042][  0]LogMemory: Physical Memory: 2393.96 MB used, 4092.53 MB total
+[2016.02.13-19.37.33:042][  0]LogMemory: Virtual Memory: 292.58 MB used, 134217728.00 MB total
+[2016.02.13-19.37.34:473][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.02.13-19.37.35:288][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.02.13-19.37.37:742][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2016.02.13-19.37.37:743][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2046MB of shared system memory, 1 output[s]
+[2016.02.13-19.37.37:764][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.13-19.37.37:764][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.02.13-19.37.37:764][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.13-19.37.37:787][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.13-19.37.37:787][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.13-19.37.37:787][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.13-19.37.37:818][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.13-19.37.38:313][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.13-19.37.50:219][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.02.13-19.37.50:264][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.13-19.37.50:309][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.13-19.37.50:355][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.13-19.37.50:408][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.13-19.37.50:449][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.13-19.37.50:488][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.13-19.37.50:528][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.13-19.37.50:569][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.13-19.37.50:630][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.13-19.37.50:671][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.13-19.37.50:732][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.13-19.37.50:912][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.13-19.37.50:953][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.13-19.37.50:993][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.13-19.37.51:044][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.13-19.37.51:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.13-19.37.52:399][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.13-19.37.53:064][  0]LogDerivedDataCache: Loaded boot cache 0.67s 53MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.02.13-19.37.53:064][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.02.13-19.37.53:065][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.13-19.37.53:065][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.13-19.37.53:065][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.13-19.37.53:065][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.13-19.37.53:528][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.13-19.37.53:565][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jimmy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.13-19.38.01:530][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-19.38.02:856][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.02.13-19.38.02:857][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.02.13-19.38.03:181][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.13-19.38.03:181][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.13-19.38.08:133][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.13-19.38.41:059][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.13-19.38.44:239][  0]SourceControl: Info Source control is disabled
+[2016.02.13-19.38.47:080][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.02.13-19.38.47:080][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.02.13-19.38.48:030][  0]LogEngine: Initializing Engine...
+[2016.02.13-19.38.48:087][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.02.13-19.38.48:176][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.02.13-19.38.49:905][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.13-19.38.50:072][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-19.38.50:140][  0]LogInit: FAudioDevice initialized.
+[2016.02.13-19.38.50:228][  0]LogDerivedDataCache: Saved boot cache 0.09s 53MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.02.13-19.38.50:248][  0]LogInit: Texture streaming: Disabled
+[2016.02.13-19.38.50:369][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.13-19.38.50:370][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.02.13-19.38.50:370][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d27f3b9b4f30e27e25812782be8b0d8d|8dcf4c5a87044acf9d7d9b2f0991a3f0|822a412b-4e57-4804-a033-2e42d5894c6e
+[2016.02.13-19.38.50:378][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.13-19.38.50:996][  0]LogInit: Transaction tracking system initialized
+[2016.02.13-19.38.51:713][  0]BlueprintLog: New page: Editor Load
+[2016.02.13-19.38.51:872][  0]LogAssetRegistry: FAssetRegistry took 0.0136 seconds to start up
+[2016.02.13-19.38.51:903][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.02.13-19.39.02:379][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.02.13-19.39.02:380][  0]LogConsoleResponse:Display: 
+[2016.02.13-19.39.06:110][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.13-19.39.09:816][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.13-19.39.09:859][  0]LightingResults: New page: Lighting Build
+[2016.02.13-19.39.10:462][  0]MapCheck: New page: Map Check
+[2016.02.13-19.39.10:462][  0]LightingResults: New page: Lighting Build
+[2016.02.13-19.39.10:857][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007FAB2DCB80
+[2016.02.13-19.39.16:976][  0]LogTexture:Display: Building textures: puntoB (AutoDXT)
+[2016.02.13-19.39.17:039][  0]LogTexture:Display: Building textures: puntoA (AutoDXT)
+[2016.02.13-19.39.19:892][  0]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.13-19.39.20:663][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.13-19.39.20:682][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.13-19.39.20:966][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 283.456ms to complete.
+[2016.02.13-19.39.20:967][  0]LogFileHelpers: Loading map 'Nivel_1' took 11.191
+[2016.02.13-19.39.24:710][  0]LogCollectionManager: Loaded 0 collections in 0.005424 seconds
+[2016.02.13-19.39.24:782][  0]LogContentBrowser: Native class hierarchy populated in 0.0711 seconds. Added 1792 classes and 301 folders.
+[2016.02.13-19.39.25:614][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.02.13-19.39.27:102][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.13-19.39.27:710][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.02.13-19.39.30:641][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.13-19.39.30:871][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.13-19.39.30:904][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.13-19.39.31:260][  0]LogLoad: Full Startup: 134.04 seconds (BP compile: 2.19 seconds)
+[2016.02.13-19.39.33:131][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.13-19.39.33:484][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.13-19.39.34:816][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.02.13-19.39.37:516][  5]SourceControl: Info # On branch master
+[2016.02.13-19.39.37:516][  5]SourceControl: Info # Changes not staged for commit:
+[2016.02.13-19.39.37:516][  5]SourceControl: Info #   (use "git add/rm <file>..." to update what will be committed)
+[2016.02.13-19.39.37:516][  5]SourceControl: Info #   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.13-19.39.37:516][  5]SourceControl: Info #
+[2016.02.13-19.39.37:516][  5]SourceControl: Info #	modified:   Proyecto 4.8/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.02.13-19.39.37:516][  5]SourceControl: Info #	modified:   Proyecto 4.8/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2016.02.13-19.39.37:516][  5]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Editor.ini
+[2016.02.13-19.39.37:516][  5]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Engine.ini
+[2016.02.13-19.39.37:516][  5]SourceControl: Info #	deleted:    Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.04-22.11.11.log
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #	deleted:    Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.05-00.54.40.log
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #	deleted:    Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.05-01.00.43.log
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #	deleted:    Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.05-18.17.30.log
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #	deleted:    Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.05-18.51.52.log
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Logs/Proyecto.log
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #
+[2016.02.13-19.39.37:517][  5]SourceControl: Info # Untracked files:
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #   (use "git add <file>..." to include in what will be committed)
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #
+[2016.02.13-19.39.37:517][  5]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.13-14.37.31.log
+[2016.02.13-19.39.37:517][  5]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.02.13-19.39.40:512][ 14]LogAssetRegistry: Asset discovery search completed in 48.6516 seconds
+[2016.02.13-19.40.38:803][536]LogD3D11RHI: InitD3DDevice
+[2016.02.13-19.40.39:528][585]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.13-19.40.39:740][585]PIE: New page: PIE session: Nivel_1 (Feb 13, 2016, 9:40:39 AM)
+[2016.02.13-19.40.39:741][585]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.13-19.40.39:745][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003812s)
+[2016.02.13-19.40.39:747][585]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.13-19.40.39:749][585]LogPlayLevel: PIE: World Init took: (0.003378s)
+[2016.02.13-19.40.39:749][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.007801s)
+[2016.02.13-19.40.40:197][585]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-19.40.40:219][585]LogInit: FAudioDevice initialized.
+[2016.02.13-19.40.40:224][585]LogD3D11RHI: InitD3DDevice
+[2016.02.13-19.40.40:303][585]LogWorld: Game class is '2D_C'
+[2016.02.13-19.40.40:403][585]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.13-14.40.40
+[2016.02.13-19.40.40:403][585]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-19.40.40:409][585]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-19.40.40:542][585]LogWorld: Bringing up level for play took: 0.146119
+[2016.02.13-19.40.40:687][585]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 1.729
+[2016.02.13-19.40.41:062][585]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:401).
+[2016.02.13-19.40.49:521][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007FBB002FC0
+[2016.02.13-20.25.02:705][246]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.13-20.25.02:705][246]PIE: New page: PIE session: Nivel_1 (Feb 13, 2016, 10:25:02 AM)
+[2016.02.13-20.25.02:706][246]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.13-20.25.02:710][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003842s)
+[2016.02.13-20.25.02:772][246]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.13-20.25.02:787][246]LogPlayLevel: PIE: World Init took: (0.076799s)
+[2016.02.13-20.25.02:787][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.080998s)
+[2016.02.13-20.25.02:919][246]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-20.25.02:940][246]LogInit: FAudioDevice initialized.
+[2016.02.13-20.25.02:945][246]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.25.02:985][246]LogWorld: Game class is '2D_C'
+[2016.02.13-20.25.03:018][246]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.13-15.25.03
+[2016.02.13-20.25.03:019][246]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.25.03:020][246]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.25.03:022][246]LogWorld: Bringing up level for play took: 0.010348
+[2016.02.13-20.25.03:095][246]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.137
+[2016.02.13-20.25.11:613][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007FC04A5A80
+[2016.02.13-20.25.23:359][840]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.25.31:414][512]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.26.02:366][355]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (puntoA_Sprite)
+[2016.02.13-20.26.04:491][446]LogEditorViewport: Clicking Background
+[2016.02.13-20.26.05:756][549]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (puntoB_Sprite)
+[2016.02.13-20.26.07:358][642]LogEditorViewport: Clicking Background
+[2016.02.13-20.26.21:013][807]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.26.22:366][917]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.26.27:774][329]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.13-20.26.28:429][329]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.13-20.26.28:603][329]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.13-20.27.31:496][222]LogEditorViewport: Clicking Background
+[2016.02.13-20.27.36:050][590]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.27.38:389][728]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.27.38:552][734]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (PaperFlipbook)
+[2016.02.13-20.27.40:227][822]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.27.43:862][ 18]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.27.43:959][ 18]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.27.51:313][359]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.13-20.27.53:742][492]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.27.58:704][785]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.28.02:656][ 13]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.28.04:417][114]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sp_Background)
+[2016.02.13-20.28.06:240][215]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (puntoA_Sprite)
+[2016.02.13-20.28.07:592][287]LogEditorViewport: Clicking Background
+[2016.02.13-20.28.08:795][376]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.28.19:831][ 26]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.28.23:159][218]LogEditorViewport: Clicking Background
+[2016.02.13-20.28.24:253][302]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.28.25:836][387]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.13-20.28.25:836][387]PIE: New page: PIE session: Nivel_1 (Feb 13, 2016, 10:28:25 AM)
+[2016.02.13-20.28.25:837][387]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.13-20.28.25:841][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003851s)
+[2016.02.13-20.28.25:843][387]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.13-20.28.25:845][387]LogPlayLevel: PIE: World Init took: (0.003160s)
+[2016.02.13-20.28.25:845][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.007351s)
+[2016.02.13-20.28.25:910][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F99C50FE0
+[2016.02.13-20.28.25:990][387]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-20.28.26:012][387]LogInit: FAudioDevice initialized.
+[2016.02.13-20.28.26:016][387]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.28.26:059][387]LogWorld: Game class is '2D_C'
+[2016.02.13-20.28.26:071][387]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.13-15.28.26
+[2016.02.13-20.28.26:072][387]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.28.26:073][387]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.28.26:074][387]LogWorld: Bringing up level for play took: 0.009782
+[2016.02.13-20.28.26:116][387]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 1.158
+[2016.02.13-20.28.39:796][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F9D23F380
+[2016.02.13-20.28.41:947][417]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.28.46:946][712]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.13-20.28.49:082][829]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.28.55:596][213]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (puntoA_Sprite)
+[2016.02.13-20.29.08:587][934]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (puntoB_Sprite)
+[2016.02.13-20.29.17:615][433]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.13-20.29.17:615][433]PIE: New page: PIE session: Nivel_1 (Feb 13, 2016, 10:29:17 AM)
+[2016.02.13-20.29.17:616][433]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.13-20.29.17:620][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003802s)
+[2016.02.13-20.29.17:621][433]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.13-20.29.17:623][433]LogPlayLevel: PIE: World Init took: (0.003273s)
+[2016.02.13-20.29.17:624][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.007445s)
+[2016.02.13-20.29.17:704][433]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-20.29.17:725][433]LogInit: FAudioDevice initialized.
+[2016.02.13-20.29.17:729][433]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.29.17:771][433]LogWorld: Game class is '2D_C'
+[2016.02.13-20.29.17:783][433]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.13-15.29.17
+[2016.02.13-20.29.17:783][433]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.29.17:785][433]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.29.17:786][433]LogWorld: Bringing up level for play took: 0.009722
+[2016.02.13-20.29.17:828][433]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.87
+[2016.02.13-20.29.26:143][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F9D1D8E00
+[2016.02.13-20.29.28:451][ 97]LogEditorViewport: Clicking Background
+[2016.02.13-20.29.29:627][188]Cmd: TRANSACTION UNDO
+[2016.02.13-20.29.29:647][188]LogEditorTransaction: Undo Clicking Background
+[2016.02.13-20.29.29:680][188]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.29.30:155][208]Cmd: TRANSACTION UNDO
+[2016.02.13-20.29.30:155][208]LogEditorTransaction: Undo Set actor scale
+[2016.02.13-20.29.30:759][239]Cmd: TRANSACTION UNDO
+[2016.02.13-20.29.30:759][239]LogEditorTransaction: Undo Set actor scale
+[2016.02.13-20.29.31:367][274]Cmd: TRANSACTION UNDO
+[2016.02.13-20.29.31:368][274]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.13-20.29.31:849][297]Cmd: TRANSACTION UNDO
+[2016.02.13-20.29.31:849][297]LogEditorTransaction: Undo Set actor scale
+[2016.02.13-20.29.32:326][323]Cmd: TRANSACTION UNDO
+[2016.02.13-20.29.32:326][323]LogEditorTransaction: Undo Set actor scale
+[2016.02.13-20.29.33:540][392]LogEditorViewport: Clicking Background
+[2016.02.13-20.29.36:139][597]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.29.37:534][674]LogEditorViewport: Clicking Background
+[2016.02.13-20.29.38:516][749]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.29.42:562][983]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.29.44:109][ 78]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.30.01:052][974]BlueprintLog: New page: Compile CaminaZombie
+[2016.02.13-20.30.01:765][974]BlueprintEditorCompileResults: Info [3164.55] Compile of CaminaZombie successful! [in 712 ms]
+[2016.02.13-20.30.02:700][ 12]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.30.02:785][ 12]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.30.02:826][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaminaZombie" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/CaminaZombie.uasset" SILENT=true
+[2016.02.13-20.30.03:001][ 12]LogSavePackage: Save=121.694916ms
+[2016.02.13-20.30.03:001][ 12]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/CaminaZombie5BF969BE4372288BCDFB9F8495DAB0BF.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/CaminaZombie.uasset'
+[2016.02.13-20.30.06:150][179]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.30.06:235][179]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.30.06:275][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.13-20.30.06:616][179]LogSavePackage: Save=236.136658ms
+[2016.02.13-20.30.06:616][179]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_14E081C7F408174C330F9EF809F385749.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.13-20.30.07:348][215]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.13-20.30.07:348][215]PIE: New page: PIE session: Nivel_1 (Feb 13, 2016, 10:30:07 AM)
+[2016.02.13-20.30.07:349][215]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.13-20.30.07:353][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003735s)
+[2016.02.13-20.30.07:354][215]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.13-20.30.07:356][215]LogPlayLevel: PIE: World Init took: (0.003114s)
+[2016.02.13-20.30.07:356][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.007188s)
+[2016.02.13-20.30.07:458][215]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-20.30.07:481][215]LogInit: FAudioDevice initialized.
+[2016.02.13-20.30.07:486][215]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.30.07:527][215]LogWorld: Game class is '2D_C'
+[2016.02.13-20.30.07:540][215]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.13-15.30.07
+[2016.02.13-20.30.07:540][215]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.30.07:541][215]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.30.07:543][215]LogWorld: Bringing up level for play took: 0.009800
+[2016.02.13-20.30.07:585][215]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.626
+[2016.02.13-20.30.16:627][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007FD8FA0540
+[2016.02.13-20.30.32:049][678]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.30.37:136][ 72]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.30.56:475][663]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.31.52:985][771]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.13-20.31.52:985][771]PIE: New page: PIE session: Nivel_1 (Feb 13, 2016, 10:31:52 AM)
+[2016.02.13-20.31.52:986][771]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.13-20.31.52:990][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003866s)
+[2016.02.13-20.31.52:991][771]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.13-20.31.52:993][771]LogPlayLevel: PIE: World Init took: (0.003344s)
+[2016.02.13-20.31.52:994][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.007593s)
+[2016.02.13-20.31.53:074][771]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-20.31.53:096][771]LogInit: FAudioDevice initialized.
+[2016.02.13-20.31.53:100][771]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.31.53:132][771]LogWorld: Game class is '2D_C'
+[2016.02.13-20.31.53:145][771]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.13-15.31.53
+[2016.02.13-20.31.53:145][771]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.31.53:146][771]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-20.31.53:148][771]LogWorld: Bringing up level for play took: 0.009706
+[2016.02.13-20.31.53:178][771]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.22
+[2016.02.13-20.32.04:077][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007FDCA4D1C0
+[2016.02.13-20.32.07:354][634]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.32.08:086][676]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.32.11:382][873]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.13-20.32.16:955][203]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sp_Background)
+[2016.02.13-20.32.18:081][265]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.32.19:180][328]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.32.24:001][644]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.13-20.32.25:462][723]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie)
+[2016.02.13-20.32.45:363][882]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.13-20.32.50:753][187]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2016.02.13-20.32.50:986][198]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.02.13-20.32.51:303][211]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.02.13-20.32.58:576][626]LogEditorViewport: Clicking on Component (context menu): PaperFlipbookComponent (Sprite0)
+[2016.02.13-20.32.58:586][626]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.32.59:818][690]LogEditorViewport: Clicking on Component (context menu): PaperFlipbookComponent (Sprite0)
+[2016.02.13-20.32.59:827][690]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.33.01:122][757]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2016.02.13-20.33.11:621][351]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.33.11:645][351]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.33.19:624][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2348 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2348
+[2016.02.13-20.33.19:624][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2348 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2348
+[2016.02.13-20.33.19:624][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2348.EdGraphPin_2188) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_Self_1.EdGraphPin_2079).  Import failed...
+[2016.02.13-20.33.19:624][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2348.EdGraphPin_2188''
+[2016.02.13-20.33.19:625][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2346 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2346
+[2016.02.13-20.33.19:625][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2346 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2346
+[2016.02.13-20.33.19:625][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2346.EdGraphPin_2174) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_VariableGet_42.EdGraphPin_2082).  Import failed...
+[2016.02.13-20.33.19:625][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2346.EdGraphPin_2174''
+[2016.02.13-20.33.19:625][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2347 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2347
+[2016.02.13-20.33.19:625][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2347 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2347
+[2016.02.13-20.33.19:626][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2347.EdGraphPin_2180) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_VariableGet_44.EdGraphPin_2025).  Import failed...
+[2016.02.13-20.33.19:626][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2347.EdGraphPin_2180''
+[2016.02.13-20.33.19:626][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2349
+[2016.02.13-20.33.19:626][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2349
+[2016.02.13-20.33.19:626][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349.EdGraphPin_2208) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2346.EdGraphPin_2175).  Import failed...
+[2016.02.13-20.33.19:627][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2349.EdGraphPin_2208''
+[2016.02.13-20.33.19:627][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2349
+[2016.02.13-20.33.19:627][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2349
+[2016.02.13-20.33.19:627][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349.EdGraphPin_2209) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2347.EdGraphPin_2181).  Import failed...
+[2016.02.13-20.33.19:627][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2349.EdGraphPin_2209''
+[2016.02.13-20.33.19:628][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Timeline /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_Timeline_1 or K2Node_Timeline /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_Timeline_1
+[2016.02.13-20.33.19:628][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_Timeline_1.EdGraphPin_1980) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2348.EdGraphPin_2186).  Import failed...
+[2016.02.13-20.33.19:628][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Timeline_1.EdGraphPin_1980''
+[2016.02.13-20.33.19:628][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_IfThenElse_49 or K2Node_IfThenElse /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_IfThenElse_49
+[2016.02.13-20.33.19:629][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_IfThenElse_49.EdGraphPin_2106) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2348.EdGraphPin_2187).  Import failed...
+[2016.02.13-20.33.19:629][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_49.EdGraphPin_2106''
+[2016.02.13-20.33.19:629][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2349
+[2016.02.13-20.33.19:629][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2349
+[2016.02.13-20.33.19:629][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2349.EdGraphPin_2211) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2348.EdGraphPin_2189).  Import failed...
+[2016.02.13-20.33.19:629][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2349.EdGraphPin_2211''
+[2016.02.13-20.33.19:631][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Timeline /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_Timeline_1 or K2Node_Timeline /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_Timeline_1
+[2016.02.13-20.33.19:631][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_Timeline_1.EdGraphPin_1985) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2349.EdGraphPin_2210).  Import failed...
+[2016.02.13-20.33.19:631][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Timeline_1.EdGraphPin_1985''
+[2016.02.13-20.33.19:632][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2387 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2387
+[2016.02.13-20.33.19:633][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2387 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2387
+[2016.02.13-20.33.19:633][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2387.EdGraphPin_2235) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_Timeline_1.EdGraphPin_1985).  Import failed...
+[2016.02.13-20.33.19:633][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2387.EdGraphPin_2235''
+[2016.02.13-20.33.19:633][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2386 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2386
+[2016.02.13-20.33.19:633][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2386 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2386
+[2016.02.13-20.33.19:633][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2386.EdGraphPin_2223) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_Timeline_1.EdGraphPin_1985).  Import failed...
+[2016.02.13-20.33.19:633][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2386.EdGraphPin_2223''
+[2016.02.13-20.33.19:634][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_IfThenElse_50 or K2Node_IfThenElse /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_IfThenElse_50
+[2016.02.13-20.33.19:634][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_IfThenElse_50.EdGraphPin_2119) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2386.EdGraphPin_2225).  Import failed...
+[2016.02.13-20.33.19:634][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_50.EdGraphPin_2119''
+[2016.02.13-20.33.19:635][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_IfThenElse_49 or K2Node_IfThenElse /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_IfThenElse_49
+[2016.02.13-20.33.19:635][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_IfThenElse_49.EdGraphPin_2107) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2387.EdGraphPin_2237).  Import failed...
+[2016.02.13-20.33.19:635][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_49.EdGraphPin_2107''
+[2016.02.13-20.33.19:636][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2389 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2389
+[2016.02.13-20.33.19:636][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2389 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2389
+[2016.02.13-20.33.19:636][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2389.EdGraphPin_2248) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_VariableGet_72.EdGraphPin_2100).  Import failed...
+[2016.02.13-20.33.19:636][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2389.EdGraphPin_2248''
+[2016.02.13-20.33.19:636][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2418 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2418
+[2016.02.13-20.33.19:636][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2418.EdGraphPin_2260) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_VariableGet_72.EdGraphPin_2100).  Import failed...
+[2016.02.13-20.33.19:636][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2418.EdGraphPin_2260''
+[2016.02.13-20.33.19:637][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2418 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2418
+[2016.02.13-20.33.19:637][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2418.EdGraphPin_2258) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_IfThenElse_49.EdGraphPin_2108).  Import failed...
+[2016.02.13-20.33.19:637][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2418.EdGraphPin_2258''
+[2016.02.13-20.33.19:637][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_IfThenElse_50 or K2Node_IfThenElse /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_IfThenElse_50
+[2016.02.13-20.33.19:637][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_IfThenElse_50.EdGraphPin_2118) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_IfThenElse_49.EdGraphPin_2109).  Import failed...
+[2016.02.13-20.33.19:637][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_50.EdGraphPin_2118''
+[2016.02.13-20.33.19:638][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2389 or K2Node_CallFunction /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_CallFunction_2389
+[2016.02.13-20.33.19:638][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2389 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2389
+[2016.02.13-20.33.19:638][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/CaminaZombie.CaminaZombie:EventGraph.K2Node_CallFunction_2389.EdGraphPin_2246) from referencer (EdGraphPin /Game/Blueprints/Zombie.Zombie:EventGraph.K2Node_IfThenElse_50.EdGraphPin_2120).  Import failed...
+[2016.02.13-20.33.19:638][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2389.EdGraphPin_2246''
+[2016.02.13-20.33.19:646][554]LogBlueprint:Warning: [Zombie] CreatePinForVariable: 'Punto A' variable not found. Base class was probably changed.
+[2016.02.13-20.33.19:646][554]LogBlueprint:Warning: [Zombie] CreatePinForVariable: 'Punto B' variable not found. Base class was probably changed.
+[2016.02.13-20.33.19:758][554]LogBlueprint:Warning: [Zombie] CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2016.02.13-20.33.24:059][659]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.33.29:387][794]LogBlueprint:Error: [compiler ] Error  Timeline_0  cannot be placed in macro graph
+[2016.02.13-20.33.29:387][794]BlueprintLog: New page: Collapse to Macro
+[2016.02.13-20.33.29:387][794]BlueprintLog:Error: Error  Timeline_0  cannot be placed in macro graph
+[2016.02.13-20.33.29:390][794]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.33.29:473][794]LogBlueprint:Warning: [compiler ] Warning [3372.25] Compile of  failed. 1 Fatal Issue(s) 0 Warning(s) [in 82 ms]
+[2016.02.13-20.33.32:914][880]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.33.41:514][ 90]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.34.03:810][771]LogD3D11RHI: InitD3DDevice
+[2016.02.13-20.34.08:292][917]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2016.02.13-20.34.08:314][917]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_Zombie_C_5:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_Zombie_C_5:CollisionCylinder
+[2016.02.13-20.34.08:314][917]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_Zombie_C_5:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_Zombie_C_5:CollisionCylinder
+[2016.02.13-20.34.08:315][917]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_Zombie_C_5:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_Zombie_C_5:CollisionCylinder
+[2016.02.13-20.34.08:327][917]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.02.13-20.34.08:509][917]LogCrashTracker: 
+
+
