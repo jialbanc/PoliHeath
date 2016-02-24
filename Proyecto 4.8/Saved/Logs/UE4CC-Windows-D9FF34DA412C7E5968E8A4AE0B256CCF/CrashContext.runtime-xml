@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>5772</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>Proyecto</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.8.3-2634408+++depot+UE4-Releases+4.8</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files (x86)/Epic Games/4.8/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files (x86)/Epic Games/4.8/</RootDir>
+<MachineId>D27F3B9B4F30E27E25812782BE8B0D8D</MachineId>
+<EpicAccountId>8dcf4c5a87044acf9d7d9b2f0991a3f0</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage></ErrorMessage>
+<MiscNumberOfCores>6</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>6</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>AuthenticAMD</MiscCPUVendor>
+<MiscCPUBrand>AMD Phenom(tm) II X6 1055T Processor</MiscCPUBrand>
+<MiscPrimaryGPUBrand>NVIDIA GeForce GTX 650</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 8</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<MemoryStatsTotalPhysical>4291325952</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>4</MemoryStatsTotalPhysicalGB>
+</RuntimeProperties>
+<PlatformProperties>
+<Platform.IsRunningWindows>1</Platform.IsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>

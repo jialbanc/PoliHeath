@@ -1,0 +1,307 @@
+﻿[2016.02.24-00.48.56:780][  0]Log file open, 02/23/16 19:48:56
+[2016.02.24-00.48.56:780][  0]LogInit:Display: Running engine for game: Proyecto
+[2016.02.24-00.48.56:780][  0]LogInit:Display: RandInit(1258254054) SRandInit(1258254055).
+[2016.02.24-00.48.56:780][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.02.24-00.48.56:780][  0]LogStats: Stats thread started
+[2016.02.24-00.48.56:780][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.02.24-00.48.56:780][  0]LogInit: API Version: 2579680
+[2016.02.24-00.48.56:780][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.02.24-00.48.56:780][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.02.24-00.48.56:780][  0]LogInit: Build Configuration: Development
+[2016.02.24-00.48.56:780][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.02.24-00.48.56:780][  0]LogInit: Command line:  
+[2016.02.24-00.48.56:780][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.02.24-00.48.56:780][  0]LogInit: Rocket: 1
+[2016.02.24-00.48.56:820][  0]LogInit: Using libcurl 7.41.0
+[2016.02.24-00.48.56:820][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.24-00.48.56:820][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.24-00.48.56:820][  0]LogInit:  - other features:
+[2016.02.24-00.48.56:820][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.24-00.48.56:820][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.24-00.48.56:820][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.24-00.48.56:820][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.24-00.48.56:820][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.24-00.48.56:821][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.24-00.48.56:821][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.24-00.48.56:821][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.24-00.48.56:821][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.24-00.48.56:821][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.24-00.48.56:854][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.02.24-00.48.56:896][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.24-00.48.56:915][  0]LogInit: Object subsystem initialized
+[2016.02.24-00.48.56:918][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2016.02.24-00.48.56:918][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.02.24-00.48.56:919][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2016.02.24-00.48.56:919][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-00.48.56:919][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.24-00.48.56:945][  0]LogInit: Computer: JIMMY-PC
+[2016.02.24-00.48.56:945][  0]LogInit: User: Jimmy
+[2016.02.24-00.48.56:945][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.02.24-00.48.56:945][  0]LogInit: High frequency timer resolution =2.746526 MHz
+[2016.02.24-00.48.56:946][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.02.24-00.48.56:946][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-00.48.56:946][  0]LogMemory: Process Physical Memory: 48.27 MB used, 48.27 MB peak
+[2016.02.24-00.48.56:946][  0]LogMemory: Process Virtual Memory: 22.18 MB used, 22.18 MB peak
+[2016.02.24-00.48.56:946][  0]LogMemory: Physical Memory: 2531.39 MB used, 4092.53 MB total
+[2016.02.24-00.48.56:946][  0]LogMemory: Virtual Memory: 292.58 MB used, 134217728.00 MB total
+[2016.02.24-00.48.57:041][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.02.24-00.48.57:596][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.02.24-00.48.58:778][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2016.02.24-00.48.58:778][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2046MB of shared system memory, 1 output[s]
+[2016.02.24-00.48.58:782][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.24-00.48.58:782][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.02.24-00.48.58:782][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.24-00.48.58:791][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.24-00.48.58:791][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.24-00.48.58:791][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.24-00.48.58:822][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.24-00.48.58:846][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.24-00.49.01:696][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.02.24-00.49.01:738][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.24-00.49.01:781][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.24-00.49.01:824][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.24-00.49.01:875][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.24-00.49.01:912][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.24-00.49.01:949][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.24-00.49.01:986][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.24-00.49.02:024][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.24-00.49.02:063][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.24-00.49.02:100][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.24-00.49.02:138][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.24-00.49.02:261][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.24-00.49.02:297][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.24-00.49.02:333][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.24-00.49.02:381][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.24-00.49.02:381][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.24-00.49.02:994][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.24-00.49.03:240][  0]LogDerivedDataCache: Loaded boot cache 0.24s 53MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.02.24-00.49.03:240][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.02.24-00.49.03:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.24-00.49.03:240][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.24-00.49.03:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.24-00.49.03:240][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.24-00.49.03:618][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.24-00.49.03:632][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jimmy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.24-00.49.04:443][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-00.49.04:677][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.02.24-00.49.04:678][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.02.24-00.49.04:761][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.24-00.49.04:761][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.24-00.49.05:702][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.24-00.49.10:380][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.24-00.49.11:437][  0]SourceControl: Info Source control is disabled
+[2016.02.24-00.49.12:538][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.02.24-00.49.12:538][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.02.24-00.49.12:739][  0]LogEngine: Initializing Engine...
+[2016.02.24-00.49.12:748][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.02.24-00.49.12:766][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.02.24-00.49.13:268][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.24-00.49.13:284][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-00.49.13:332][  0]LogInit: FAudioDevice initialized.
+[2016.02.24-00.49.13:426][  0]LogDerivedDataCache: Saved boot cache 0.09s 53MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.02.24-00.49.13:446][  0]LogInit: Texture streaming: Disabled
+[2016.02.24-00.49.13:519][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.24-00.49.13:519][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.02.24-00.49.13:519][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d27f3b9b4f30e27e25812782be8b0d8d|8dcf4c5a87044acf9d7d9b2f0991a3f0|822a412b-4e57-4804-a033-2e42d5894c6e
+[2016.02.24-00.49.13:520][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.24-00.49.13:594][  0]LogInit: Transaction tracking system initialized
+[2016.02.24-00.49.13:977][  0]BlueprintLog: New page: Editor Load
+[2016.02.24-00.49.14:063][  0]LogAssetRegistry: FAssetRegistry took 0.0116 seconds to start up
+[2016.02.24-00.49.14:064][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.02.24-00.49.16:068][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.02.24-00.49.16:068][  0]LogConsoleResponse:Display: 
+[2016.02.24-00.49.16:378][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.24-00.49.17:102][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.24-00.49.17:104][  0]LightingResults: New page: Lighting Build
+[2016.02.24-00.49.17:139][  0]MapCheck: New page: Map Check
+[2016.02.24-00.49.17:139][  0]LightingResults: New page: Lighting Build
+[2016.02.24-00.49.17:159][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000031DB0F0B80
+[2016.02.24-00.49.17:700][  0]LogAIModule: Creating AISystem for world Menu
+[2016.02.24-00.49.17:702][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.24-00.49.17:705][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.24-00.49.17:924][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 219.068ms to complete.
+[2016.02.24-00.49.17:924][  0]LogFileHelpers: Loading map 'Menu' took 0.822
+[2016.02.24-00.49.18:152][  0]LogCollectionManager: Loaded 0 collections in 0.005653 seconds
+[2016.02.24-00.49.18:174][  0]LogContentBrowser: Native class hierarchy populated in 0.0216 seconds. Added 1792 classes and 301 folders.
+[2016.02.24-00.49.18:309][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.02.24-00.49.18:433][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.24-00.49.18:482][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.02.24-00.49.18:571][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.24-00.49.18:573][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.24-00.49.18:580][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.24-00.49.18:609][  0]LogLoad: Full Startup: 28.38 seconds (BP compile: 0.42 seconds)
+[2016.02.24-00.49.19:141][  0]SourceControl: Info # On branch master
+[2016.02.24-00.49.19:141][  0]SourceControl: Info # Changes not staged for commit:
+[2016.02.24-00.49.19:141][  0]SourceControl: Info #   (use "git add <file>..." to update what will be committed)
+[2016.02.24-00.49.19:141][  0]SourceControl: Info #   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Editor.ini
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Engine.ini
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Logs/Proyecto.log
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #
+[2016.02.24-00.49.19:142][  0]SourceControl: Info # Untracked files:
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #   (use "git add <file>..." to include in what will be committed)
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #
+[2016.02.24-00.49.19:142][  0]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.23-19.48.56.log
+[2016.02.24-00.49.19:142][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.02.24-00.49.19:142][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.24-00.49.19:199][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.24-00.49.19:794][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.02.24-00.49.21:169][ 12]LogAssetRegistry: Asset discovery search completed in 7.1171 seconds
+[2016.02.24-00.49.23:315][205]LogD3D11RHI: InitD3DDevice
+[2016.02.24-00.49.26:234][470]LogD3D11RHI: InitD3DDevice
+[2016.02.24-00.49.34:973][470]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-00.49.35:622][470]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.24-00.49.35:624][470]LightingResults: New page: Lighting Build
+[2016.02.24-00.49.35:685][470]LoadErrors: New page: Loading map: Nivel_1.umap
+[2016.02.24-00.49.35:686][470]MapCheck: New page: Map Check
+[2016.02.24-00.49.35:686][470]LightingResults: New page: Lighting Build
+[2016.02.24-00.49.35:707][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000031D254D440
+[2016.02.24-00.49.35:917][470]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-00.49.35:951][470]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.24-00.49.37:031][470]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.24-00.49.37:208][470]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 176.267ms to complete.
+[2016.02.24-00.49.37:208][470]LogFileHelpers: Loading map 'Nivel_1' took 1.589
+[2016.02.24-00.49.59:195][258]LogEditorViewport: Clicking on Actor (LMB): BP_Walls_C (BP_Walls3)
+[2016.02.24-00.50.03:816][553]LogEditorViewport: Clicking Background
+[2016.02.24-00.50.06:310][759]LogEditorViewport: Clicking on Actor (LMB): BP_Walls_C (BP_Walls3)
+[2016.02.24-00.50.07:632][840]LogEditorViewport: Clicking on Actor (LMB): BP_floor_C (BP_floor2)
+[2016.02.24-00.50.09:106][931]LogEditorViewport: Clicking on Actor (LMB): BP_Walls_C (BP_Walls3)
+[2016.02.24-00.50.14:278][251]LogEditorViewport: Clicking Background
+[2016.02.24-00.50.19:222][657]LogEditorViewport: Clicking on Actor (LMB): BP_Walls_C (BP_Walls4)
+[2016.02.24-00.50.21:498][788]LogEditorViewport: Clicking Background
+[2016.02.24-00.50.22:741][880]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-00.50.22:819][880]PIE: New page: PIE session: Nivel_1 (Feb 23, 2016, 2:50:22 PM)
+[2016.02.24-00.50.22:820][880]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-00.50.22:826][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005917s)
+[2016.02.24-00.50.22:827][880]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-00.50.22:830][880]LogPlayLevel: PIE: World Init took: (0.003636s)
+[2016.02.24-00.50.22:830][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.009941s)
+[2016.02.24-00.50.22:893][880]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-00.50.22:916][880]LogInit: FAudioDevice initialized.
+[2016.02.24-00.50.22:923][880]LogD3D11RHI: InitD3DDevice
+[2016.02.24-00.50.22:977][880]LogWorld: Game class is '2D_C'
+[2016.02.24-00.50.22:996][880]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.23-19.50.22
+[2016.02.24-00.50.22:996][880]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-00.50.22:998][880]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-00.50.22:999][880]LogWorld: Bringing up level for play took: 0.014851
+[2016.02.24-00.50.23:048][880]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.016
+[2016.02.24-00.50.23:078][880]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:3878).
+[2016.02.24-00.50.32:241][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000031D21223E0
+[2016.02.24-00.50.36:863][823]LogD3D11RHI: InitD3DDevice
+[2016.02.24-00.50.36:940][823]LogD3D11RHI: InitD3DDevice
+[2016.02.24-00.50.36:978][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-00.50.37:276][823]LogSavePackage: Save=184.829483ms
+[2016.02.24-00.50.37:276][823]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_19748F76A48F7D8C5D377829275BCCEAD.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-00.50.41:205][137]LogEditorViewport: Clicking Background
+[2016.02.24-00.50.46:188][530]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (fondoSinObjetos_Sprite)
+[2016.02.24-00.50.48:950][685]LogEditorViewport: Clicking Background
+[2016.02.24-01.22.47:952][539]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (fondoSinObjetos_Sprite)
+[2016.02.24-01.22.48:999][596]LogEditorViewport: Clicking Background
+[2016.02.24-01.23.21:602][543]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (fondoSinObjetos_Sprite)
+[2016.02.24-01.23.58:806][380]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.23.59:200][397]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.03:980][628]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.30:730][882]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.31:494][920]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.33:852][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info # On branch master
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info # Changes not staged for commit:
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #   (use "git add <file>..." to update what will be committed)
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Nivel_1.umap
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/PackageRestoreData.json
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Editor.ini
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Engine.ini
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Logs/Proyecto.log
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info # Untracked files:
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #   (use "git add <file>..." to include in what will be committed)
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-23-19-50-37.umap
+[2016.02.24-01.24.34:049][ 28]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.23-19.48.56.log
+[2016.02.24-01.24.34:050][ 28]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.02.24-01.24.34:059][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:124][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:163][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:222][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:288][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:357][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:424][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:492][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:579][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:871][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.34:995][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/HUDSprites/energia" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/HUDSprites/energia.uasset" SILENT=true
+[2016.02.24-01.24.35:036][ 28]LogSavePackage: Save=36.452232ms
+[2016.02.24-01.24.35:036][ 28]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/energia0BBCB0734D2D5B299634D0A4ED3960C7.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/HUDSprites/energia.uasset'
+[2016.02.24-01.24.35:046][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.35:176][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/energia" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/energia.uasset" SILENT=true
+[2016.02.24-01.24.35:262][ 28]LogSavePackage: Save=3.543749ms
+[2016.02.24-01.24.35:262][ 28]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/energiaBC7A4ED249789F28EEE6B4AC7069B903.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/energia.uasset'
+[2016.02.24-01.24.35:309][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/HUDSprites/energia_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/HUDSprites/energia_Sprite.uasset" SILENT=true
+[2016.02.24-01.24.35:332][ 28]LogSavePackage: Save=18.371937ms
+[2016.02.24-01.24.35:332][ 28]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/energia_SpriteA62C27BC4E9222D4F50D8F8B35D6E446.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/HUDSprites/energia_Sprite.uasset'
+[2016.02.24-01.24.35:341][ 28]LogD3D11RHI: InitD3DDevice
+[2016.02.24-01.24.35:618][ 28]LogCrashTracker: 
+
+
+[2016.02.24-01.28.23:953][ 28]LogCrashTracker: 
+
+
+[2016.02.24-01.28.24:196][ 28]LogWindows: === Critical error: ===
+Fatal error!
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+
+UE4Editor-GitSourceControl.dll!FGitSourceControlProvider::Tick() {0x00007ff9d9ab7524} + 0 bytes
+UE4Editor-GitSourceControl.dll!FGitSourceControlProvider::ExecuteSynchronousCommand() {0x00007ff9d9aa5d8c} + 0 bytes
+UE4Editor-GitSourceControl.dll!FGitSourceControlProvider::Execute() {0x00007ff9d9aa51ab} + 0 bytes
+UE4Editor-GitSourceControl.dll!ISourceControlProvider::Execute() {0x00007ff9d9aa5a06} + 0 bytes
+UE4Editor-UnrealEd.dll!UEditorEngine::SavePackage() {0x00007ff9edc70d18} + 230 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Exec_Obj() {0x00007ff9edcc36ce} + 72 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Exec() {0x00007ff9edcc013b} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() {0x00007ff9ee0d5aa1} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!InternalSavePackage() {0x00007ff9edd62934} + 94 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorFileUtils::PromptForCheckoutAndSave() {0x00007ff9edd72b5b} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-AssetTools.dll!FAssetRenameManager::PerformAssetRename() {0x00007ff9dc318a42} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-AssetTools.dll!FAssetRenameManager::FixReferencesAndRename() {0x00007ff9dc2dec14} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-AssetTools.dll!FAssetRenameManager::RenameAssets() {0x00007ff9dc3291ae} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-ContentBrowser.dll!ContentBrowserUtils::MoveAssets() {0x00007ff9daf4ce14} + 27 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-ContentBrowser.dll!SAssetView::ExecuteDropMove() {0x00007ff9daec6909} + 34 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetView,0,TTypeWrapper<void> __cdecl(TArray<FAssetData,FDefaultAllocator>,FString)>::Execute() {0x00007ff9daebfc6c} + 90 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetView,0,void __cdecl(TArray<FAssetData,FDefaultAllocator>,FString)>::ExecuteIfSafe() {0x00007ff9daecc133} + 85 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-ContentBrowser.dll!TBaseDelegate<void,TArray<FAssetData,FDefaultAllocator>,FString>::ExecuteIfBound() {0x00007ff9daec942b} + 86 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-ContentBrowser.dll!TBaseFunctorDelegateInstance<TTypeWrapper<void> __cdecl(void),<lambda_fe6a069025883511bae054c1378e7673> >::Execute() {0x00007ff9daeb9674} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-ContentBrowser.dll!TBaseFunctorDelegateInstance<void __cdecl(void),<lambda_fe6a069025883511bae054c1378e7673> >::ExecuteIfSafe() {0x00007ff9daec9d19} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() {0x00007ff9ef359827} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() {0x00007ff9ef35f1e8} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64>::operator()<>() {0x00007ff9ef2d1437} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64> >() {0x00007ff9ef2d2b69} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() {0x00007ff9ef33d019} + 36 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() {0x00007ff9ef3f0c7a} + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SButton::OnMouseButtonUp() {0x00007ff9ef41f88f} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ff9ef224ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ff9ef1dd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ff9ef298617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ff9ef285d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ff9efe0d7ad} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ff9efdf49d1} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ff9efe0edc3} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ff9efdee5ba} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffa0d8f2434} + 0 bytes
+USER32.dll {0x00007ffa0d8f2297} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ff9efe10186} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff6f1ed3c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff6f1ec49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff6f1ec4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff6f1ed65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff6f1ed75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffa0e7216ad} + 0 bytes
+ntdll.dll {0x00007ffa0eb34629} + 0 bytes
+ntdll.dll {0x00007ffa0eb34629} + 0 bytes
+
