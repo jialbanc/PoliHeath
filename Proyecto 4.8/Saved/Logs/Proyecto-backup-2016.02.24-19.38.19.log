@@ -1,0 +1,1661 @@
+﻿[2016.02.24-23.26.30:922][  0]Log file open, 02/24/16 18:26:30
+[2016.02.24-23.26.30:922][  0]LogInit:Display: Running engine for game: Proyecto
+[2016.02.24-23.26.30:922][  0]LogInit:Display: RandInit(771694322) SRandInit(771694323).
+[2016.02.24-23.26.30:922][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.02.24-23.26.30:922][  0]LogStats: Stats thread started
+[2016.02.24-23.26.30:922][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.02.24-23.26.30:922][  0]LogInit: API Version: 2579680
+[2016.02.24-23.26.30:922][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.02.24-23.26.30:922][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.02.24-23.26.30:922][  0]LogInit: Build Configuration: Development
+[2016.02.24-23.26.30:922][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.02.24-23.26.30:922][  0]LogInit: Command line:  
+[2016.02.24-23.26.30:922][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.02.24-23.26.30:922][  0]LogInit: Rocket: 1
+[2016.02.24-23.26.30:964][  0]LogInit: Using libcurl 7.41.0
+[2016.02.24-23.26.30:964][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.24-23.26.30:964][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.24-23.26.30:965][  0]LogInit:  - other features:
+[2016.02.24-23.26.30:965][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.24-23.26.30:965][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.24-23.26.30:965][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.24-23.26.30:965][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.24-23.26.30:965][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.24-23.26.30:965][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.24-23.26.30:965][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.24-23.26.30:965][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.24-23.26.30:965][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.24-23.26.30:965][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.24-23.26.30:999][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.02.24-23.26.31:041][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.24-23.26.31:060][  0]LogInit: Object subsystem initialized
+[2016.02.24-23.26.31:063][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2016.02.24-23.26.31:063][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.02.24-23.26.31:063][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2016.02.24-23.26.31:064][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-23.26.31:064][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.24-23.26.31:102][  0]LogInit: Computer: JIMMY-PC
+[2016.02.24-23.26.31:102][  0]LogInit: User: Jimmy
+[2016.02.24-23.26.31:102][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.02.24-23.26.31:102][  0]LogInit: High frequency timer resolution =2.746525 MHz
+[2016.02.24-23.26.31:102][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.02.24-23.26.31:102][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-23.26.31:102][  0]LogMemory: Process Physical Memory: 49.13 MB used, 49.13 MB peak
+[2016.02.24-23.26.31:102][  0]LogMemory: Process Virtual Memory: 22.17 MB used, 22.17 MB peak
+[2016.02.24-23.26.31:102][  0]LogMemory: Physical Memory: 2512.29 MB used, 4092.53 MB total
+[2016.02.24-23.26.31:102][  0]LogMemory: Virtual Memory: 292.58 MB used, 134217728.00 MB total
+[2016.02.24-23.26.31:197][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.02.24-23.26.31:717][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.02.24-23.26.32:837][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2016.02.24-23.26.32:837][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2046MB of shared system memory, 1 output[s]
+[2016.02.24-23.26.32:840][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.24-23.26.32:840][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.02.24-23.26.32:840][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.24-23.26.32:848][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.26.32:848][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.24-23.26.32:848][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.24-23.26.32:880][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.24-23.26.32:903][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.24-23.26.35:690][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.02.24-23.26.35:733][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.24-23.26.35:776][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.24-23.26.35:818][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.24-23.26.35:869][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.24-23.26.35:906][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.24-23.26.35:944][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.24-23.26.35:982][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.24-23.26.36:018][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.24-23.26.36:056][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.24-23.26.36:093][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.24-23.26.36:131][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.24-23.26.36:254][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.24-23.26.36:290][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.24-23.26.36:327][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.24-23.26.36:374][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.24-23.26.36:374][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.24-23.26.36:987][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.24-23.26.37:135][  0]LogDerivedDataCache: Loaded boot cache 0.15s 53MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.02.24-23.26.37:135][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.02.24-23.26.37:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.24-23.26.37:135][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.24-23.26.37:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.24-23.26.37:135][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.24-23.26.37:517][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.24-23.26.37:531][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jimmy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.24-23.26.38:330][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-23.26.38:555][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.02.24-23.26.38:556][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.02.24-23.26.38:635][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.24-23.26.38:635][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.24-23.26.39:523][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.24-23.26.44:150][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.24-23.26.45:218][  0]SourceControl: Info Source control is disabled
+[2016.02.24-23.26.46:453][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.02.24-23.26.46:453][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.02.24-23.26.46:658][  0]LogEngine: Initializing Engine...
+[2016.02.24-23.26.46:668][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.02.24-23.26.46:672][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.02.24-23.26.47:172][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.24-23.26.47:189][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.26.47:237][  0]LogInit: FAudioDevice initialized.
+[2016.02.24-23.26.47:327][  0]LogDerivedDataCache: Saved boot cache 0.09s 53MB C:/Users/Jimmy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.02.24-23.26.47:347][  0]LogInit: Texture streaming: Disabled
+[2016.02.24-23.26.47:419][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.24-23.26.47:419][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.02.24-23.26.47:419][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d27f3b9b4f30e27e25812782be8b0d8d|8dcf4c5a87044acf9d7d9b2f0991a3f0|822a412b-4e57-4804-a033-2e42d5894c6e
+[2016.02.24-23.26.47:419][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.24-23.26.47:497][  0]LogInit: Transaction tracking system initialized
+[2016.02.24-23.26.47:882][  0]BlueprintLog: New page: Editor Load
+[2016.02.24-23.26.47:965][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.02.24-23.26.47:967][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.02.24-23.26.49:990][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.02.24-23.26.49:991][  0]LogConsoleResponse:Display: 
+[2016.02.24-23.26.50:300][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.24-23.26.51:124][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.24-23.26.51:125][  0]LightingResults: New page: Lighting Build
+[2016.02.24-23.26.51:161][  0]MapCheck: New page: Map Check
+[2016.02.24-23.26.51:161][  0]LightingResults: New page: Lighting Build
+[2016.02.24-23.26.51:182][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096AFB24B80
+[2016.02.24-23.26.51:725][  0]LogAIModule: Creating AISystem for world Menu
+[2016.02.24-23.26.51:728][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.24-23.26.51:730][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.24-23.26.51:946][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 215.585ms to complete.
+[2016.02.24-23.26.51:947][  0]LogFileHelpers: Loading map 'Menu' took 0.823
+[2016.02.24-23.26.52:187][  0]LogCollectionManager: Loaded 0 collections in 0.005775 seconds
+[2016.02.24-23.26.52:208][  0]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 1792 classes and 301 folders.
+[2016.02.24-23.26.52:332][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.24-23.26.52:446][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.24-23.26.52:499][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.02.24-23.26.52:585][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.24-23.26.52:587][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.26.52:593][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.24-23.26.52:616][  0]LogLoad: Full Startup: 28.23 seconds (BP compile: 0.42 seconds)
+[2016.02.24-23.26.52:626][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.24-23.26.52:721][  0]SourceControl: Info # On branch master
+[2016.02.24-23.26.52:721][  0]SourceControl: Info # Changes to be committed:
+[2016.02.24-23.26.52:721][  0]SourceControl: Info #   (use "git reset HEAD <file>..." to unstage)
+[2016.02.24-23.26.52:721][  0]SourceControl: Info #
+[2016.02.24-23.26.52:721][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item2.uasset
+[2016.02.24-23.26.52:721][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item3.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item4.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item5.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/DoorExit_1.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item2.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item3.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item4.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item5.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/DoorExit_1.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/mesaPC_Sprite.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/puertaExit_BP.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/silla_Sprite.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Nivel_1.umap
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Niveles/Nivel_2.umap
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/Parte4_Sprite.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/fondoSinObjetos3.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoMesa.uasset
+[2016.02.24-23.26.52:722][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoMesa_Sprite.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoSilla.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoSilla_Sprite.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parte2_1.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parte2_1_Sprite.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/parte4_Sprite.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parteExit.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puert1.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Parte2.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Parte4.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/mesaPC.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/mesaPC_Sprite.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/objetoCable.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/objetoMesa.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/objetoSilla.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/puert1.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/puerta.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/silla.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/silla_Sprite.uasset
+[2016.02.24-23.26.52:723][  0]SourceControl: Info #
+[2016.02.24-23.26.52:723][  0]SourceControl: Info # Changes not staged for commit:
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #   (use "git add/rm <file>..." to update what will be committed)
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Level_1/DoorExit_1.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Player/player.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/silla_Sprite.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Menu.umap
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Nivel_1.umap
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/fondoSinObjetos3.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte3.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte3_Sprite.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte4.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/parteExit.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/puert1.uasset
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Intermediate/CachedAssetRegistry.bin
+[2016.02.24-23.26.52:724][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/AutoScreenshot.png
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/Game/Niveles/Nivel_1_Auto1.umap
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/Game/Niveles/Nivel_1_Auto2.umap
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Editor.ini
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Engine.ini
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Logs/Proyecto.log
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #
+[2016.02.24-23.26.52:725][  0]SourceControl: Info # Untracked files:
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #   (use "git add <file>..." to include in what will be committed)
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/Parte4_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/Parte4_Sprite_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/fondoSinObjetos3_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/p3_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/p3_Sprite_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parte2_1_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parte2_1_Sprite_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parteExit_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parteExit_Sprite_Auto1.uasset
+[2016.02.24-23.26.52:725][  0]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Parte2_Auto1.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item2_2016-02-24-18-14-53.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item3_2016-02-24-18-14-34.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item4_2016-02-24-18-14-34.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item5_2016-02-24-18-14-34.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item_2016-02-24-17-22-38.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/DoorExit_1_2016-02-24-17-37-51.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/DoorExit_1_2016-02-24-18-15-48.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Menu_2016-02-24-17-21-59.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-16-58-25.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-11-03.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-17-56.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-47-39.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-57-40.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-04-28.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-10-22.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-15-49.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-25-41.umap
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-17-39-02.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-17-47-39.uasset
+[2016.02.24-23.26.52:726][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-18-04-37.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-17-14-05.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-18-15-48.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte3_2016-02-24-17-40-37.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte3_Sprite_2016-02-24-17-40-26.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte4_2016-02-24-17-11-03.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-17-47-39.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-18-04-38.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-18-25-42.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/player_2016-02-24-18-11-47.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puertaExit_BP_2016-02-24-18-22-02.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puerta_2016-02-24-18-22-07.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Backup/silla_Sprite_2016-02-24-18-18-47.uasset
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-16.36.50.log
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-17.26.00.log
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.16.16.log
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.21.04.log
+[2016.02.24-23.26.52:727][  0]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.26.30.log
+[2016.02.24-23.26.52:728][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.24-23.26.52:782][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.24-23.26.53:353][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.02.24-23.26.54:032][ 13]LogAssetRegistry: Asset discovery search completed in 6.0784 seconds
+[2016.02.24-23.27.07:792][108]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.26:729][574]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.26:779][574]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.26:847][574]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Jimmy\Desktop\puertaExit.png)
+[2016.02.24-23.27.27:004][574]LogTexture:Display: Building textures: puertaExit (BGRA8)
+[2016.02.24-23.27.27:655][574]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.27:731][574]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Jimmy\Desktop\puerta.png)
+[2016.02.24-23.27.27:739][574]LogTexture:Display: Building textures: puerta (BGRA8)
+[2016.02.24-23.27.29:645][719]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.29:762][725]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.30:031][742]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.30:396][768]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.32:635][942]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.32:980][964]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.34:198][ 54]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.35:059][120]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.36:225][187]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.36:320][192]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.36:913][233]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.38:733][371]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.39:265][407]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.40:812][523]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.41:643][586]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.45:717][874]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.46:265][874]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-23.27.46:442][874]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-23.27.51:948][ 50]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.27.58:373][387]BlueprintLog: New page: Compile puertaExit_BP
+[2016.02.24-23.27.58:884][387]BlueprintEditorCompileResults: Info [0094.50] Compile of puertaExit_BP successful! [in 510 ms]
+[2016.02.24-23.28.00:218][455]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:1076).
+[2016.02.24-23.28.02:292][590]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.03:596][680]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.04:318][728]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.07:673][967]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.07:751][967]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.07:788][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/puertaExit_BP" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset" SILENT=true
+[2016.02.24-23.28.07:923][967]LogSavePackage: Save=49.445389ms
+[2016.02.24-23.28.07:923][967]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/puertaExit_BPCA7BB93240A215E2D6D2B5839303FC5D.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset'
+[2016.02.24-23.28.13:586][402]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.18:430][402]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.28.19:244][402]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.21:588][402]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.21:685][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Nivel_1/puerta" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/Nivel_1/puerta.uasset" SILENT=true
+[2016.02.24-23.28.21:715][402]LogSavePackage: Save=25.165983ms
+[2016.02.24-23.28.21:715][402]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/puerta7858B09949B76E1B794A0EB38FAB15D1.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/Nivel_1/puerta.uasset'
+[2016.02.24-23.28.21:724][402]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.21:908][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Nivel_1/puerta_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/Nivel_1/puerta_Sprite.uasset" SILENT=true
+[2016.02.24-23.28.21:929][402]LogSavePackage: Save=14.518710ms
+[2016.02.24-23.28.21:929][402]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/puerta_Sprite78D9520C41A8A7926B02A1A5F59187A0.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/Nivel_1/puerta_Sprite.uasset'
+[2016.02.24-23.28.21:941][402]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.22:117][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Nivel_1/puertaExit" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/Nivel_1/puertaExit.uasset" SILENT=true
+[2016.02.24-23.28.22:362][402]LogSavePackage: Save=229.540604ms
+[2016.02.24-23.28.22:362][402]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/puertaExitFC2F856E40C43EF18B8B7B9391EAFC5F.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/Nivel_1/puertaExit.uasset'
+[2016.02.24-23.28.22:372][402]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.22:576][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Nivel_1/puertaExit_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/Nivel_1/puertaExit_Sprite.uasset" SILENT=true
+[2016.02.24-23.28.22:613][402]LogSavePackage: Save=30.196339ms
+[2016.02.24-23.28.22:613][402]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/puertaExit_Sprite73A170F54ADF9BDE864F83B71F587247.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Sprites/Nivel_1/puertaExit_Sprite.uasset'
+[2016.02.24-23.28.22:622][402]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.22:786][402]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.24-23.28.22:786][402]LightingResults: New page: Lighting Build
+[2016.02.24-23.28.22:845][402]LoadErrors: New page: Loading map: Nivel_1.umap
+[2016.02.24-23.28.22:846][402]MapCheck: New page: Map Check
+[2016.02.24-23.28.22:846][402]LightingResults: New page: Lighting Build
+[2016.02.24-23.28.22:886][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096A34F4540
+[2016.02.24-23.28.22:887][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096A1018180
+[2016.02.24-23.28.23:173][402]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.28.23:214][402]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.24-23.28.23:339][402]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.24-23.28.23:539][402]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 200.232ms to complete.
+[2016.02.24-23.28.23:541][402]LogFileHelpers: Loading map 'Nivel_1' took 0.757
+[2016.02.24-23.28.34:032][197]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.36:895][374]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.38:747][463]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte2_Sprite2)
+[2016.02.24-23.28.41:366][595]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (puertaExit_Sprite)
+[2016.02.24-23.28.48:968][992]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (puertaExit_Sprite)
+[2016.02.24-23.28.52:153][163]LogEditorViewport: Clicking Background
+[2016.02.24-23.28.54:161][305]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (puertaExit_Sprite)
+[2016.02.24-23.28.58:371][529]LogEditorViewport: Clicking Background
+[2016.02.24-23.28.58:891][565]Cmd: TRANSACTION UNDO
+[2016.02.24-23.28.58:891][565]LogEditorTransaction: Undo Clicking Background
+[2016.02.24-23.28.58:925][565]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.28.59:557][593]Cmd: TRANSACTION UNDO
+[2016.02.24-23.28.59:557][593]LogEditorTransaction: Undo Move Actors
+[2016.02.24-23.29.00:695][652]LogEditorViewport: Clicking on Actor (LMB): puertaExit_BP_C (puertaExit_BP)
+[2016.02.24-23.29.25:997][110]LogEditorViewport: Clicking Background
+[2016.02.24-23.29.27:429][208]LogEditorViewport: Clicking on Actor (LMB): puertaExit_BP_C (puertaExit_BP)
+[2016.02.24-23.29.28:268][254]LogEditorViewport: Clicking Background
+[2016.02.24-23.29.39:084][ 30]LogEditorViewport: Clicking Background
+[2016.02.24-23.29.44:943][453]LogEditorViewport: Clicking Background
+[2016.02.24-23.29.52:725][ 36]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.29.52:734][ 36]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:29:52 PM)
+[2016.02.24-23.29.52:736][ 36]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.29.52:742][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005785s)
+[2016.02.24-23.29.52:743][ 36]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.29.52:745][ 36]LogPlayLevel: PIE: World Init took: (0.003284s)
+[2016.02.24-23.29.52:745][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.009482s)
+[2016.02.24-23.29.52:837][ 36]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.29.52:859][ 36]LogInit: FAudioDevice initialized.
+[2016.02.24-23.29.52:864][ 36]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.29.52:913][ 36]LogWorld: Game class is '2D_C'
+[2016.02.24-23.29.52:930][ 36]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.29.52
+[2016.02.24-23.29.52:930][ 36]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.29.52:932][ 36]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.29.52:933][ 36]LogWorld: Bringing up level for play took: 0.013389
+[2016.02.24-23.29.52:981][ 36]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.084
+[2016.02.24-23.29.53:010][ 36]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:7757).
+[2016.02.24-23.30.21:331][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096CB594C20
+[2016.02.24-23.30.26:657][119]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.30.26:685][119]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.30.28:964][197]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.30.47:316][505]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (parte3_Sprite2)
+[2016.02.24-23.30.50:380][674]LogEditorViewport: Clicking on Actor (LMB): BP_item2_C (BP_item2)
+[2016.02.24-23.30.58:302][139]LogEditorViewport: Clicking on Actor (LMB): BP_item3_C (BP_item3)
+[2016.02.24-23.31.05:579][556]LogEditorViewport: Clicking on Actor (LMB): BP_item2_C (BP_item2)
+[2016.02.24-23.31.11:466][894]LogEditorViewport: Clicking Background
+[2016.02.24-23.31.23:071][684]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.24:122][769]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.25:067][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.25:376][845]SourceControl: Info # On branch master
+[2016.02.24-23.31.25:376][845]SourceControl: Info # Changes to be committed:
+[2016.02.24-23.31.25:376][845]SourceControl: Info #   (use "git reset HEAD <file>..." to unstage)
+[2016.02.24-23.31.25:376][845]SourceControl: Info #
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item2.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item3.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item4.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item5.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/DoorExit_1.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item2.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item3.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item4.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item5.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/DoorExit_1.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/mesaPC_Sprite.uasset
+[2016.02.24-23.31.25:376][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/puertaExit_BP.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/silla_Sprite.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Nivel_1.umap
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Niveles/Nivel_2.umap
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/Parte4_Sprite.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/fondoSinObjetos3.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoMesa.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoMesa_Sprite.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoSilla.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoSilla_Sprite.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parte2_1.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parte2_1_Sprite.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/parte4_Sprite.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parteExit.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puert1.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puerta.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puertaExit.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puertaExit_Sprite.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puerta_Sprite.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Parte2.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Parte4.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/mesaPC.uasset
+[2016.02.24-23.31.25:377][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/mesaPC_Sprite.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/objetoCable.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/objetoMesa.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/objetoSilla.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/puert1.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/puerta.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/silla.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/silla_Sprite.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #
+[2016.02.24-23.31.25:378][845]SourceControl: Info # Changes not staged for commit:
+[2016.02.24-23.31.25:378][845]SourceControl: Info #   (use "git add/rm <file>..." to update what will be committed)
+[2016.02.24-23.31.25:378][845]SourceControl: Info #   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.24-23.31.25:378][845]SourceControl: Info #
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Level_1/DoorExit_1.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Player/player.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/silla_Sprite.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Menu.umap
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Nivel_1.umap
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/fondoSinObjetos3.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte3.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte3_Sprite.uasset
+[2016.02.24-23.31.25:378][845]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte4.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/parteExit.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/puert1.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Intermediate/CachedAssetRegistry.bin
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Saved/AutoScreenshot.png
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/Game/Niveles/Nivel_1_Auto1.umap
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/Game/Niveles/Nivel_1_Auto2.umap
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/PackageRestoreData.json
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Editor.ini
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Engine.ini
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Logs/Proyecto.log
+[2016.02.24-23.31.25:379][845]SourceControl: Info #
+[2016.02.24-23.31.25:379][845]SourceControl: Info # Untracked files:
+[2016.02.24-23.31.25:379][845]SourceControl: Info #   (use "git add <file>..." to include in what will be committed)
+[2016.02.24-23.31.25:379][845]SourceControl: Info #
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/Parte4_Auto1.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/Parte4_Sprite_Auto1.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/fondoSinObjetos3_Auto1.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/p3_Auto1.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/p3_Sprite_Auto1.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parte2_1_Auto1.uasset
+[2016.02.24-23.31.25:379][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parte2_1_Sprite_Auto1.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parteExit_Auto1.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parteExit_Sprite_Auto1.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Parte2_Auto1.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item2_2016-02-24-18-14-53.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item3_2016-02-24-18-14-34.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item4_2016-02-24-18-14-34.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item5_2016-02-24-18-14-34.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item_2016-02-24-17-22-38.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/DoorExit_1_2016-02-24-17-37-51.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/DoorExit_1_2016-02-24-18-15-48.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Menu_2016-02-24-17-21-59.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-16-58-25.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-11-03.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-17-56.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-47-39.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-57-40.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-04-28.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-10-22.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-15-49.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-25-41.umap
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-17-39-02.uasset
+[2016.02.24-23.31.25:380][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-17-47-39.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-18-04-37.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-17-14-05.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-18-15-48.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte3_2016-02-24-17-40-37.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte3_Sprite_2016-02-24-17-40-26.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte4_2016-02-24-17-11-03.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-17-47-39.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-18-04-38.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-18-25-42.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/player_2016-02-24-18-11-47.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puertaExit_BP_2016-02-24-18-22-02.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puertaExit_BP_2016-02-24-18-28-07.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puerta_2016-02-24-18-22-07.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Backup/silla_Sprite_2016-02-24-18-18-47.uasset
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-16.36.50.log
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-17.26.00.log
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.16.16.log
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.21.04.log
+[2016.02.24-23.31.25:381][845]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.26.30.log
+[2016.02.24-23.31.25:388][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.25:482][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.25:516][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.25:598][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.25:672][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.25:756][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.26:166][845]LogMetaData: Removing '/Game/Blueprints/Level_1/mesaPC_Sprite.mesaPC_Sprite:UserConstructionScript.K2Node_FunctionEntry_103' ref from Metadata '/Game/Blueprints/mesaPC_Sprite.PackageMetaData'
+[2016.02.24-23.31.26:166][845]LogMetaData: Removing '/Game/Blueprints/Level_1/mesaPC_Sprite.mesaPC_Sprite_C' ref from Metadata '/Game/Blueprints/mesaPC_Sprite.PackageMetaData'
+[2016.02.24-23.31.26:166][845]LogMetaData: Removing '/Game/Blueprints/Level_1/mesaPC_Sprite.mesaPC_Sprite:EventGraph.K2Node_Event_154' ref from Metadata '/Game/Blueprints/mesaPC_Sprite.PackageMetaData'
+[2016.02.24-23.31.26:167][845]LogMetaData: Removing '/Game/Blueprints/Level_1/mesaPC_Sprite.mesaPC_Sprite:EventGraph.K2Node_Event_155' ref from Metadata '/Game/Blueprints/mesaPC_Sprite.PackageMetaData'
+[2016.02.24-23.31.26:167][845]LogMetaData: Removing '/Game/Blueprints/Level_1/mesaPC_Sprite.mesaPC_Sprite:EventGraph.K2Node_Event_156' ref from Metadata '/Game/Blueprints/mesaPC_Sprite.PackageMetaData'
+[2016.02.24-23.31.26:167][845]LogMetaData: Removing '/Game/Blueprints/Level_1/mesaPC_Sprite.SKEL_mesaPC_Sprite_C' ref from Metadata '/Game/Blueprints/mesaPC_Sprite.PackageMetaData'
+[2016.02.24-23.31.26:507][845]LogMetaData: Removing '/Game/Blueprints/Level_1/silla_Sprite.silla_Sprite_C' ref from Metadata '/Game/Blueprints/silla_Sprite.PackageMetaData'
+[2016.02.24-23.31.26:507][845]LogMetaData: Removing '/Game/Blueprints/Level_1/silla_Sprite.SKEL_silla_Sprite_C' ref from Metadata '/Game/Blueprints/silla_Sprite.PackageMetaData'
+[2016.02.24-23.31.26:559][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.26:590][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/mesaPC_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset" SILENT=true
+[2016.02.24-23.31.26:657][845]LogSavePackage: Save=62.309647ms
+[2016.02.24-23.31.26:657][845]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/mesaPC_Sprite6127EB014F4A1E6600C1E1B8A2A7A300.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset'
+[2016.02.24-23.31.26:666][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.26:856][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/mesaPC_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/mesaPC_Sprite.uasset" SILENT=true
+[2016.02.24-23.31.26:945][845]LogSavePackage: Save=6.572669ms
+[2016.02.24-23.31.26:945][845]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/mesaPC_SpriteB8C5C42A41CB31DD03FC30A54F845C78.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/mesaPC_Sprite.uasset'
+[2016.02.24-23.31.26:966][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/silla_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset" SILENT=true
+[2016.02.24-23.31.27:032][845]LogSavePackage: Save=62.144344ms
+[2016.02.24-23.31.27:032][845]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/silla_SpriteB421CF204BC7069A5EEBBCACB37338ED.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset'
+[2016.02.24-23.31.27:041][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.27:202][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/silla_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/silla_Sprite.uasset" SILENT=true
+[2016.02.24-23.31.27:297][845]LogSavePackage: Save=6.623642ms
+[2016.02.24-23.31.27:298][845]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/silla_Sprite932875EB48E48FF45F3C3DAE88BDE725.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/silla_Sprite.uasset'
+[2016.02.24-23.31.27:311][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.27:410][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.27:477][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.27:564][845]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.29:318][944]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.29:413][944]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.31.29:456][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.31.29:882][944]LogSavePackage: Save=256.177521ms
+[2016.02.24-23.31.29:882][944]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_16DF3CA3B46F869010E3879A361ED5C8F.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.31.34:794][280]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.32.01:777][819]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.32.03:348][901]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.32.16:075][608]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.32.21:863][925]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.32.48:624][437]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.32.53:490][716]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.32.55:028][794]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.32.56:254][859]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.32.56:951][895]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.33.04:606][338]LogEditorViewport: Clicking Background
+[2016.02.24-23.33.06:043][442]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.33.13:102][845]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.33.14:697][936]LogEditorViewport: Clicking on Actor (CTRL LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.33.15:515][981]LogEditorViewport: Clicking on Actor (context menu): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.33.15:587][981]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.16:662][ 42]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.18:689][158]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.20:891][285]LogEditorViewport: Clicking Background
+[2016.02.24-23.33.25:292][596]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.26:103][596]LogPackageName: SearchForPackageOnDisk took   0.175s to resolve Nivel_2.umap
+[2016.02.24-23.33.26:103][596]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	puertaExit_BP_C /Engine/Transient.World_5:PersistentLevel.puertaExit_BP_C_262
+	Function /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP_C:ExecuteUbergraph_puertaExit_BP:0047
+[2016.02.24-23.33.34:931][359]BlueprintLog: New page: Compile puertaExit_BP
+[2016.02.24-23.33.35:277][359]BlueprintEditorCompileResults: Info [0430.89] Compile of puertaExit_BP successful! [in 345 ms]
+[2016.02.24-23.33.35:812][416]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.35:891][416]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.35:924][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/puertaExit_BP" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset" SILENT=true
+[2016.02.24-23.33.36:039][416]LogSavePackage: Save=28.638735ms
+[2016.02.24-23.33.36:039][416]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/puertaExit_BPF0C631EA45510CF693410189CEDD6DF5.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset'
+[2016.02.24-23.33.39:041][645]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.39:855][645]LogPackageName: SearchForPackageOnDisk took   0.174s to resolve Nivel_2.umap
+[2016.02.24-23.33.39:856][645]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	silla_Sprite_C /Engine/Transient.World_6:PersistentLevel.silla_Sprite_C_607
+	Function /Game/Blueprints/Level_1/silla_Sprite.silla_Sprite_C:ExecuteUbergraph_silla_Sprite:0047
+[2016.02.24-23.33.43:600][949]BlueprintLog: New page: Compile silla_Sprite
+[2016.02.24-23.33.43:923][949]BlueprintEditorCompileResults: Info [0439.54] Compile of silla_Sprite successful! [in 322 ms]
+[2016.02.24-23.33.44:403][998]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.44:476][998]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.44:508][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/silla_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset" SILENT=true
+[2016.02.24-23.33.44:620][998]LogSavePackage: Save=28.423553ms
+[2016.02.24-23.33.44:620][998]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/silla_SpriteCE182E24440D152BDA3BB588C2D17E56.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset'
+[2016.02.24-23.33.47:627][230]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.47:708][230]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.47:742][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.33.48:147][230]LogSavePackage: Save=234.268387ms
+[2016.02.24-23.33.48:147][230]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_114AA6F194AEB1E3D14FCCA98861B66A6.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.33.51:870][498]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.33.52:869][556]LogEditorViewport: Clicking on Actor (context menu): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.33.52:890][556]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.56:098][746]LogEditorViewport: Clicking Background
+[2016.02.24-23.33.56:780][794]LogEditorViewport: Clicking Background
+[2016.02.24-23.33.58:416][908]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.33.58:416][908]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:33:58 PM)
+[2016.02.24-23.33.58:418][908]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.33.58:424][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006131s)
+[2016.02.24-23.33.58:425][908]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.33.58:427][908]LogPlayLevel: PIE: World Init took: (0.003145s)
+[2016.02.24-23.33.58:427][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.009639s)
+[2016.02.24-23.33.58:472][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C4C65120
+[2016.02.24-23.33.58:473][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C23CE020
+[2016.02.24-23.33.58:533][908]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.33.58:555][908]LogInit: FAudioDevice initialized.
+[2016.02.24-23.33.58:559][908]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.33.58:601][908]LogWorld: Game class is '2D_C'
+[2016.02.24-23.33.58:621][908]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.33.58
+[2016.02.24-23.33.58:622][908]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.33.58:623][908]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.33.58:624][908]LogWorld: Bringing up level for play took: 0.017138
+[2016.02.24-23.33.58:671][908]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.393
+[2016.02.24-23.34.05:162][296]LogPackageName: SearchForPackageOnDisk took   0.174s to resolve Nivel_2.umap
+[2016.02.24-23.34.05:348][297]LogPackageName: SearchForPackageOnDisk took   0.170s to resolve Nivel_2.umap
+[2016.02.24-23.34.05:348][297]LogNet: Browse: /Game/Niveles/Nivel_2
+[2016.02.24-23.34.05:365][297]LogLoad: LoadMap: /Game/Niveles/Nivel_2
+[2016.02.24-23.34.05:509][297]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C6EB6AC0
+[2016.02.24-23.34.05:536][297]Cmd: MEM
+[2016.02.24-23.34.05:608][297]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-23.34.05:608][297]LogMemory: Process Physical Memory: 634.85 MB used, 637.99 MB peak
+[2016.02.24-23.34.05:608][297]LogMemory: Process Virtual Memory: 1152.98 MB used, 1269.09 MB peak
+[2016.02.24-23.34.05:608][297]LogMemory: Physical Memory: 3115.27 MB used, 4092.53 MB total
+[2016.02.24-23.34.05:608][297]LogMemory: Virtual Memory: 1775.82 MB used, 134217728.00 MB total
+[2016.02.24-23.34.05:608][297]LogMemory: 
+[2016.02.24-23.34.05:608][297]Allocator Stats for TBB: (not implemented)
+[2016.02.24-23.34.07:117][297]LogAIModule: Creating AISystem for world Nivel_2
+[2016.02.24-23.34.07:120][297]LogWorld: Game class is '2D_C'
+[2016.02.24-23.34.07:145][297]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2 up for play (max tick rate 0) at 2016.02.24-18.34.07
+[2016.02.24-23.34.07:145][297]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.34.07:147][297]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.34.07:147][297]LogWorld: Bringing up level for play took: 0.022124
+[2016.02.24-23.34.13:416][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096CB597100
+[2016.02.24-23.34.15:331][755]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.34.18:043][917]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.34.18:435][938]LogEditorViewport: Clicking on Actor (context menu): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.34.18:461][938]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.34.18:921][961]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.34.19:015][965]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.34.19:091][968]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.34.19:124][969]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.34.20:111][ 25]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.34.22:394][158]LogEditorViewport: Clicking Background
+[2016.02.24-23.34.23:519][239]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.34.24:682][303]LogEditorViewport: Clicking Background
+[2016.02.24-23.34.26:811][444]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.34.28:588][527]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.34.31:871][714]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.34.35:722][935]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.34.40:295][198]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.34.43:793][397]LogEditorViewport: Clicking Background
+[2016.02.24-23.34.44:941][480]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.34.46:671][577]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.34.48:329][656]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.34.51:646][846]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.34.56:372][112]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.35.01:176][381]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.35.04:593][573]LogEditorViewport: Clicking Background
+[2016.02.24-23.35.05:847][664]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.35.07:249][744]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.35.09:152][855]Cmd: DELETE
+[2016.02.24-23.35.09:152][855]Cmd: ACTOR DELETE
+[2016.02.24-23.35.09:153][855]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.35.09:254][855]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2016.02.24-23.35.10:104][918]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.35.10:337][928]Cmd: DELETE
+[2016.02.24-23.35.10:337][928]Cmd: ACTOR DELETE
+[2016.02.24-23.35.10:339][928]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.35.10:431][928]LogEditorActor: Deleted 1 Actors (0.094 secs)
+[2016.02.24-23.35.11:527][  9]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.35.17:687][364]LogEditorViewport: Clicking on Actor (CTRL LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.35.24:415][759]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.35.25:529][821]LogEditorViewport: Clicking on Actor (LMB): BP_floor_C (BP_floor2)
+[2016.02.24-23.35.26:235][859]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.35.27:032][898]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.35.38:997][592]LogEditorViewport: Clicking Background
+[2016.02.24-23.35.40:169][677]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.35.41:613][752]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.35.43:427][855]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.35.45:279][966]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite3)
+[2016.02.24-23.35.46:209][ 13]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.35.47:975][114]LogEditorViewport: Clicking on Actor (CTRL LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.35.50:319][253]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.35.50:378][253]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.35.50:970][279]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.35.51:007][280]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.35.52:727][370]LogEditorViewport: Clicking Background
+[2016.02.24-23.35.53:980][462]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.35.55:096][524]LogEditorViewport: Clicking on Actor (CTRL LMB): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.35.56:910][626]LogEditorViewport: Clicking on Actor (context menu): silla_Sprite_C (silla_Sprite2)
+[2016.02.24-23.35.56:927][626]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.35.57:487][656]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.35.57:522][657]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.35.58:187][694]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.35.59:715][784]LogEditorViewport: Clicking Background
+[2016.02.24-23.36.02:117][962]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.36.11:138][470]Cmd: EDIT COPY
+[2016.02.24-23.36.11:467][488]Cmd: EDIT PASTE
+[2016.02.24-23.36.28:091][450]Cmd: EDIT COPY
+[2016.02.24-23.36.28:546][476]Cmd: EDIT PASTE
+[2016.02.24-23.36.35:477][867]LogEditorViewport: Clicking Background
+[2016.02.24-23.36.36:744][955]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.36.36:825][955]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.36.36:847][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.36.37:288][955]LogSavePackage: Save=243.230270ms
+[2016.02.24-23.36.37:288][955]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_1CA70D4D445672C8F086C7E866ABBB182.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.36.38:150][  3]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.36.38:150][  3]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:36:38 PM)
+[2016.02.24-23.36.38:151][  3]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.36.38:158][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007027s)
+[2016.02.24-23.36.38:160][  3]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.36.38:162][  3]LogPlayLevel: PIE: World Init took: (0.003114s)
+[2016.02.24-23.36.38:162][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.010505s)
+[2016.02.24-23.36.38:259][  3]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.36.38:282][  3]LogInit: FAudioDevice initialized.
+[2016.02.24-23.36.38:286][  3]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.36.38:325][  3]LogWorld: Game class is '2D_C'
+[2016.02.24-23.36.38:345][  3]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.36.38
+[2016.02.24-23.36.38:345][  3]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.36.38:347][  3]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.36.38:348][  3]LogWorld: Bringing up level for play took: 0.017261
+[2016.02.24-23.36.38:392][  3]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.672
+[2016.02.24-23.36.42:442][240]LogPackageName: SearchForPackageOnDisk took   0.173s to resolve Nivel_2.umap
+[2016.02.24-23.36.42:627][241]LogPackageName: SearchForPackageOnDisk took   0.169s to resolve Nivel_2.umap
+[2016.02.24-23.36.42:627][241]LogNet: Browse: /Game/Niveles/Nivel_2
+[2016.02.24-23.36.42:628][241]LogLoad: LoadMap: /Game/Niveles/Nivel_2
+[2016.02.24-23.36.42:687][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C120A020
+[2016.02.24-23.36.42:715][241]Cmd: MEM
+[2016.02.24-23.36.42:784][241]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-23.36.42:784][241]LogMemory: Process Physical Memory: 665.86 MB used, 709.73 MB peak
+[2016.02.24-23.36.42:784][241]LogMemory: Process Virtual Memory: 1190.99 MB used, 1342.01 MB peak
+[2016.02.24-23.36.42:784][241]LogMemory: Physical Memory: 3102.53 MB used, 4092.53 MB total
+[2016.02.24-23.36.42:784][241]LogMemory: Virtual Memory: 1808.25 MB used, 134217728.00 MB total
+[2016.02.24-23.36.42:784][241]LogMemory: 
+[2016.02.24-23.36.42:784][241]Allocator Stats for TBB: (not implemented)
+[2016.02.24-23.36.43:371][241]LogAIModule: Creating AISystem for world Nivel_2
+[2016.02.24-23.36.43:374][241]LogWorld: Game class is '2D_C'
+[2016.02.24-23.36.43:399][241]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2 up for play (max tick rate 0) at 2016.02.24-18.36.43
+[2016.02.24-23.36.43:399][241]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.36.43:400][241]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.36.43:401][241]LogWorld: Bringing up level for play took: 0.021680
+[2016.02.24-23.36.46:237][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096E30DD8A0
+[2016.02.24-23.36.48:527][558]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.36.51:233][705]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.36.51:350][705]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-23.36.51:369][705]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-23.36.52:101][705]LogPackageName: SearchForPackageOnDisk took   0.172s to resolve Nivel_2.umap
+[2016.02.24-23.36.52:101][705]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	mesaPC_Sprite_C /Engine/Transient.World_7:PersistentLevel.mesaPC_Sprite_C_2162
+	Function /Game/Blueprints/Level_1/mesaPC_Sprite.mesaPC_Sprite_C:ExecuteUbergraph_mesaPC_Sprite:0047
+[2016.02.24-23.36.56:171][ 41]BlueprintLog: New page: Compile mesaPC_Sprite
+[2016.02.24-23.36.56:560][ 41]BlueprintEditorCompileResults: Info [0632.18] Compile of mesaPC_Sprite successful! [in 388 ms]
+[2016.02.24-23.36.56:962][ 82]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.36.57:042][ 82]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.36.57:064][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/mesaPC_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset" SILENT=true
+[2016.02.24-23.36.57:214][ 82]LogSavePackage: Save=29.205269ms
+[2016.02.24-23.36.57:214][ 82]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/mesaPC_Sprite6C9A93854AB03661CB781C9895BAD3D9.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset'
+[2016.02.24-23.37.00:642][332]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.09:465][955]LogEditorViewport: Clicking Background
+[2016.02.24-23.37.10:829][ 54]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.37.17:243][443]Cmd: DELETE
+[2016.02.24-23.37.17:243][443]Cmd: ACTOR DELETE
+[2016.02.24-23.37.17:250][443]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.22:865][443]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.37.22:910][443]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.37.22:976][443]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096E30D2D40
+[2016.02.24-23.37.23:016][443]LogEditorActor: Deleted 2 Actors (5.773 secs)
+[2016.02.24-23.37.23:904][499]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite4)
+[2016.02.24-23.37.28:476][774]LogEditorViewport: Clicking on Actor (context menu): silla_Sprite_C (silla_Sprite4)
+[2016.02.24-23.37.28:501][774]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.28:981][797]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.29:873][847]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.32:480][999]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (parte3_Sprite2)
+[2016.02.24-23.37.33:444][ 47]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (parte3_Sprite2)
+[2016.02.24-23.37.34:193][ 86]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite3)
+[2016.02.24-23.37.34:823][121]Cmd: DELETE
+[2016.02.24-23.37.34:823][121]Cmd: ACTOR DELETE
+[2016.02.24-23.37.34:830][121]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.36:181][121]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.37.36:210][121]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.37:653][121]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.37.37:750][121]LogEditorActor: Deleted 2 Actors (2.927 secs)
+[2016.02.24-23.37.39:299][236]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite4)
+[2016.02.24-23.37.41:243][342]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.47:034][634]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.37.48:979][736]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite4)
+[2016.02.24-23.37.51:592][882]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.37.55:187][ 83]LogEditorViewport: Clicking Background
+[2016.02.24-23.37.57:657][262]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.57:745][262]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.57:766][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.37.58:165][262]LogSavePackage: Save=239.789917ms
+[2016.02.24-23.37.58:165][262]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_15C1B2BFE40FC23981DDEB09F9CB5A42E.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.37.58:702][290]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.37.58:702][290]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:37:58 PM)
+[2016.02.24-23.37.58:703][290]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.37.58:710][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006295s)
+[2016.02.24-23.37.58:711][290]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.37.58:713][290]LogPlayLevel: PIE: World Init took: (0.003086s)
+[2016.02.24-23.37.58:713][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.009755s)
+[2016.02.24-23.37.58:809][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C23EF420
+[2016.02.24-23.37.58:809][290]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.37.58:830][290]LogInit: FAudioDevice initialized.
+[2016.02.24-23.37.58:835][290]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.37.58:872][290]LogWorld: Game class is '2D_C'
+[2016.02.24-23.37.58:890][290]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.37.58
+[2016.02.24-23.37.58:890][290]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.37.58:892][290]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.37.58:893][290]LogWorld: Bringing up level for play took: 0.014964
+[2016.02.24-23.37.58:936][290]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.128
+[2016.02.24-23.38.07:265][789]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096E30DDBC0
+[2016.02.24-23.38.10:637][ 40]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite)
+[2016.02.24-23.38.11:731][ 96]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.38.12:836][158]Cmd: DELETE
+[2016.02.24-23.38.12:836][158]Cmd: ACTOR DELETE
+[2016.02.24-23.38.12:838][158]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.38.12:939][158]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2016.02.24-23.38.15:076][311]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.22:615][788]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.28:521][183]BlueprintLog: New page: Compile mesaPC_Sprite
+[2016.02.24-23.38.28:794][183]BlueprintEditorCompileResults: Info [0724.41] Compile of mesaPC_Sprite successful! [in 272 ms]
+[2016.02.24-23.38.29:230][206]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.29:301][206]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.29:334][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/mesaPC_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset" SILENT=true
+[2016.02.24-23.38.29:444][206]LogSavePackage: Save=28.789106ms
+[2016.02.24-23.38.29:444][206]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/mesaPC_Sprite8AF3953D4CC8FB2A961BF6826C109026.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset'
+[2016.02.24-23.38.36:213][638]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite3)
+[2016.02.24-23.38.37:497][700]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.42:091][976]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.45:282][190]BlueprintLog: New page: Compile silla_Sprite
+[2016.02.24-23.38.45:554][190]BlueprintEditorCompileResults: Info [0741.17] Compile of silla_Sprite successful! [in 271 ms]
+[2016.02.24-23.38.46:142][223]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.46:218][223]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.46:250][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/silla_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset" SILENT=true
+[2016.02.24-23.38.46:362][223]LogSavePackage: Save=28.315416ms
+[2016.02.24-23.38.46:362][223]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/silla_Sprite13E3FBFD4BC7854D5DE5CFAF8D77802C.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset'
+[2016.02.24-23.38.50:942][496]LogEditorViewport: Clicking Background
+[2016.02.24-23.38.52:471][603]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.57:715][892]LogEditorViewport: Clicking Background
+[2016.02.24-23.38.59:885][ 45]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.38.59:967][ 45]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.39.00:000][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.39.00:408][ 45]LogSavePackage: Save=237.862396ms
+[2016.02.24-23.39.00:408][ 45]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_13EFB1A6049DF893FDCB8559B23D8C867.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.39.00:850][ 65]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.39.00:850][ 65]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:39:00 PM)
+[2016.02.24-23.39.00:851][ 65]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.39.00:857][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006250s)
+[2016.02.24-23.39.00:859][ 65]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.39.00:861][ 65]LogPlayLevel: PIE: World Init took: (0.003685s)
+[2016.02.24-23.39.00:861][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.010354s)
+[2016.02.24-23.39.00:905][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C23EE020
+[2016.02.24-23.39.00:906][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096E2FED580
+[2016.02.24-23.39.00:966][ 65]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.39.00:987][ 65]LogInit: FAudioDevice initialized.
+[2016.02.24-23.39.00:991][ 65]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.39.01:030][ 65]LogWorld: Game class is '2D_C'
+[2016.02.24-23.39.01:048][ 65]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.39.01
+[2016.02.24-23.39.01:048][ 65]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.39.01:050][ 65]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.39.01:051][ 65]LogWorld: Bringing up level for play took: 0.015380
+[2016.02.24-23.39.01:100][ 65]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.036
+[2016.02.24-23.39.11:748][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096EA2F4860
+[2016.02.24-23.39.14:307][897]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite4)
+[2016.02.24-23.39.17:606][ 83]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.39.20:422][225]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite3)
+[2016.02.24-23.39.21:657][287]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite3)
+[2016.02.24-23.39.22:872][352]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite4)
+[2016.02.24-23.39.25:618][506]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.39.32:994][930]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite)
+[2016.02.24-23.39.35:126][ 42]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.39.39:409][285]LogEditorViewport: Clicking Background
+[2016.02.24-23.39.41:347][428]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite4)
+[2016.02.24-23.39.42:520][496]Cmd: DELETE
+[2016.02.24-23.39.42:520][496]Cmd: ACTOR DELETE
+[2016.02.24-23.39.42:521][496]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.39.42:622][496]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2016.02.24-23.39.43:181][536]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite4)
+[2016.02.24-23.39.43:634][559]Cmd: DELETE
+[2016.02.24-23.39.43:634][559]Cmd: ACTOR DELETE
+[2016.02.24-23.39.43:635][559]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.39.43:732][559]LogEditorActor: Deleted 1 Actors (0.098 secs)
+[2016.02.24-23.39.45:385][683]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.39.47:880][815]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.39.51:323][  2]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.39.51:324][  2]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:39:51 PM)
+[2016.02.24-23.39.51:325][  2]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.39.51:331][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006155s)
+[2016.02.24-23.39.51:333][  2]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.39.51:335][  2]LogPlayLevel: PIE: World Init took: (0.003342s)
+[2016.02.24-23.39.51:335][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.009905s)
+[2016.02.24-23.39.51:419][  2]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.39.51:440][  2]LogInit: FAudioDevice initialized.
+[2016.02.24-23.39.51:444][  2]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.39.51:483][  2]LogWorld: Game class is '2D_C'
+[2016.02.24-23.39.51:500][  2]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.39.51
+[2016.02.24-23.39.51:500][  2]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.39.51:502][  2]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.39.51:503][  2]LogWorld: Bringing up level for play took: 0.014243
+[2016.02.24-23.39.51:546][  2]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.482
+[2016.02.24-23.39.57:644][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C1209D00
+[2016.02.24-23.40.05:715][808]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.40.22:985][804]LogEditorViewport: Clicking Background
+[2016.02.24-23.40.24:695][930]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.40.25:680][985]LogEditorViewport: Clicking on Actor (CTRL LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.40.32:086][377]Cmd: EDIT COPY
+[2016.02.24-23.40.32:553][405]Cmd: EDIT PASTE
+[2016.02.24-23.40.57:457][860]LogEditorViewport: Clicking Background
+[2016.02.24-23.40.58:455][931]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.41.02:152][138]LogEditorViewport: Clicking Background
+[2016.02.24-23.41.03:103][207]Cmd: EDIT PASTE
+[2016.02.24-23.41.06:155][380]LogEditorViewport: Clicking Background
+[2016.02.24-23.41.06:623][411]Cmd: EDIT PASTE
+[2016.02.24-23.41.14:360][844]Cmd: EDIT PASTE
+[2016.02.24-23.41.19:383][126]LogEditorViewport: Clicking Background
+[2016.02.24-23.41.28:835][816]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite5)
+[2016.02.24-23.41.30:281][890]LogEditorViewport: Clicking Background
+[2016.02.24-23.41.30:649][914]Cmd: EDIT PASTE
+[2016.02.24-23.41.48:121][922]LogEditorViewport: Clicking Background
+[2016.02.24-23.41.49:165][993]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.41.49:251][993]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.41.49:272][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.41.49:731][993]LogSavePackage: Save=254.626114ms
+[2016.02.24-23.41.49:731][993]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_1A3F4AFFF4A59E671AB9180BDC4E32478.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.41.54:661][308]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.41.54:661][308]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:41:54 PM)
+[2016.02.24-23.41.54:662][308]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.41.54:671][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008815s)
+[2016.02.24-23.41.54:673][308]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.41.54:675][308]LogPlayLevel: PIE: World Init took: (0.003334s)
+[2016.02.24-23.41.54:675][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.012570s)
+[2016.02.24-23.41.54:777][308]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.41.54:798][308]LogInit: FAudioDevice initialized.
+[2016.02.24-23.41.54:803][308]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.41.54:840][308]LogWorld: Game class is '2D_C'
+[2016.02.24-23.41.54:864][308]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.41.54
+[2016.02.24-23.41.54:864][308]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.41.54:866][308]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.41.54:867][308]LogWorld: Bringing up level for play took: 0.021177
+[2016.02.24-23.41.54:912][308]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.152
+[2016.02.24-23.42.03:261][806]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C3B00900
+[2016.02.24-23.42.05:935][993]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.42.05:935][993]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:42:05 PM)
+[2016.02.24-23.42.05:937][993]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.42.05:945][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008676s)
+[2016.02.24-23.42.05:947][993]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.42.05:949][993]LogPlayLevel: PIE: World Init took: (0.003172s)
+[2016.02.24-23.42.05:949][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.012231s)
+[2016.02.24-23.42.06:033][993]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.42.06:054][993]LogInit: FAudioDevice initialized.
+[2016.02.24-23.42.06:058][993]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.42.06:096][993]LogWorld: Game class is '2D_C'
+[2016.02.24-23.42.06:119][993]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.42.06
+[2016.02.24-23.42.06:119][993]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.42.06:121][993]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.42.06:122][993]LogWorld: Bringing up level for play took: 0.020378
+[2016.02.24-23.42.06:165][993]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 1.101
+[2016.02.24-23.42.54:284][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C39A8EA0
+[2016.02.24-23.42.58:015][201]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.43.20:878][806]LogEditorViewport: Clicking on Actor (context menu): BP_floor_C (BP_floor2)
+[2016.02.24-23.43.20:911][806]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.43.21:024][807]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.43.21:851][850]LogEditorViewport: Clicking Background
+[2016.02.24-23.43.31:312][508]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.43.32:277][581]LogEditorViewport: Clicking Background
+[2016.02.24-23.43.43:791][405]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.43.43:791][405]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:43:43 PM)
+[2016.02.24-23.43.43:792][405]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.43.43:801][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008671s)
+[2016.02.24-23.43.43:802][405]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.43.43:804][405]LogPlayLevel: PIE: World Init took: (0.003235s)
+[2016.02.24-23.43.43:804][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.012290s)
+[2016.02.24-23.43.43:891][405]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.43.43:914][405]LogInit: FAudioDevice initialized.
+[2016.02.24-23.43.43:919][405]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.43.43:961][405]LogWorld: Game class is '2D_C'
+[2016.02.24-23.43.43:985][405]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.43.43
+[2016.02.24-23.43.43:985][405]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.43.43:986][405]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.43.43:988][405]LogWorld: Bringing up level for play took: 0.020531
+[2016.02.24-23.43.44:032][405]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.968
+[2016.02.24-23.44.08:586][904]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C120A660
+[2016.02.24-23.44.11:158][ 80]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.44.38:367][819]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.44.42:174][ 37]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.44.44:054][139]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.04:764][510]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.07:236][675]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.09:755][836]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.19:132][444]BlueprintLog: New page: Compile mesaPC_Sprite
+[2016.02.24-23.45.19:437][444]BlueprintEditorCompileResults: Info [1135.05] Compile of mesaPC_Sprite successful! [in 304 ms]
+[2016.02.24-23.45.20:355][499]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.20:429][499]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.20:461][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/mesaPC_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset" SILENT=true
+[2016.02.24-23.45.20:615][499]LogSavePackage: Save=50.255505ms
+[2016.02.24-23.45.20:615][499]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/mesaPC_SpriteE84BDADF40E0F9C44144A2BCB8253FCB.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset'
+[2016.02.24-23.45.27:322][927]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.47:301][445]BlueprintLog: New page: Compile mesaPC_Sprite
+[2016.02.24-23.45.47:603][445]BlueprintEditorCompileResults: Info [1163.22] Compile of mesaPC_Sprite successful! [in 302 ms]
+[2016.02.24-23.45.48:389][493]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.48:463][493]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.48:495][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/mesaPC_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset" SILENT=true
+[2016.02.24-23.45.48:608][493]LogSavePackage: Save=28.356195ms
+[2016.02.24-23.45.48:608][493]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/mesaPC_Sprite8636903945CFD1C469423BACB8031658.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset'
+[2016.02.24-23.45.55:018][880]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.45.58:651][ 63]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.46.00:930][189]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite7)
+[2016.02.24-23.46.12:215][827]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.46.12:298][827]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.46.12:330][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.46.12:762][827]LogSavePackage: Save=258.773895ms
+[2016.02.24-23.46.12:762][827]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_16B429233498BC5D7042D3598767FDD6A.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.46.13:341][852]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.46.13:342][852]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:46:13 PM)
+[2016.02.24-23.46.13:343][852]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.46.13:352][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008707s)
+[2016.02.24-23.46.13:353][852]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.46.13:355][852]LogPlayLevel: PIE: World Init took: (0.003123s)
+[2016.02.24-23.46.13:355][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.012209s)
+[2016.02.24-23.46.13:457][852]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096E4128FE0
+[2016.02.24-23.46.13:457][852]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.46.13:479][852]LogInit: FAudioDevice initialized.
+[2016.02.24-23.46.13:484][852]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.46.13:521][852]LogWorld: Game class is '2D_C'
+[2016.02.24-23.46.13:548][852]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.46.13
+[2016.02.24-23.46.13:548][852]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.46.13:550][852]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.46.13:551][852]LogWorld: Bringing up level for play took: 0.024200
+[2016.02.24-23.46.13:603][852]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.539
+[2016.02.24-23.46.28:593][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C3B025C0
+[2016.02.24-23.46.31:428][923]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.46.51:128][294]BlueprintLog: New page: Compile silla_Sprite
+[2016.02.24-23.46.51:421][294]BlueprintEditorCompileResults: Info [1227.04] Compile of silla_Sprite successful! [in 293 ms]
+[2016.02.24-23.46.52:617][366]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.46.52:686][366]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.46.52:715][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/silla_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset" SILENT=true
+[2016.02.24-23.46.52:829][366]LogSavePackage: Save=28.706820ms
+[2016.02.24-23.46.52:829][366]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/silla_Sprite1E9AEB4445F95DCB914D6E91402F7DA3.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset'
+[2016.02.24-23.46.55:257][507]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.14:754][744]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.16:637][868]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.18:865][ 16]BlueprintLog: New page: Compile silla_Sprite
+[2016.02.24-23.47.19:071][ 16]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C38DEFC0
+[2016.02.24-23.47.19:158][ 16]BlueprintEditorCompileResults: Info [1254.78] Compile of silla_Sprite successful! [in 293 ms]
+[2016.02.24-23.47.19:897][ 58]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.19:972][ 58]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.19:998][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/silla_Sprite" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset" SILENT=true
+[2016.02.24-23.47.20:111][ 58]LogSavePackage: Save=30.517836ms
+[2016.02.24-23.47.20:111][ 58]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/silla_SpriteC57BA2BB4267CFDB23149E9A7585427D.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset'
+[2016.02.24-23.47.20:969][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.24-23.47.23:287][240]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite)
+[2016.02.24-23.47.24:625][316]Cmd: DELETE
+[2016.02.24-23.47.24:625][316]Cmd: ACTOR DELETE
+[2016.02.24-23.47.24:626][316]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.47.24:739][316]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2016.02.24-23.47.25:412][364]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.47.25:809][383]Cmd: DELETE
+[2016.02.24-23.47.25:809][383]Cmd: ACTOR DELETE
+[2016.02.24-23.47.25:810][383]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.47.25:909][383]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2016.02.24-23.47.28:102][542]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite2)
+[2016.02.24-23.47.29:024][587]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite3)
+[2016.02.24-23.47.30:063][644]Cmd: DELETE
+[2016.02.24-23.47.30:063][644]Cmd: ACTOR DELETE
+[2016.02.24-23.47.30:070][644]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.31:472][644]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.47.31:518][644]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.47.31:617][644]LogEditorActor: Deleted 2 Actors (1.554 secs)
+[2016.02.24-23.47.34:114][820]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite2)
+[2016.02.24-23.47.34:469][837]Cmd: DELETE
+[2016.02.24-23.47.34:470][837]Cmd: ACTOR DELETE
+[2016.02.24-23.47.34:476][837]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.35:416][837]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.47.35:461][837]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.47.35:564][837]LogEditorActor: Deleted 2 Actors (1.095 secs)
+[2016.02.24-23.47.36:284][889]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite5)
+[2016.02.24-23.47.36:754][914]Cmd: DELETE
+[2016.02.24-23.47.36:754][914]Cmd: ACTOR DELETE
+[2016.02.24-23.47.36:761][914]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.37:642][914]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.47.37:687][914]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.47.37:788][914]LogEditorActor: Deleted 2 Actors (1.034 secs)
+[2016.02.24-23.47.40:049][ 82]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite5)
+[2016.02.24-23.47.41:654][162]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.47:780][506]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.47:859][509]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.48:472][540]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.47.49:748][602]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.48.02:328][293]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite5)
+[2016.02.24-23.48.03:086][332]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Parte4_Sprite5)
+[2016.02.24-23.48.03:687][362]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite4)
+[2016.02.24-23.48.05:014][440]Cmd: DELETE
+[2016.02.24-23.48.05:014][440]Cmd: ACTOR DELETE
+[2016.02.24-23.48.05:020][440]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.48.06:098][440]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.48.06:143][440]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.48.06:245][440]LogEditorActor: Deleted 2 Actors (1.232 secs)
+[2016.02.24-23.48.09:168][645]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite6)
+[2016.02.24-23.48.09:723][675]Cmd: DELETE
+[2016.02.24-23.48.09:723][675]Cmd: ACTOR DELETE
+[2016.02.24-23.48.09:730][675]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.48.11:137][675]LogEditorActor: Deleted Actor: mesaPC_Sprite_C
+[2016.02.24-23.48.11:182][675]LogEditorActor: Deleted Actor: silla_Sprite_C
+[2016.02.24-23.48.11:284][675]LogEditorActor: Deleted 2 Actors (1.560 secs)
+[2016.02.24-23.48.15:996][  5]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.48.45:258][705]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite7)
+[2016.02.24-23.48.54:869][259]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.49.01:315][632]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite7)
+[2016.02.24-23.49.13:650][353]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.49.14:747][414]LogEditorViewport: Clicking on Actor (CTRL LMB): mesaPC_Sprite_C (mesaPC_Sprite7)
+[2016.02.24-23.49.15:678][466]LogEditorViewport: Clicking on Actor (context menu): mesaPC_Sprite_C (mesaPC_Sprite7)
+[2016.02.24-23.49.15:696][466]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.49.18:183][613]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite7)
+[2016.02.24-23.49.21:579][811]LogEditorViewport: Clicking on Actor (LMB): silla_Sprite_C (silla_Sprite)
+[2016.02.24-23.49.22:997][890]LogEditorViewport: Clicking on Actor (CTRL LMB): mesaPC_Sprite_C (mesaPC_Sprite7)
+[2016.02.24-23.49.33:492][500]Cmd: EDIT COPY
+[2016.02.24-23.49.33:749][515]Cmd: EDIT PASTE
+[2016.02.24-23.49.47:222][290]LogEditorViewport: Clicking Background
+[2016.02.24-23.49.48:464][380]LogEditorViewport: Clicking on Actor (LMB): mesaPC_Sprite_C (mesaPC_Sprite8)
+[2016.02.24-23.49.49:220][423]Cmd: EDIT PASTE
+[2016.02.24-23.49.56:955][855]Cmd: EDIT PASTE
+[2016.02.24-23.50.01:356][ 99]LogEditorViewport: Clicking Background
+[2016.02.24-23.50.08:561][611]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.50.08:647][611]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.50.08:670][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.50.09:148][611]LogSavePackage: Save=276.194092ms
+[2016.02.24-23.50.09:148][611]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_124E5661E4819E692E6C12993C8FAC51A.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.50.12:983][870]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.50.12:984][870]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:50:12 PM)
+[2016.02.24-23.50.12:985][870]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.50.12:993][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007737s)
+[2016.02.24-23.50.12:994][870]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.50.12:996][870]LogPlayLevel: PIE: World Init took: (0.003337s)
+[2016.02.24-23.50.12:996][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.011487s)
+[2016.02.24-23.50.13:100][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096CB595120
+[2016.02.24-23.50.13:100][870]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.50.13:122][870]LogInit: FAudioDevice initialized.
+[2016.02.24-23.50.13:127][870]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.50.13:165][870]LogWorld: Game class is '2D_C'
+[2016.02.24-23.50.13:186][870]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.50.13
+[2016.02.24-23.50.13:186][870]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.50.13:187][870]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.50.13:188][870]LogWorld: Bringing up level for play took: 0.017903
+[2016.02.24-23.50.13:235][870]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.171
+[2016.02.24-23.50.53:340][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096E2FD3D80
+[2016.02.24-23.50.55:039][432]LogEditorViewport: Clicking on Actor (LMB): puertaExit_BP_C (puertaExit_BP)
+[2016.02.24-23.51.05:330][  9]LogEditorActor: Deleted Actor: puertaExit_BP_C
+[2016.02.24-23.51.05:434][  9]LogEditorActor: Deleted 1 Actors (0.105 secs)
+[2016.02.24-23.51.06:651][ 92]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.23:786][357]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.32:887][979]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD/Menu.Menu:EventGraph.K2Node_ComponentBoundEvent_138.EdGraphPin_25) from referencer (EdGraphPin /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP:EventGraph.K2Node_CallFunction_2496.EdGraphPin_149).  Import failed...
+[2016.02.24-23.51.32:887][979]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_138.EdGraphPin_25''
+[2016.02.24-23.51.32:887][979]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/Menu.Menu:EventGraph.K2Node_CallFunction_2711 or K2Node_CallFunction /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP:EventGraph.K2Node_CallFunction_2711
+[2016.02.24-23.51.32:887][979]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD/Menu.Menu:EventGraph.K2Node_CallFunction_2711.EdGraphPin_200) from referencer (EdGraphPin /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP:EventGraph.K2Node_CallFunction_2496.EdGraphPin_150).  Import failed...
+[2016.02.24-23.51.32:887][979]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2711.EdGraphPin_200''
+[2016.02.24-23.51.32:889][979]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/Menu.Menu:EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP:EventGraph.K2Node_VariableSet_94
+[2016.02.24-23.51.32:889][979]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD/Menu.Menu:EventGraph.K2Node_VariableSet_94.EdGraphPin_50) from referencer (EdGraphPin /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP:EventGraph.K2Node_CallFunction_2501.EdGraphPin_173).  Import failed...
+[2016.02.24-23.51.32:889][979]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_50''
+[2016.02.24-23.51.32:890][979]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/Menu.Menu:EventGraph.K2Node_CallFunction_2711 or K2Node_CallFunction /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP:EventGraph.K2Node_CallFunction_2711
+[2016.02.24-23.51.32:890][979]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD/Menu.Menu:EventGraph.K2Node_CallFunction_2711.EdGraphPin_201) from referencer (EdGraphPin /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP:EventGraph.K2Node_VariableSet_94.EdGraphPin_46).  Import failed...
+[2016.02.24-23.51.32:890][979]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2711.EdGraphPin_201''
+[2016.02.24-23.51.35:183][159]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.37:239][325]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.40:783][621]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.41:376][671]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.45:288][  6]BlueprintLog: New page: Compile puertaExit_BP
+[2016.02.24-23.51.45:604][  6]BlueprintEditorCompileResults: Info [1521.22] Compile of puertaExit_BP successful! [in 315 ms]
+[2016.02.24-23.51.46:012][ 38]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.46:080][ 38]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.46:105][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/puertaExit_BP" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset" SILENT=true
+[2016.02.24-23.51.46:245][ 38]LogSavePackage: Save=57.863300ms
+[2016.02.24-23.51.46:245][ 38]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/puertaExit_BP09D7C007467864677CB2578790C737C8.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset'
+[2016.02.24-23.51.51:520][409]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.51:602][409]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.51.51:622][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.51.52:056][409]LogSavePackage: Save=271.078552ms
+[2016.02.24-23.51.52:056][409]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_1659AE53340251916F66C7A87F69945C4.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.51.57:115][713]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.52.02:974][ 75]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.52.03:768][ 75]LogPackageName: SearchForPackageOnDisk took   0.170s to resolve Nivel_2.umap
+[2016.02.24-23.52.03:768][ 75]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	puertaExit_BP_C /Engine/Transient.World_18:PersistentLevel.puertaExit_BP_C_3
+	Function /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP_C:ExecuteUbergraph_puertaExit_BP:0047
+[2016.02.24-23.52.08:564][410]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.53.00:535][176]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.53.00:620][176]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.53.00:641][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.24-23.53.00:696][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C1338B80
+[2016.02.24-23.53.00:698][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096BE2CB880
+[2016.02.24-23.53.00:830][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096B6DC34C0
+[2016.02.24-23.53.01:093][176]LogSavePackage: Save=263.283600ms
+[2016.02.24-23.53.01:093][176]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_15B25A1FD45D2DD00AC359D9A45A20C54.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.24-23.53.01:962][209]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.24-23.53.01:963][209]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 1:53:01 PM)
+[2016.02.24-23.53.01:964][209]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.24-23.53.01:971][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007536s)
+[2016.02.24-23.53.01:973][209]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.24-23.53.01:975][209]LogPlayLevel: PIE: World Init took: (0.003106s)
+[2016.02.24-23.53.01:975][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.011011s)
+[2016.02.24-23.53.02:078][209]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-23.53.02:100][209]LogInit: FAudioDevice initialized.
+[2016.02.24-23.53.02:105][209]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.53.02:144][209]LogWorld: Game class is '2D_C'
+[2016.02.24-23.53.02:165][209]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-18.53.02
+[2016.02.24-23.53.02:165][209]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.53.02:167][209]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.53.02:168][209]LogWorld: Bringing up level for play took: 0.017632
+[2016.02.24-23.53.02:212][209]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 1.148
+[2016.02.24-23.53.20:956][263]LogPackageName: SearchForPackageOnDisk took   0.169s to resolve Nivel_2.umap
+[2016.02.24-23.53.21:140][264]LogPackageName: SearchForPackageOnDisk took   0.164s to resolve Nivel_2.umap
+[2016.02.24-23.53.21:140][264]LogNet: Browse: /Game/Niveles/Nivel_2
+[2016.02.24-23.53.21:140][264]LogLoad: LoadMap: /Game/Niveles/Nivel_2
+[2016.02.24-23.53.21:201][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096C4E89580
+[2016.02.24-23.53.21:233][264]Cmd: MEM
+[2016.02.24-23.53.21:311][264]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-23.53.21:311][264]LogMemory: Process Physical Memory: 741.86 MB used, 742.71 MB peak
+[2016.02.24-23.53.21:311][264]LogMemory: Process Virtual Memory: 1377.16 MB used, 1477.32 MB peak
+[2016.02.24-23.53.21:312][264]LogMemory: Physical Memory: 3132.12 MB used, 4092.53 MB total
+[2016.02.24-23.53.21:312][264]LogMemory: Virtual Memory: 2012.02 MB used, 134217728.00 MB total
+[2016.02.24-23.53.21:312][264]LogMemory: 
+[2016.02.24-23.53.21:312][264]Allocator Stats for TBB: (not implemented)
+[2016.02.24-23.53.21:898][264]LogAIModule: Creating AISystem for world Nivel_2
+[2016.02.24-23.53.21:901][264]LogWorld: Game class is '2D_C'
+[2016.02.24-23.53.21:926][264]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2 up for play (max tick rate 0) at 2016.02.24-18.53.21
+[2016.02.24-23.53.21:926][264]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.53.21:927][264]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-23.53.21:928][264]LogWorld: Bringing up level for play took: 0.021743
+[2016.02.24-23.53.33:697][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000969ED27BA0
+[2016.02.24-23.53.34:991][981]LogEditorViewport: Clicking Background
+[2016.02.24-23.53.48:645][894]LogD3D11RHI: InitD3DDevice
+[2016.02.24-23.53.48:765][894]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-23.53.48:784][894]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-23.53.49:502][894]LogPackageName: SearchForPackageOnDisk took   0.166s to resolve Nivel_2.umap
+[2016.02.24-23.53.49:502][894]LogScript:Warning: Accessed None 'CallFunc_GetPlayerController_ReturnValue'
+	puertaExit_BP_C /Engine/Transient.World_19:PersistentLevel.puertaExit_BP_C_613
+	Function /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP_C:ExecuteUbergraph_puertaExit_BP:0047
+[2016.02.24-23.54.18:083][879]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.13.29:343][527]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.13.35:588][959]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.13.49:450][  7]BlueprintLog: New page: Compile Player
+[2016.02.25-00.13.51:100][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096BEA8B380
+[2016.02.25-00.13.51:100][  7]BlueprintEditorCompileResults: Info [2846.72] Compile of Player successful! [in 1,649 ms]
+[2016.02.25-00.14.00:691][678]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.00:775][678]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.00:811][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset" SILENT=true
+[2016.02.25-00.14.01:368][678]LogSavePackage: Save=453.974762ms
+[2016.02.25-00.14.01:368][678]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/player720F52AF4C59C71E03DEC1906C19C4E1.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset'
+[2016.02.25-00.14.08:542][159]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.09:414][221]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.22:017][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_FunctionEntry_468 or K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_FunctionEntry_468
+[2016.02.25-00.14.22:017][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_FunctionEntry_468 or K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:EdGraph_435.K2Node_FunctionEntry_468
+[2016.02.25-00.14.22:017][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_FunctionEntry_468 or K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:EdGraph_421.K2Node_FunctionEntry_468
+[2016.02.25-00.14.22:017][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_FunctionEntry_468 or K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:EdGraph_407.K2Node_FunctionEntry_468
+[2016.02.25-00.14.22:017][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_FunctionEntry_468 or K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:EdGraph_393.K2Node_FunctionEntry_468
+[2016.02.25-00.14.22:017][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_FunctionEntry_468 or K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:EdGraph_379.K2Node_FunctionEntry_468
+[2016.02.25-00.14.22:017][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_FunctionEntry_468 or K2Node_FunctionEntry /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_FunctionEntry_468
+[2016.02.25-00.14.22:018][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_VariableGet_1768 or K2Node_VariableGet /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_VariableGet_1768
+[2016.02.25-00.14.22:018][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_VariableGet_1768 or K2Node_VariableGet /Game/Blueprints/Player/player.Player:EdGraph_435.K2Node_VariableGet_1768
+[2016.02.25-00.14.22:018][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_VariableGet_1768 or K2Node_VariableGet /Game/Blueprints/Player/player.Player:EdGraph_421.K2Node_VariableGet_1768
+[2016.02.25-00.14.22:018][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_VariableGet_1768 or K2Node_VariableGet /Game/Blueprints/Player/player.Player:EdGraph_407.K2Node_VariableGet_1768
+[2016.02.25-00.14.22:018][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_VariableGet_1768 or K2Node_VariableGet /Game/Blueprints/Player/player.Player:EdGraph_393.K2Node_VariableGet_1768
+[2016.02.25-00.14.22:018][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_VariableGet_1768 or K2Node_VariableGet /Game/Blueprints/Player/player.Player:EdGraph_379.K2Node_VariableGet_1768
+[2016.02.25-00.14.22:018][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_VariableGet_1768 or K2Node_VariableGet /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_VariableGet_1768
+[2016.02.25-00.14.22:018][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_VariableGet_1768 or K2Node_VariableGet /Game/Blueprints/Player/player.Player:Limpiar items.K2Node_VariableGet_1768
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_MakeStruct_209 or K2Node_MakeStruct /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_MakeStruct_209
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_MakeStruct_209 or K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_MakeStruct_209
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_MakeStruct_209 or K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_435.K2Node_MakeStruct_209
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_MakeStruct_209 or K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_421.K2Node_MakeStruct_209
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_MakeStruct_209 or K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_407.K2Node_MakeStruct_209
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_MakeStruct_209 or K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_393.K2Node_MakeStruct_209
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_MakeStruct_209 or K2Node_MakeStruct /Game/Blueprints/Player/player.Player:EdGraph_379.K2Node_MakeStruct_209
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_BreakStruct_215 or K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_463.K2Node_BreakStruct_215
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_BreakStruct_215 or K2Node_BreakStruct /Game/Blueprints/Player/player.Player:Añadir Item.K2Node_BreakStruct_215
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_BreakStruct_215 or K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_435.K2Node_BreakStruct_215
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_BreakStruct_215 or K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_421.K2Node_BreakStruct_215
+[2016.02.25-00.14.22:019][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_BreakStruct_215 or K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_407.K2Node_BreakStruct_215
+[2016.02.25-00.14.22:020][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_BreakStruct_215 or K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_393.K2Node_BreakStruct_215
+[2016.02.25-00.14.22:020][124]LogUObjectHash:Warning: Ambiguous search, could be K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_449.K2Node_BreakStruct_215 or K2Node_BreakStruct /Game/Blueprints/Player/player.Player:EdGraph_379.K2Node_BreakStruct_215
+[2016.02.25-00.14.26:218][438]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.26:592][463]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.29:359][651]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.31:055][766]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.32:214][826]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.33:909][946]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.14.38:257][274]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.15.35:181][926]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.15.54:116][142]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.15.54:525][142]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Nivel_1' took 0.112
+[2016.02.25-00.15.54:539][142]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/player] ([1] browsable assets)...
+[2016.02.25-00.15.54:539][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/player]
+[2016.02.25-00.15.55:108][142]LogSavePackage: Save=472.748291ms
+[2016.02.25-00.15.55:108][142]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/player_Auto1A0EBDCE84B85F204B2BC9983BDC4742C.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Autosaves/Game/Blueprints/Player/player_Auto1.uasset'
+[2016.02.25-00.15.55:113][142]LogFileHelpers: Auto-saving content packages took 0.586
+[2016.02.25-00.16.50:264][391]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.19.40:164][763]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.19.42:046][899]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.19.59:871][210]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.20.05:587][606]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.20.15:707][361]BlueprintLog: New page: Compile Player
+[2016.02.25-00.20.17:317][361]BlueprintEditorCompileResults: Info [3232.93] Compile of Player successful! [in 1,610 ms]
+[2016.02.25-00.20.22:699][762]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.25-00.20.22:700][762]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 2:20:22 PM)
+[2016.02.25-00.20.22:701][762]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.25-00.20.22:709][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007945s)
+[2016.02.25-00.20.22:710][762]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.25-00.20.22:712][762]LogPlayLevel: PIE: World Init took: (0.003280s)
+[2016.02.25-00.20.22:713][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.011686s)
+[2016.02.25-00.20.22:817][762]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.25-00.20.22:838][762]LogInit: FAudioDevice initialized.
+[2016.02.25-00.20.22:844][762]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.20.22:883][762]LogWorld: Game class is '2D_C'
+[2016.02.25-00.20.22:904][762]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-19.20.22
+[2016.02.25-00.20.22:904][762]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-00.20.22:905][762]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-00.20.22:907][762]LogWorld: Bringing up level for play took: 0.018439
+[2016.02.25-00.20.22:935][762]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.129
+[2016.02.25-00.20.26:000][939]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096F794DB20
+[2016.02.25-00.20.36:419][744]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.20.36:492][744]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.20.36:521][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset" SILENT=true
+[2016.02.25-00.20.37:090][744]LogSavePackage: Save=465.196564ms
+[2016.02.25-00.20.37:090][744]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/playerB6298191448273FBA9819AA1B19C9F9C.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset'
+[2016.02.25-00.20.46:479][441]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.25-00.20.46:479][441]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 2:20:46 PM)
+[2016.02.25-00.20.46:480][441]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.25-00.20.46:488][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007611s)
+[2016.02.25-00.20.46:489][441]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.25-00.20.46:491][441]LogPlayLevel: PIE: World Init took: (0.003129s)
+[2016.02.25-00.20.46:491][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.011124s)
+[2016.02.25-00.20.46:586][441]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.25-00.20.46:607][441]LogInit: FAudioDevice initialized.
+[2016.02.25-00.20.46:611][441]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.20.46:651][441]LogWorld: Game class is '2D_C'
+[2016.02.25-00.20.46:672][441]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-19.20.46
+[2016.02.25-00.20.46:672][441]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-00.20.46:673][441]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-00.20.46:675][441]LogWorld: Bringing up level for play took: 0.018028
+[2016.02.25-00.20.46:717][441]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.346
+[2016.02.25-00.21.01:349][300]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096B6DC2A20
+[2016.02.25-00.21.08:154][762]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.21.08:962][809]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.21.22:910][640]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.21.32:293][401]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.21.32:915][433]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.21.39:152][885]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.21.47:919][597]BlueprintLog: New page: Compile puertaExit_BP
+[2016.02.25-00.21.48:226][597]BlueprintEditorCompileResults: Info [3323.84] Compile of puertaExit_BP successful! [in 307 ms]
+[2016.02.25-00.21.48:967][654]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.21.49:038][654]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.21.49:071][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Level_1/puertaExit_BP" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset" SILENT=true
+[2016.02.25-00.21.49:246][654]LogSavePackage: Save=85.134850ms
+[2016.02.25-00.21.49:246][654]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/puertaExit_BPED79687F420FFC88C9971CA591E41DB2.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset'
+[2016.02.25-00.22.58:973][ 38]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.22.59:046][ 38]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.22.59:074][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset" SILENT=true
+[2016.02.25-00.22.59:627][ 38]LogSavePackage: Save=468.949310ms
+[2016.02.25-00.22.59:627][ 38]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/player1D6CB6AC4C1D9B68F20281A01806FA87.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset'
+[2016.02.25-00.23.16:413][190]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.23.17:570][260]LogClass:Warning: Type mismatch in currentLevel of SKEL_Player_C - Previous (StructProperty) Current(IntProperty) for package:  FObjectReader
+[2016.02.25-00.23.20:811][448]BlueprintLog: New page: Compile Player
+[2016.02.25-00.23.22:392][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096E01E7E20
+[2016.02.25-00.23.22:640][448]BlueprintEditorCompileResults: Info [3418.26] Compile of Player successful! [in 1,829 ms]
+[2016.02.25-00.23.38:670][475]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.23.48:741][124]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.24.07:166][137]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.24.08:391][214]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.24.11:359][401]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.24.24:144][272]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.24.37:165][179]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.07:297][335]BlueprintLog: New page: Compile Player
+[2016.02.25-00.25.09:066][335]BlueprintEditorCompileResults: Info [3524.68] Compile of Player successful! [in 1,769 ms]
+[2016.02.25-00.25.09:827][381]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.09:899][381]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.09:928][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset" SILENT=true
+[2016.02.25-00.25.10:514][381]LogSavePackage: Save=501.973572ms
+[2016.02.25-00.25.10:514][381]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/player8568B05849FAEB03C7C0348ADC76DAD6.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset'
+[2016.02.25-00.25.12:869][536]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.12:955][536]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.12:977][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-00.25.13:431][536]LogSavePackage: Save=267.904358ms
+[2016.02.25-00.25.13:431][536]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_15FED65874C96FF9D12F32B8F2167F220.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap'
+[2016.02.25-00.25.20:617][ 25]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.21:631][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.22:033][101]SourceControl: Info # On branch master
+[2016.02.25-00.25.22:033][101]SourceControl: Info # Changes to be committed:
+[2016.02.25-00.25.22:033][101]SourceControl: Info #   (use "git reset HEAD <file>..." to unstage)
+[2016.02.25-00.25.22:033][101]SourceControl: Info #
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item2.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item3.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item4.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item5.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/DoorExit_1.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item2.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item3.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item4.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/BP_item5.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/DoorExit_1.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset
+[2016.02.25-00.25.22:033][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/mesaPC_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/puertaExit_BP.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Blueprints/silla_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Nivel_1.umap
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Niveles/Nivel_2.umap
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/Parte4_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/fondoSinObjetos3.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoMesa.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoMesa_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoSilla.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/objetoSilla_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parte2_1.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parte2_1_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/parte4_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/parteExit.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puert1.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puerta.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puertaExit.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puertaExit_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Nivel_1/puerta_Sprite.uasset
+[2016.02.25-00.25.22:034][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Parte2.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/Parte4.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/mesaPC.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/mesaPC_Sprite.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/objetoCable.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/objetoMesa.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/objetoSilla.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/puert1.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	new file:   Proyecto 4.8/Content/Sprites/puerta.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/silla.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/silla_Sprite.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #
+[2016.02.25-00.25.22:035][101]SourceControl: Info # Changes not staged for commit:
+[2016.02.25-00.25.22:035][101]SourceControl: Info #   (use "git add/rm <file>..." to update what will be committed)
+[2016.02.25-00.25.22:035][101]SourceControl: Info #   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.25-00.25.22:035][101]SourceControl: Info #
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/BP_item.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Level_1/DoorExit_1.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Level_1/mesaPC_Sprite.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Level_1/puertaExit_BP.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Level_1/silla_Sprite.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Blueprints/Player/player.uasset
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Menu.umap
+[2016.02.25-00.25.22:035][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Niveles/Nivel_1.umap
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/fondoSinObjetos3.uasset
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte3.uasset
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte3_Sprite.uasset
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Content/Sprites/Nivel_1/parte4.uasset
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/parteExit.uasset
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	deleted:    Proyecto 4.8/Content/Sprites/Nivel_1/puert1.uasset
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Intermediate/CachedAssetRegistry.bin
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/AutoScreenshot.png
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/Game/Blueprints/Player/player_Auto1.uasset
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/Game/Niveles/Nivel_1_Auto1.umap
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/Game/Niveles/Nivel_1_Auto2.umap
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Autosaves/PackageRestoreData.json
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Editor.ini
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Engine.ini
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Config/Windows/Input.ini
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	modified:   Proyecto 4.8/Saved/Logs/Proyecto.log
+[2016.02.25-00.25.22:036][101]SourceControl: Info #
+[2016.02.25-00.25.22:036][101]SourceControl: Info # Untracked files:
+[2016.02.25-00.25.22:036][101]SourceControl: Info #   (use "git add <file>..." to include in what will be committed)
+[2016.02.25-00.25.22:036][101]SourceControl: Info #
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/Parte4_Auto1.uasset
+[2016.02.25-00.25.22:036][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/Parte4_Sprite_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/fondoSinObjetos3_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/p3_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/p3_Sprite_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parte2_1_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parte2_1_Sprite_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parteExit_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Nivel_1/parteExit_Sprite_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Autosaves/Game/Sprites/Parte2_Auto1.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item2_2016-02-24-18-14-53.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item3_2016-02-24-18-14-34.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item4_2016-02-24-18-14-34.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item5_2016-02-24-18-14-34.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/BP_item_2016-02-24-17-22-38.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/DoorExit_1_2016-02-24-17-37-51.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/DoorExit_1_2016-02-24-18-15-48.uasset
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Menu_2016-02-24-17-21-59.umap
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-16-58-25.umap
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-11-03.umap
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-17-56.umap
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-47-39.umap
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-17-57-40.umap
+[2016.02.25-00.25.22:037][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-04-28.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-10-22.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-15-49.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-25-41.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-31-29.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-36-37.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-41-49.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-18-50-08.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Nivel_1_2016-02-24-19-25-13.umap
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-17-39-02.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-17-47-39.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/Parte4_2016-02-24-18-04-37.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-17-14-05.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-18-15-48.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-18-31-26.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-18-36-57.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/mesaPC_Sprite_2016-02-24-18-45-20.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte3_2016-02-24-17-40-37.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte3_Sprite_2016-02-24-17-40-26.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parte4_2016-02-24-17-11-03.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-17-47-39.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-18-04-38.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/parteExit_2016-02-24-18-25-42.uasset
+[2016.02.25-00.25.22:038][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/player_2016-02-24-18-11-47.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/player_2016-02-24-19-14-00.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/player_2016-02-24-19-20-36.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puertaExit_BP_2016-02-24-18-22-02.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puertaExit_BP_2016-02-24-18-28-07.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puertaExit_BP_2016-02-24-18-33-36.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puertaExit_BP_2016-02-24-18-51-46.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puertaExit_BP_2016-02-24-19-21-49.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/puerta_2016-02-24-18-22-07.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/silla_Sprite_2016-02-24-18-18-47.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/silla_Sprite_2016-02-24-18-31-27.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/silla_Sprite_2016-02-24-18-38-46.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Backup/silla_Sprite_2016-02-24-18-46-52.uasset
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-16.36.50.log
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-17.26.00.log
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.16.16.log
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.21.04.log
+[2016.02.25-00.25.22:039][101]SourceControl: Info #	Proyecto 4.8/Saved/Logs/Proyecto-backup-2016.02.24-18.26.30.log
+[2016.02.25-00.25.22:045][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.22:118][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.22:136][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.22:217][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.22:298][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1_C' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1:EventGraph.K2Node_Event_6' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1:EventGraph.K2Node_Event_7' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1:Buscar Energía de Personaje.K2Node_FunctionResult_0' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1:Buscar Energía de Personaje.K2Node_FunctionEntry_182' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1:Buscar Vida de Personaje.K2Node_FunctionResult_1' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1:Buscar Vida de Personaje.K2Node_FunctionEntry_194' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1:mostrar item 1.K2Node_FunctionResult_1' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.PantallaPrimaria_Nivel1:mostrar item 1.K2Node_FunctionEntry_864' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:202][101]LogMetaData: Removing '/Game/HUD/PantallaPrimaria_Nivel1.SKEL_PantallaPrimaria_Nivel1_C' ref from Metadata '/Game/HUD/PantallaPrimaria.PackageMetaData'
+[2016.02.25-00.25.23:271][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.23:298][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/PantallaPrimaria_Nivel1" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/HUD/PantallaPrimaria_Nivel1.uasset" SILENT=true
+[2016.02.25-00.25.23:735][101]LogSavePackage: Save=428.320160ms
+[2016.02.25-00.25.23:735][101]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/PantallaPrimaria_Nivel1B981A22E4BAE88AF12591980107BFA65.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/HUD/PantallaPrimaria_Nivel1.uasset'
+[2016.02.25-00.25.23:744][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.23:953][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/PantallaPrimaria" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/HUD/PantallaPrimaria.uasset" SILENT=true
+[2016.02.25-00.25.24:093][101]LogSavePackage: Save=7.235325ms
+[2016.02.25-00.25.24:093][101]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/PantallaPrimaria617B846742534DEAADDCCA9A2357D8A9.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/HUD/PantallaPrimaria.uasset'
+[2016.02.25-00.25.24:123][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.24:209][101]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.25:427][162]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.26:249][209]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.29:431][419]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.30:061][419]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.30:132][419]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.30:160][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/PantallaPrimaria_Nivel2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/HUD/PantallaPrimaria_Nivel2.uasset" SILENT=true
+[2016.02.25-00.25.30:583][419]LogSavePackage: Save=415.675079ms
+[2016.02.25-00.25.30:583][419]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/PantallaPrimaria_Nivel29B3C54484D2A9F94D2B42AA4CC7671DB.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/HUD/PantallaPrimaria_Nivel2.uasset'
+[2016.02.25-00.25.30:593][419]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.30:775][419]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.30:864][419]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.37:539][892]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.37:694][892]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.46:648][550]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.54:310][107]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.25.56:693][273]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.26.16:470][686]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2467.EdGraphPin_20065''
+[2016.02.25-00.26.16:471][686]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_79.EdGraphPin_18268''
+[2016.02.25-00.26.16:471][686]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_79.EdGraphPin_18266''
+[2016.02.25-00.26.16:473][686]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_79.EdGraphPin_18267''
+[2016.02.25-00.26.16:473][686]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_79.EdGraphPin_18269''
+[2016.02.25-00.26.21:005][969]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.26.46:832][586]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.26.52:438][946]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_79.EdGraphPin_31550''
+[2016.02.25-00.26.52:439][946]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_79.EdGraphPin_31548''
+[2016.02.25-00.26.52:440][946]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_79.EdGraphPin_31551''
+[2016.02.25-00.26.52:440][946]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_79.EdGraphPin_31549''
+[2016.02.25-00.26.58:478][328]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.27.12:889][279]BlueprintLog: New page: Compile Player
+[2016.02.25-00.27.13:096][279]LogBlueprint:Error: [compiler Player] Error COMPILER ERROR: failed building connection with 'Pantalla Primaria Nivel 2 Reference is not compatible with Pantalla Primaria Nivel 1 Reference.' at  Create Widget 
+[2016.02.25-00.27.14:936][279]LogBlueprint:Warning: [compiler Player] Warning [3650.55] Compile of Player failed. 1 Fatal Issue(s) 0 Warning(s) [in 2,047 ms]
+[2016.02.25-00.27.14:936][279]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Pantalla Primaria Nivel 2 Reference is not compatible with Pantalla Primaria Nivel 1 Reference.' at  Create Widget 
+[2016.02.25-00.27.14:955][279]BlueprintEditorCompileResults:Warning: Warning [3650.55] Compile of Player failed. 1 Fatal Issue(s) 0 Warning(s) [in 2,047 ms]
+[2016.02.25-00.27.29:450][224]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.27.29:532][224]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.27.29:565][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset" SILENT=true
+[2016.02.25-00.27.30:125][224]LogSavePackage: Save=465.041840ms
+[2016.02.25-00.27.30:125][224]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/player96C81552476E65E9D0D220A64D7478AF.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset'
+[2016.02.25-00.27.32:479][373]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.28.03:844][429]BlueprintLog: New page: Compile PantallaPrimaria_Nivel2
+[2016.02.25-00.28.04:451][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.28.04:451][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.28.04:451][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.28.04:451][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.28.04:451][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.28.04:451][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.28.04:451][429]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.28.04:451][429]BlueprintEditorCompileResults: Info [3700.07] Compile of PantallaPrimaria_Nivel2 successful! [in 606 ms]
+[2016.02.25-00.28.20:701][419]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.28.21:312][445]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.28.36:652][283]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.28.37:453][322]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.28.47:764][867]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.28.48:442][903]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.28.52:482][127]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.28.54:585][249]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.29.03:799][813]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.29.30:138][403]BlueprintLog: New page: Compile PantallaPrimaria_Nivel1
+[2016.02.25-00.29.30:573][403]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.29.30:573][403]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.29.30:573][403]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.29.30:573][403]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.29.30:573][403]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.29.30:573][403]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.29.30:574][403]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.25-00.29.30:574][403]BlueprintEditorCompileResults: Info [3786.19] Compile of PantallaPrimaria_Nivel1 successful! [in 435 ms]
+[2016.02.25-00.30.04:239][466]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.30.04:909][495]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.30.22:371][390]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.30.35:294][ 46]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.30.51:310][901]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.07:247][774]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.12:704][ 57]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.15:265][187]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.22:161][511]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.29:958][908]BlueprintLog: New page: Compile Player
+[2016.02.25-00.31.32:007][908]BlueprintEditorCompileResults: Info [3907.62] Compile of Player successful! [in 2,048 ms]
+[2016.02.25-00.31.32:999][957]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.33:910][994]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.45:992][589]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.47:592][676]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.50:064][812]BlueprintLog: New page: Compile Player
+[2016.02.25-00.31.52:035][812]BlueprintEditorCompileResults: Info [3927.65] Compile of Player successful! [in 1,970 ms]
+[2016.02.25-00.31.52:827][850]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.52:906][850]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.52:940][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset" SILENT=true
+[2016.02.25-00.31.53:574][850]LogSavePackage: Save=501.815552ms
+[2016.02.25-00.31.53:574][850]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/player8ACFB57B4528EAC47FAAD886FDDCD606.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset'
+[2016.02.25-00.31.54:100][875]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.02.25-00.31.54:101][875]PIE: New page: PIE session: Nivel_1 (Feb 24, 2016, 2:31:54 PM)
+[2016.02.25-00.31.54:102][875]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.25-00.31.54:109][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007520s)
+[2016.02.25-00.31.54:111][875]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.25-00.31.54:112][875]LogPlayLevel: PIE: World Init took: (0.003094s)
+[2016.02.25-00.31.54:113][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.010991s)
+[2016.02.25-00.31.54:222][875]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.25-00.31.54:245][875]LogInit: FAudioDevice initialized.
+[2016.02.25-00.31.54:250][875]LogD3D11RHI: InitD3DDevice
+[2016.02.25-00.31.54:286][875]LogWorld: Game class is '2D_C'
+[2016.02.25-00.31.54:309][875]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.24-19.31.54
+[2016.02.25-00.31.54:309][875]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-00.31.54:310][875]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-00.31.54:311][875]LogWorld: Bringing up level for play took: 0.019390
+[2016.02.25-00.31.54:367][875]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 -0.697
+[2016.02.25-00.32.15:954][841]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/Level_1/puertaExit_BP.puertaExit_BP_C:BndEvt__Box_K2Node_ComponentBoundEvent_72_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Blueprints/Level_1/puertaExit_BP.pu
