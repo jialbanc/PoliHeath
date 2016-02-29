@@ -112,4 +112,1163 @@ Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Loc
 [2016.02.29-06.02.23:743][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
 [2016.02.29-06.02.23:743][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d27f3b9b4f30e27e25812782be8b0d8d|8dcf4c5a87044acf9d7d9b2f0991a3f0|822a412b-4e57-4804-a033-2e42d5894c6e
 [2016.02.29-06.02.23:750][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.02.29-06.02.24:141][  0]LogInit: Transaction tracking system initial
+[2016.02.29-06.02.24:141][  0]LogInit: Transaction tracking system initialized
+[2016.02.29-06.02.25:699][  0]BlueprintLog: New page: Editor Load
+[2016.02.29-06.02.25:972][  0]LogAssetRegistry: FAssetRegistry took 0.0118 seconds to start up
+[2016.02.29-06.02.26:062][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.02.29-06.02.35:239][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2016.02.29-06.02.35:240][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2016.02.29-06.02.35:240][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2016.02.29-06.02.35:240][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2016.02.29-06.02.36:112][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.02.29-06.02.36:112][  0]LogConsoleResponse:Display: 
+[2016.02.29-06.02.39:962][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.29-06.02.42:627][  0]SourceControl: Info Source control is disabled
+[2016.02.29-06.02.42:685][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.29-06.02.42:686][  0]LightingResults: New page: Lighting Build
+[2016.02.29-06.02.42:733][  0]MapCheck: New page: Map Check
+[2016.02.29-06.02.42:734][  0]LightingResults: New page: Lighting Build
+[2016.02.29-06.02.42:753][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006D99650B80
+[2016.02.29-06.02.53:496][  0]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.02.53:584][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.29-06.02.53:586][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.29-06.02.53:911][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 324.599ms to complete.
+[2016.02.29-06.02.53:912][  0]LogFileHelpers: Loading map 'Nivel_1' took 11.227
+[2016.02.29-06.02.54:440][  0]LogCollectionManager: Loaded 0 collections in 0.005237 seconds
+[2016.02.29-06.02.54:462][  0]LogContentBrowser: Native class hierarchy populated in 0.0212 seconds. Added 1792 classes and 301 folders.
+[2016.02.29-06.02.54:735][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.29-06.02.55:266][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.29-06.02.55:326][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.02.29-06.02.55:818][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.29-06.02.55:820][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.02.55:826][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.29-06.02.55:855][  0]LogLoad: Full Startup: 132.03 seconds (BP compile: 4.76 seconds)
+[2016.02.29-06.02.56:298][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.29-06.02.56:711][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.29-06.02.57:378][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.02.29-06.02.58:831][  2]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.03.05:187][ 21]LogAssetRegistry: Asset discovery search completed in 39.2272 seconds
+[2016.02.29-06.03.16:506][ 55]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.03.20:228][ 69]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.03.21:302][ 69]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.29-06.03.21:304][ 69]LightingResults: New page: Lighting Build
+[2016.02.29-06.03.21:353][ 69]LoadErrors: New page: Loading map: Nivel_1.umap
+[2016.02.29-06.03.21:354][ 69]MapCheck: New page: Map Check
+[2016.02.29-06.03.21:354][ 69]LightingResults: New page: Lighting Build
+[2016.02.29-06.03.21:378][ 69]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DAA0E5440
+[2016.02.29-06.03.21:697][ 69]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.03.21:802][ 69]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.29-06.03.21:942][ 69]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.29-06.03.22:158][ 69]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 215.471ms to complete.
+[2016.02.29-06.03.22:160][ 69]LogFileHelpers: Loading map 'Nivel_1' took 0.860
+[2016.02.29-06.03.25:125][141]LogEditorViewport: Clicking Background
+[2016.02.29-06.03.28:768][420]LogEditorViewport: Clicking Background
+[2016.02.29-06.03.29:797][496]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.03.29:797][496]LogPlayLevel: [PIE] Compiling Nivel_1 before PIE...
+[2016.02.29-06.03.30:055][496]LogPlayLevel: PIE:  Blueprint regeneration took 258 ms (1 blueprints)
+[2016.02.29-06.03.30:159][496]PIE: New page: PIE session: Nivel_1 (Feb 28, 2016, 8:03:30 PM)
+[2016.02.29-06.03.30:160][496]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_1
+[2016.02.29-06.03.30:173][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012933s)
+[2016.02.29-06.03.30:175][496]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.03.30:177][496]LogPlayLevel: PIE: World Init took: (0.003272s)
+[2016.02.29-06.03.30:177][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_1.Nivel_1 to /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 (0.016590s)
+[2016.02.29-06.03.30:239][496]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.03.30:260][496]LogInit: FAudioDevice initialized.
+[2016.02.29-06.03.30:265][496]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.03.30:316][496]LogWorld: Game class is '2D_C'
+[2016.02.29-06.03.30:336][496]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.03.30
+[2016.02.29-06.03.30:336][496]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.03.30:337][496]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.03.30:339][496]LogWorld: Bringing up level for play took: 0.016341
+[2016.02.29-06.03.30:381][496]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_1 0.319
+[2016.02.29-06.03.30:464][496]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:424).
+[2016.02.29-06.03.33:841][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA78E2340
+[2016.02.29-06.03.35:298][807]LogEditorViewport: Clicking Background
+[2016.02.29-06.03.47:575][100]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.03.48:254][100]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.03.48:412][100]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.29-06.03.48:412][100]LightingResults: New page: Lighting Build
+[2016.02.29-06.03.48:468][100]LoadErrors: New page: Loading map: Menu.umap
+[2016.02.29-06.03.48:469][100]MapCheck: New page: Map Check
+[2016.02.29-06.03.48:469][100]LightingResults: New page: Lighting Build
+[2016.02.29-06.03.48:493][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA7948EA0
+[2016.02.29-06.03.48:728][100]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.29-06.03.48:865][100]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.29-06.03.49:069][100]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 202.812ms to complete.
+[2016.02.29-06.03.49:071][100]LogFileHelpers: Loading map 'Menu' took 0.662
+[2016.02.29-06.03.50:108][158]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.03.50:108][158]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.03.50:317][158]LogPlayLevel: PIE:  Blueprint regeneration took 209 ms (1 blueprints)
+[2016.02.29-06.03.50:318][158]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:03:50 PM)
+[2016.02.29-06.03.50:319][158]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.03.50:327][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007915s)
+[2016.02.29-06.03.50:328][158]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.03.50:330][158]LogPlayLevel: PIE: World Init took: (0.003118s)
+[2016.02.29-06.03.50:330][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.011378s)
+[2016.02.29-06.03.50:397][158]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.03.50:419][158]LogInit: FAudioDevice initialized.
+[2016.02.29-06.03.50:425][158]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.03.50:461][158]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.03.50:468][158]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.03.50
+[2016.02.29-06.03.50:468][158]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.03.50:469][158]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.03.50:470][158]LogWorld: Bringing up level for play took: 0.003023
+[2016.02.29-06.03.50:507][158]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu 0.446
+[2016.02.29-06.10.18:661][619]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB458F1A0
+[2016.02.29-06.12.38:324][197]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.12.38:324][197]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.12.38:541][197]LogPlayLevel: PIE:  Blueprint regeneration took 217 ms (1 blueprints)
+[2016.02.29-06.12.38:541][197]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:12:38 PM)
+[2016.02.29-06.12.38:542][197]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.12.38:551][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008478s)
+[2016.02.29-06.12.38:552][197]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.12.38:554][197]LogPlayLevel: PIE: World Init took: (0.003192s)
+[2016.02.29-06.12.38:554][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.012021s)
+[2016.02.29-06.12.38:622][197]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.12.38:645][197]LogInit: FAudioDevice initialized.
+[2016.02.29-06.12.38:671][197]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.12.38:721][197]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.12.38:728][197]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.12.38
+[2016.02.29-06.12.38:728][197]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.12.38:729][197]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.12.38:730][197]LogWorld: Bringing up level for play took: 0.003150
+[2016.02.29-06.12.38:769][197]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu 0.707
+[2016.02.29-06.12.39:844][247]LogPackageName: SearchForPackageOnDisk took   0.181s to resolve Nivel_1.umap
+[2016.02.29-06.12.40:032][247]LogPackageName: SearchForPackageOnDisk took   0.185s to resolve Nivel_1.umap
+[2016.02.29-06.12.40:032][247]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.12.40:033][247]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.12.40:099][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC6DE77E0
+[2016.02.29-06.12.40:099][247]Cmd: MEM
+[2016.02.29-06.12.40:156][247]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.12.40:156][247]LogMemory: Process Physical Memory: 624.43 MB used, 660.00 MB peak
+[2016.02.29-06.12.40:156][247]LogMemory: Process Virtual Memory: 1119.68 MB used, 1219.59 MB peak
+[2016.02.29-06.12.40:156][247]LogMemory: Physical Memory: 2424.10 MB used, 4092.53 MB total
+[2016.02.29-06.12.40:156][247]LogMemory: Virtual Memory: 1747.04 MB used, 134217728.00 MB total
+[2016.02.29-06.12.40:156][247]LogMemory: 
+[2016.02.29-06.12.40:156][247]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.12.41:396][247]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.12.41:404][247]LogWorld: Game class is '2D_C'
+[2016.02.29-06.12.41:438][247]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.12.41
+[2016.02.29-06.12.41:439][247]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.12.41:440][247]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.12.41:441][247]LogWorld: Bringing up level for play took: 0.031751
+[2016.02.29-06.12.46:602][516]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA7369620
+[2016.02.29-06.12.51:513][825]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.12.51:587][825]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.12.51:712][825]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.29-06.12.52:072][825]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.29-06.13.28:263][705]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.13.28:324][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset" SILENT=true
+[2016.02.29-06.13.29:191][705]LogSavePackage: Save=678.593872ms
+[2016.02.29-06.13.29:191][705]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/playerB71B6E184787CC8B3FFF73898CA4A9BA.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset'
+[2016.02.29-06.13.30:026][723]BlueprintLog: New page: Compile Player
+[2016.02.29-06.13.32:240][723]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.02.29-06.13.32:240][723]BlueprintEditorCompileResults: Info [0768.42] Compile of Player successful! [in 2,213 ms]
+[2016.02.29-06.13.34:322][768]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.13.34:345][768]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.13.34:639][768]LogPlayLevel: PIE:  Blueprint regeneration took 317 ms (1 blueprints)
+[2016.02.29-06.13.34:639][768]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:13:34 PM)
+[2016.02.29-06.13.34:640][768]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.13.34:661][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020780s)
+[2016.02.29-06.13.34:663][768]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.13.34:665][768]LogPlayLevel: PIE: World Init took: (0.003270s)
+[2016.02.29-06.13.34:665][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.024422s)
+[2016.02.29-06.13.34:755][768]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.13.34:777][768]LogInit: FAudioDevice initialized.
+[2016.02.29-06.13.34:806][768]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.13.34:865][768]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.13.34:871][768]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.13.34
+[2016.02.29-06.13.34:872][768]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.13.34:873][768]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.13.34:873][768]LogWorld: Bringing up level for play took: 0.003236
+[2016.02.29-06.13.34:973][768]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu 0.911
+[2016.02.29-06.13.37:104][805]LogPackageName: SearchForPackageOnDisk took   0.184s to resolve Nivel_1.umap
+[2016.02.29-06.13.37:287][805]LogPackageName: SearchForPackageOnDisk took   0.182s to resolve Nivel_1.umap
+[2016.02.29-06.13.37:287][805]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.13.37:287][805]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.13.37:385][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB4786020
+[2016.02.29-06.13.37:385][805]Cmd: MEM
+[2016.02.29-06.13.37:471][805]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.13.37:471][805]LogMemory: Process Physical Memory: 731.11 MB used, 734.61 MB peak
+[2016.02.29-06.13.37:471][805]LogMemory: Process Virtual Memory: 1292.54 MB used, 1341.48 MB peak
+[2016.02.29-06.13.37:471][805]LogMemory: Physical Memory: 2521.59 MB used, 4092.53 MB total
+[2016.02.29-06.13.37:471][805]LogMemory: Virtual Memory: 1930.64 MB used, 134217728.00 MB total
+[2016.02.29-06.13.37:471][805]LogMemory: 
+[2016.02.29-06.13.37:471][805]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.13.38:761][805]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.13.38:766][805]LogWorld: Game class is '2D_C'
+[2016.02.29-06.13.38:804][805]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.13.38
+[2016.02.29-06.13.38:804][805]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.13.38:805][805]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.13.38:806][805]LogWorld: Bringing up level for play took: 0.033301
+[2016.02.29-06.13.50:874][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA505CEA0
+[2016.02.29-06.13.52:695][ 84]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.00:760][541]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.01:069][542]LogRenderer: Reallocating scene render targets to support 1528x792 (Frame:5821).
+[2016.02.29-06.14.08:521][ 40]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.08:633][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/MainChar/Saltar_2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/FlipBooks/MainChar/Saltar_2.uasset" SILENT=true
+[2016.02.29-06.14.08:811][ 40]LogSavePackage: Save=16.233240ms
+[2016.02.29-06.14.08:811][ 40]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Saltar_282D2FAA84F98FD6741AB4E9715400755.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/FlipBooks/MainChar/Saltar_2.uasset'
+[2016.02.29-06.14.11:295][157]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.14.11:319][157]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.14.11:564][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC0DA6D40
+[2016.02.29-06.14.11:624][157]LogPlayLevel: PIE:  Blueprint regeneration took 327 ms (1 blueprints)
+[2016.02.29-06.14.11:624][157]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:14:11 PM)
+[2016.02.29-06.14.11:626][157]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.14.11:651][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024890s)
+[2016.02.29-06.14.11:652][157]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.14.11:654][157]LogPlayLevel: PIE: World Init took: (0.003588s)
+[2016.02.29-06.14.11:655][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.028862s)
+[2016.02.29-06.14.11:754][157]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.14.11:769][157]LogInit: FAudioDevice initialized.
+[2016.02.29-06.14.11:802][157]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.11:853][157]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.14.11:860][157]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.14.11
+[2016.02.29-06.14.11:860][157]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.11:862][157]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.11:862][157]LogWorld: Bringing up level for play took: 0.003264
+[2016.02.29-06.14.11:903][157]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu -0.159
+[2016.02.29-06.14.13:201][203]LogPackageName: SearchForPackageOnDisk took   0.179s to resolve Nivel_1.umap
+[2016.02.29-06.14.13:376][203]LogPackageName: SearchForPackageOnDisk took   0.174s to resolve Nivel_1.umap
+[2016.02.29-06.14.13:376][203]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.14.13:376][203]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.14.13:474][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB4787E20
+[2016.02.29-06.14.13:475][203]Cmd: MEM
+[2016.02.29-06.14.13:561][203]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.14.13:561][203]LogMemory: Process Physical Memory: 749.51 MB used, 855.45 MB peak
+[2016.02.29-06.14.13:561][203]LogMemory: Process Virtual Memory: 1405.63 MB used, 1591.72 MB peak
+[2016.02.29-06.14.13:561][203]LogMemory: Physical Memory: 2558.66 MB used, 4092.53 MB total
+[2016.02.29-06.14.13:561][203]LogMemory: Virtual Memory: 2052.21 MB used, 134217728.00 MB total
+[2016.02.29-06.14.13:561][203]LogMemory: 
+[2016.02.29-06.14.13:561][203]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.14.14:702][203]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.14.14:708][203]LogWorld: Game class is '2D_C'
+[2016.02.29-06.14.14:744][203]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.14.14
+[2016.02.29-06.14.14:744][203]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.14:746][203]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.14:748][203]LogWorld: Bringing up level for play took: 0.034320
+[2016.02.29-06.14.19:404][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006D8F716B60
+[2016.02.29-06.14.20:833][499]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.29:633][ 88]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.29:722][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/MainChar/Saltar_2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/FlipBooks/MainChar/Saltar_2.uasset" SILENT=true
+[2016.02.29-06.14.29:895][ 88]LogSavePackage: Save=15.029902ms
+[2016.02.29-06.14.29:895][ 88]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Saltar_2BED210BB48B56110641B59A71658F773.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/FlipBooks/MainChar/Saltar_2.uasset'
+[2016.02.29-06.14.31:857][171]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.14.31:881][171]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.14.32:122][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DAEA52520
+[2016.02.29-06.14.32:176][171]LogPlayLevel: PIE:  Blueprint regeneration took 318 ms (1 blueprints)
+[2016.02.29-06.14.32:176][171]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:14:32 PM)
+[2016.02.29-06.14.32:177][171]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.14.32:197][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019217s)
+[2016.02.29-06.14.32:198][171]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.14.32:200][171]LogPlayLevel: PIE: World Init took: (0.003435s)
+[2016.02.29-06.14.32:201][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.023171s)
+[2016.02.29-06.14.32:299][171]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.14.32:320][171]LogInit: FAudioDevice initialized.
+[2016.02.29-06.14.32:355][171]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.32:412][171]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.14.32:419][171]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.14.32
+[2016.02.29-06.14.32:419][171]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.32:420][171]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.32:421][171]LogWorld: Bringing up level for play took: 0.003060
+[2016.02.29-06.14.32:422][171]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-06.14.32:477][171]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu 0.415
+[2016.02.29-06.14.33:874][204]LogPackageName: SearchForPackageOnDisk took   0.183s to resolve Nivel_1.umap
+[2016.02.29-06.14.34:059][204]LogPackageName: SearchForPackageOnDisk took   0.184s to resolve Nivel_1.umap
+[2016.02.29-06.14.34:059][204]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.14.34:059][204]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.14.34:161][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC1E5B100
+[2016.02.29-06.14.34:161][204]Cmd: MEM
+[2016.02.29-06.14.34:245][204]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.14.34:245][204]LogMemory: Process Physical Memory: 763.89 MB used, 869.42 MB peak
+[2016.02.29-06.14.34:245][204]LogMemory: Process Virtual Memory: 1418.59 MB used, 1712.40 MB peak
+[2016.02.29-06.14.34:245][204]LogMemory: Physical Memory: 2568.72 MB used, 4092.53 MB total
+[2016.02.29-06.14.34:245][204]LogMemory: Virtual Memory: 2064.96 MB used, 134217728.00 MB total
+[2016.02.29-06.14.34:245][204]LogMemory: 
+[2016.02.29-06.14.34:245][204]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.14.35:400][204]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.14.35:406][204]LogWorld: Game class is '2D_C'
+[2016.02.29-06.14.35:442][204]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.14.35
+[2016.02.29-06.14.35:442][204]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.35:443][204]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.35:445][204]LogWorld: Bringing up level for play took: 0.033586
+[2016.02.29-06.14.39:277][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA517FD80
+[2016.02.29-06.14.42:095][399]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.47:345][717]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.47:444][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/MainChar/Saltar_2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/FlipBooks/MainChar/Saltar_2.uasset" SILENT=true
+[2016.02.29-06.14.47:614][717]LogSavePackage: Save=15.270933ms
+[2016.02.29-06.14.47:614][717]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Saltar_2E328DD684FDD37A8FFAA37B8ABA4E655.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/FlipBooks/MainChar/Saltar_2.uasset'
+[2016.02.29-06.14.51:263][875]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.14.51:285][875]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.14.51:521][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC53DF600
+[2016.02.29-06.14.51:575][875]LogPlayLevel: PIE:  Blueprint regeneration took 311 ms (1 blueprints)
+[2016.02.29-06.14.51:575][875]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:14:51 PM)
+[2016.02.29-06.14.51:576][875]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.14.51:595][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018701s)
+[2016.02.29-06.14.51:596][875]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.14.51:598][875]LogPlayLevel: PIE: World Init took: (0.003368s)
+[2016.02.29-06.14.51:599][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.022436s)
+[2016.02.29-06.14.51:690][875]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.14.51:710][875]LogInit: FAudioDevice initialized.
+[2016.02.29-06.14.51:744][875]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.14.51:797][875]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.14.51:804][875]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.14.51
+[2016.02.29-06.14.51:804][875]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.51:806][875]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.51:806][875]LogWorld: Bringing up level for play took: 0.003245
+[2016.02.29-06.14.51:808][875]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-06.14.51:865][875]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu -0.197
+[2016.02.29-06.14.53:493][916]LogPackageName: SearchForPackageOnDisk took   0.202s to resolve Nivel_1.umap
+[2016.02.29-06.14.53:670][916]LogPackageName: SearchForPackageOnDisk took   0.175s to resolve Nivel_1.umap
+[2016.02.29-06.14.53:670][916]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.14.53:670][916]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.14.53:769][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DAEAA4D60
+[2016.02.29-06.14.53:769][916]Cmd: MEM
+[2016.02.29-06.14.53:851][916]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.14.53:851][916]LogMemory: Process Physical Memory: 764.02 MB used, 882.88 MB peak
+[2016.02.29-06.14.53:851][916]LogMemory: Process Virtual Memory: 1417.64 MB used, 1719.15 MB peak
+[2016.02.29-06.14.53:851][916]LogMemory: Physical Memory: 2606.50 MB used, 4092.53 MB total
+[2016.02.29-06.14.53:851][916]LogMemory: Virtual Memory: 2063.71 MB used, 134217728.00 MB total
+[2016.02.29-06.14.53:851][916]LogMemory: 
+[2016.02.29-06.14.53:851][916]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.14.54:987][916]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.14.54:992][916]LogWorld: Game class is '2D_C'
+[2016.02.29-06.14.55:027][916]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.14.55
+[2016.02.29-06.14.55:027][916]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.55:028][916]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.14.55:029][916]LogWorld: Bringing up level for play took: 0.031505
+[2016.02.29-06.14.58:835][ 20]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DCAF2C7C0
+[2016.02.29-06.15.00:454][ 87]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.15.04:430][461]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.15.04:504][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/MainChar/Saltar_2" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/FlipBooks/MainChar/Saltar_2.uasset" SILENT=true
+[2016.02.29-06.15.04:878][461]LogSavePackage: Save=14.509607ms
+[2016.02.29-06.15.04:878][461]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Saltar_2231C9F9B470A8BEA83967C804EA0819A.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/FlipBooks/MainChar/Saltar_2.uasset'
+[2016.02.29-06.15.07:186][551]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.15.07:208][551]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.15.07:444][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DAEAA5EE0
+[2016.02.29-06.15.07:499][551]LogPlayLevel: PIE:  Blueprint regeneration took 312 ms (1 blueprints)
+[2016.02.29-06.15.07:499][551]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:15:07 PM)
+[2016.02.29-06.15.07:500][551]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.15.07:518][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018215s)
+[2016.02.29-06.15.07:520][551]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.15.07:522][551]LogPlayLevel: PIE: World Init took: (0.003271s)
+[2016.02.29-06.15.07:522][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.021857s)
+[2016.02.29-06.15.07:615][551]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.15.07:635][551]LogInit: FAudioDevice initialized.
+[2016.02.29-06.15.07:667][551]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.15.07:720][551]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.15.07:727][551]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.15.07
+[2016.02.29-06.15.07:727][551]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.15.07:728][551]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.15.07:729][551]LogWorld: Bringing up level for play took: 0.003127
+[2016.02.29-06.15.07:730][551]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-06.15.07:785][551]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu -0.276
+[2016.02.29-06.15.09:247][588]LogPackageName: SearchForPackageOnDisk took   0.179s to resolve Nivel_1.umap
+[2016.02.29-06.15.09:425][588]LogPackageName: SearchForPackageOnDisk took   0.177s to resolve Nivel_1.umap
+[2016.02.29-06.15.09:425][588]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.15.09:426][588]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.15.09:523][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA517FBA0
+[2016.02.29-06.15.09:523][588]Cmd: MEM
+[2016.02.29-06.15.09:605][588]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.15.09:605][588]LogMemory: Process Physical Memory: 764.51 MB used, 883.26 MB peak
+[2016.02.29-06.15.09:605][588]LogMemory: Process Virtual Memory: 1420.09 MB used, 1719.15 MB peak
+[2016.02.29-06.15.09:605][588]LogMemory: Physical Memory: 2647.77 MB used, 4092.53 MB total
+[2016.02.29-06.15.09:606][588]LogMemory: Virtual Memory: 2064.96 MB used, 134217728.00 MB total
+[2016.02.29-06.15.09:606][588]LogMemory: 
+[2016.02.29-06.15.09:606][588]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.15.10:746][588]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.15.10:752][588]LogWorld: Game class is '2D_C'
+[2016.02.29-06.15.10:786][588]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.15.10
+[2016.02.29-06.15.10:786][588]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.15.10:788][588]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.15.10:789][588]LogWorld: Bringing up level for play took: 0.031976
+[2016.02.29-06.15.47:563][678]LogPackageName: SearchForPackageOnDisk took   0.189s to resolve Nivel_2.umap
+[2016.02.29-06.15.47:786][679]LogPackageName: SearchForPackageOnDisk took   0.191s to resolve Nivel_2.umap
+[2016.02.29-06.15.47:786][679]LogNet: Browse: /Game/Niveles/Nivel_2
+[2016.02.29-06.15.47:787][679]LogLoad: LoadMap: /Game/Niveles/Nivel_2
+[2016.02.29-06.15.47:997][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC0DA71A0
+[2016.02.29-06.15.47:997][679]Cmd: MEM
+[2016.02.29-06.15.48:081][679]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.15.48:081][679]LogMemory: Process Physical Memory: 758.27 MB used, 884.02 MB peak
+[2016.02.29-06.15.48:081][679]LogMemory: Process Virtual Memory: 1411.89 MB used, 1720.67 MB peak
+[2016.02.29-06.15.48:081][679]LogMemory: Physical Memory: 2652.13 MB used, 4092.53 MB total
+[2016.02.29-06.15.48:081][679]LogMemory: Virtual Memory: 2056.09 MB used, 134217728.00 MB total
+[2016.02.29-06.15.48:081][679]LogMemory: 
+[2016.02.29-06.15.48:081][679]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.15.57:790][679]LogAIModule: Creating AISystem for world Nivel_2
+[2016.02.29-06.15.57:792][679]LogWorld: Game class is '2D_C'
+[2016.02.29-06.15.57:842][679]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2 up for play (max tick rate 0) at 2016.02.29-01.15.57
+[2016.02.29-06.15.57:842][679]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.15.57:844][679]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.15.57:845][679]LogWorld: Bringing up level for play took: 0.046386
+[2016.02.29-06.15.57:870][679]LogAudio:Warning: Spatialisation on stereo and multichannel sounds is not supported. SoundWave: Mummy_Zombie-SoundBible_com-1966938763 SoundCue: Mummy_Zombie-SoundBible_com-1966938763_SoundCue Actor: Mummy_Zombie-SoundBible_com-1966938764 AudioComponent: AudioComponent0
+[2016.02.29-06.15.57:951][679]LogAudio:Warning: Spatialisation on stereo and multichannel sounds is not supported. SoundWave: Zombie_Moan-SoundBible_com-565291980 SoundCue: Mummy_Zombie-SoundBible_com-1966938763_SoundCue Actor: Mummy_Zombie-SoundBible_com-1966938765 AudioComponent: AudioComponent0
+[2016.02.29-06.16.18:630][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DBB404AE0
+[2016.02.29-06.16.21:843][432]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.16.21:874][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/player" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset" SILENT=true
+[2016.02.29-06.16.22:685][432]LogSavePackage: Save=656.832886ms
+[2016.02.29-06.16.22:685][432]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/player7AAAE27C4992BF62B86DFFBA466F4270.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Blueprints/Player/player.uasset'
+[2016.02.29-06.16.24:340][558]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.16.24:372][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Menu" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-06.16.24:854][558]LogSavePackage: Save=245.704300ms
+[2016.02.29-06.16.24:854][558]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Menu0D890BCC49615143584DD5A5981CF05F.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Menu.umap'
+[2016.02.29-06.17.48:095][ 86]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.17.48:118][ 86]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.17.48:419][ 86]LogPlayLevel: PIE:  Blueprint regeneration took 324 ms (1 blueprints)
+[2016.02.29-06.17.48:420][ 86]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:17:48 PM)
+[2016.02.29-06.17.48:421][ 86]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.17.48:439][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018248s)
+[2016.02.29-06.17.48:441][ 86]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.17.48:443][ 86]LogPlayLevel: PIE: World Init took: (0.003201s)
+[2016.02.29-06.17.48:443][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.021819s)
+[2016.02.29-06.17.48:537][ 86]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.17.48:558][ 86]LogInit: FAudioDevice initialized.
+[2016.02.29-06.17.48:563][ 86]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.17.48:601][ 86]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.17.48:608][ 86]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.17.48
+[2016.02.29-06.17.48:608][ 86]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.17.48:609][ 86]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.17.48:609][ 86]LogWorld: Bringing up level for play took: 0.003104
+[2016.02.29-06.17.48:648][ 86]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu 0.586
+[2016.02.29-06.17.50:438][185]LogRenderer: Reallocating scene render targets to support 1920x1016 (Frame:11532).
+[2016.02.29-06.18.08:806][574]LogPackageName: SearchForPackageOnDisk took   0.182s to resolve Nivel_1.umap
+[2016.02.29-06.18.08:985][574]LogPackageName: SearchForPackageOnDisk took   0.177s to resolve Nivel_1.umap
+[2016.02.29-06.18.08:985][574]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.18.08:985][574]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.18.09:101][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC53DF060
+[2016.02.29-06.18.09:101][574]Cmd: MEM
+[2016.02.29-06.18.09:205][574]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.18.09:205][574]LogMemory: Process Physical Memory: 825.55 MB used, 966.68 MB peak
+[2016.02.29-06.18.09:205][574]LogMemory: Process Virtual Memory: 1510.68 MB used, 1827.10 MB peak
+[2016.02.29-06.18.09:205][574]LogMemory: Physical Memory: 2787.55 MB used, 4092.53 MB total
+[2016.02.29-06.18.09:205][574]LogMemory: Virtual Memory: 2154.90 MB used, 134217728.00 MB total
+[2016.02.29-06.18.09:205][574]LogMemory: 
+[2016.02.29-06.18.09:205][574]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.18.10:459][574]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.18.10:464][574]LogWorld: Game class is '2D_C'
+[2016.02.29-06.18.10:500][574]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.18.10
+[2016.02.29-06.18.10:500][574]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.18.10:502][574]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.18.10:503][574]LogWorld: Bringing up level for play took: 0.033797
+[2016.02.29-06.18.25:329][137]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC3C047C0
+[2016.02.29-06.19.32:336][507]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.19.32:358][507]LogPlayLevel: [PIE] Compiling Menu before PIE...
+[2016.02.29-06.19.32:647][507]LogPlayLevel: PIE:  Blueprint regeneration took 310 ms (1 blueprints)
+[2016.02.29-06.19.32:647][507]PIE: New page: PIE session: Menu (Feb 28, 2016, 8:19:32 PM)
+[2016.02.29-06.19.32:648][507]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.19.32:667][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018562s)
+[2016.02.29-06.19.32:668][507]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.19.32:670][507]LogPlayLevel: PIE: World Init took: (0.003331s)
+[2016.02.29-06.19.32:670][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.022250s)
+[2016.02.29-06.19.32:765][507]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.19.32:785][507]LogInit: FAudioDevice initialized.
+[2016.02.29-06.19.32:790][507]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.19.32:830][507]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.19.32:837][507]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.19.32
+[2016.02.29-06.19.32:837][507]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.19.32:839][507]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.19.32:839][507]LogWorld: Bringing up level for play took: 0.003128
+[2016.02.29-06.19.32:878][507]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Menu 0.816
+[2016.02.29-06.20.06:314][736]LogPackageName: SearchForPackageOnDisk took   0.181s to resolve Nivel_1.umap
+[2016.02.29-06.20.06:499][736]LogPackageName: SearchForPackageOnDisk took   0.183s to resolve Nivel_1.umap
+[2016.02.29-06.20.06:499][736]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.20.06:499][736]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.20.06:613][736]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA73ED940
+[2016.02.29-06.20.06:613][736]Cmd: MEM
+[2016.02.29-06.20.06:713][736]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.20.06:713][736]LogMemory: Process Physical Memory: 826.81 MB used, 966.68 MB peak
+[2016.02.29-06.20.06:713][736]LogMemory: Process Virtual Memory: 1636.44 MB used, 1827.10 MB peak
+[2016.02.29-06.20.06:713][736]LogMemory: Physical Memory: 2772.27 MB used, 4092.53 MB total
+[2016.02.29-06.20.06:713][736]LogMemory: Virtual Memory: 2276.72 MB used, 134217728.00 MB total
+[2016.02.29-06.20.06:713][736]LogMemory: 
+[2016.02.29-06.20.06:713][736]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.20.07:895][736]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.20.07:900][736]LogWorld: Game class is '2D_C'
+[2016.02.29-06.20.07:938][736]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.20.07
+[2016.02.29-06.20.07:938][736]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.20.07:940][736]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.20.07:941][736]LogWorld: Bringing up level for play took: 0.034018
+[2016.02.29-06.20.38:450][119]LogPackageName: SearchForPackageOnDisk took   0.182s to resolve Nivel_2.umap
+[2016.02.29-06.20.38:652][120]LogPackageName: SearchForPackageOnDisk took   0.182s to resolve Nivel_2.umap
+[2016.02.29-06.20.38:652][120]LogNet: Browse: /Game/Niveles/Nivel_2
+[2016.02.29-06.20.38:652][120]LogLoad: LoadMap: /Game/Niveles/Nivel_2
+[2016.02.29-06.20.38:828][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC3C05A80
+[2016.02.29-06.20.38:829][120]Cmd: MEM
+[2016.02.29-06.20.38:926][120]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.20.38:927][120]LogMemory: Process Physical Memory: 826.90 MB used, 966.68 MB peak
+[2016.02.29-06.20.38:927][120]LogMemory: Process Virtual Memory: 1635.15 MB used, 1936.08 MB peak
+[2016.02.29-06.20.38:927][120]LogMemory: Physical Memory: 2767.09 MB used, 4092.53 MB total
+[2016.02.29-06.20.38:927][120]LogMemory: Virtual Memory: 2265.83 MB used, 134217728.00 MB total
+[2016.02.29-06.20.38:927][120]LogMemory: 
+[2016.02.29-06.20.38:927][120]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.20.40:415][120]LogAIModule: Creating AISystem for world Nivel_2
+[2016.02.29-06.20.40:418][120]LogWorld: Game class is '2D_C'
+[2016.02.29-06.20.40:468][120]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2 up for play (max tick rate 0) at 2016.02.29-01.20.40
+[2016.02.29-06.20.40:469][120]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.20.40:471][120]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.20.40:473][120]LogWorld: Bringing up level for play took: 0.048989
+[2016.02.29-06.21.33:918][494]LogPackageName: SearchForPackageOnDisk took   0.181s to resolve Menu.umap
+[2016.02.29-06.21.34:123][495]LogPackageName: SearchForPackageOnDisk took   0.184s to resolve Menu.umap
+[2016.02.29-06.21.34:123][495]LogNet: Browse: /Game/Niveles/Menu
+[2016.02.29-06.21.34:123][495]LogLoad: LoadMap: /Game/Niveles/Menu
+[2016.02.29-06.21.34:307][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DCAF542C0
+[2016.02.29-06.21.34:308][495]Cmd: MEM
+[2016.02.29-06.21.34:409][495]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.21.34:409][495]LogMemory: Process Physical Memory: 827.69 MB used, 982.60 MB peak
+[2016.02.29-06.21.34:409][495]LogMemory: Process Virtual Memory: 1634.39 MB used, 2007.49 MB peak
+[2016.02.29-06.21.34:409][495]LogMemory: Physical Memory: 2766.76 MB used, 4092.53 MB total
+[2016.02.29-06.21.34:409][495]LogMemory: Virtual Memory: 2275.47 MB used, 134217728.00 MB total
+[2016.02.29-06.21.34:409][495]LogMemory: 
+[2016.02.29-06.21.34:409][495]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.21.34:410][495]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Menu
+[2016.02.29-06.21.34:430][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020053s)
+[2016.02.29-06.21.34:431][495]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.21.34:433][495]LogPlayLevel: PIE: World Init took: (0.003252s)
+[2016.02.29-06.21.34:433][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Menu.Menu to /Game/Niveles/UEDPIE_0_Menu.Menu (0.023708s)
+[2016.02.29-06.21.34:434][495]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.21.34:441][495]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.21.34
+[2016.02.29-06.21.34:441][495]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.21.34:442][495]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.21.34:443][495]LogWorld: Bringing up level for play took: 0.003170
+[2016.02.29-06.21.34:444][495]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-06.21.35:967][553]LogPackageName: SearchForPackageOnDisk took   0.181s to resolve Nivel_1.umap
+[2016.02.29-06.21.36:151][553]LogPackageName: SearchForPackageOnDisk took   0.183s to resolve Nivel_1.umap
+[2016.02.29-06.21.36:151][553]LogNet: Browse: /Game/Niveles/Nivel_1
+[2016.02.29-06.21.36:151][553]LogLoad: LoadMap: /Game/Niveles/Nivel_1
+[2016.02.29-06.21.36:218][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA7369D00
+[2016.02.29-06.21.36:261][553]Cmd: MEM
+[2016.02.29-06.21.36:351][553]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.21.36:351][553]LogMemory: Process Physical Memory: 829.58 MB used, 982.60 MB peak
+[2016.02.29-06.21.36:351][553]LogMemory: Process Virtual Memory: 1637.40 MB used, 2007.49 MB peak
+[2016.02.29-06.21.36:351][553]LogMemory: Physical Memory: 2768.52 MB used, 4092.53 MB total
+[2016.02.29-06.21.36:351][553]LogMemory: Virtual Memory: 2276.72 MB used, 134217728.00 MB total
+[2016.02.29-06.21.36:351][553]LogMemory: 
+[2016.02.29-06.21.36:351][553]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.21.37:529][553]LogAIModule: Creating AISystem for world Nivel_1
+[2016.02.29-06.21.37:535][553]LogWorld: Game class is '2D_C'
+[2016.02.29-06.21.37:574][553]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1 up for play (max tick rate 0) at 2016.02.29-01.21.37
+[2016.02.29-06.21.37:574][553]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.21.37:576][553]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_1.Nivel_1:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.21.37:577][553]LogWorld: Bringing up level for play took: 0.034511
+[2016.02.29-06.22.06:385][858]LogPackageName: SearchForPackageOnDisk took   0.181s to resolve Nivel_2.umap
+[2016.02.29-06.22.06:587][859]LogPackageName: SearchForPackageOnDisk took   0.183s to resolve Nivel_2.umap
+[2016.02.29-06.22.06:587][859]LogNet: Browse: /Game/Niveles/Nivel_2
+[2016.02.29-06.22.06:587][859]LogLoad: LoadMap: /Game/Niveles/Nivel_2
+[2016.02.29-06.22.06:762][859]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC6B1A5C0
+[2016.02.29-06.22.06:762][859]Cmd: MEM
+[2016.02.29-06.22.06:863][859]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.22.06:863][859]LogMemory: Process Physical Memory: 829.58 MB used, 982.60 MB peak
+[2016.02.29-06.22.06:863][859]LogMemory: Process Virtual Memory: 1653.57 MB used, 2007.49 MB peak
+[2016.02.29-06.22.06:863][859]LogMemory: Physical Memory: 2768.84 MB used, 4092.53 MB total
+[2016.02.29-06.22.06:863][859]LogMemory: Virtual Memory: 2291.66 MB used, 134217728.00 MB total
+[2016.02.29-06.22.06:863][859]LogMemory: 
+[2016.02.29-06.22.06:863][859]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.22.08:298][859]LogAIModule: Creating AISystem for world Nivel_2
+[2016.02.29-06.22.08:301][859]LogWorld: Game class is '2D_C'
+[2016.02.29-06.22.08:351][859]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2 up for play (max tick rate 0) at 2016.02.29-01.22.08
+[2016.02.29-06.22.08:351][859]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.22.08:353][859]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_2.Nivel_2:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.22.08:355][859]LogWorld: Bringing up level for play took: 0.046150
+[2016.02.29-06.23.18:931][ 76]LogPackageName: SearchForPackageOnDisk took   0.185s to resolve Nivel_3.umap
+[2016.02.29-06.23.19:133][ 77]LogPackageName: SearchForPackageOnDisk took   0.181s to resolve Nivel_3.umap
+[2016.02.29-06.23.19:133][ 77]LogNet: Browse: /Game/Niveles/Nivel_3
+[2016.02.29-06.23.19:133][ 77]LogLoad: LoadMap: /Game/Niveles/Nivel_3
+[2016.02.29-06.23.19:206][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006D8F717E20
+[2016.02.29-06.23.19:263][ 77]Cmd: MEM
+[2016.02.29-06.23.19:360][ 77]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.23.19:360][ 77]LogMemory: Process Physical Memory: 829.55 MB used, 982.66 MB peak
+[2016.02.29-06.23.19:360][ 77]LogMemory: Process Virtual Memory: 1652.79 MB used, 2019.73 MB peak
+[2016.02.29-06.23.19:360][ 77]LogMemory: Physical Memory: 2764.36 MB used, 4092.53 MB total
+[2016.02.29-06.23.19:360][ 77]LogMemory: Virtual Memory: 2282.02 MB used, 134217728.00 MB total
+[2016.02.29-06.23.19:360][ 77]LogMemory: 
+[2016.02.29-06.23.19:360][ 77]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.23.28:078][ 77]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.23.28:081][ 77]LogWorld: Game class is '2D_C'
+[2016.02.29-06.23.28:130][ 77]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.23.28
+[2016.02.29-06.23.28:130][ 77]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.23.28:132][ 77]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.23.28:133][ 77]LogWorld: Bringing up level for play took: 0.046997
+[2016.02.29-06.23.28:150][ 77]LogAudio:Warning: Spatialisation on stereo and multichannel sounds is not supported. SoundWave: Mindless_Zombie_Awakening-SoundBible_com-255444348 SoundCue: Mindless_Zombie_Awakening-SoundBible_com-255444349_SoundCue Actor: Mindless_Zombie_Awakening-SoundBible_com-255444351 AudioComponent: AudioComponent0
+[2016.02.29-06.24.06:710][894]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DD08E5B20
+[2016.02.29-06.24.59:794][324]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.25.01:543][324]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.25.01:809][324]Cmd: MAP LOAD FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.29-06.25.01:809][324]LightingResults: New page: Lighting Build
+[2016.02.29-06.25.02:116][324]LoadErrors: New page: Loading map: Nivel_3.umap
+[2016.02.29-06.25.02:117][324]MapCheck: New page: Map Check
+[2016.02.29-06.25.02:117][324]LightingResults: New page: Lighting Build
+[2016.02.29-06.25.02:169][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB458FB00
+[2016.02.29-06.25.02:696][324]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.29-06.25.02:867][324]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.29-06.25.09:441][324]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 6,573.387ms to complete.
+[2016.02.29-06.25.09:443][324]LogFileHelpers: Loading map 'Nivel_3' took 7.638
+[2016.02.29-06.25.11:896][470]LogEditorViewport: Clicking on Actor (LMB): tubo_BP_C (tubo_BP)
+[2016.02.29-06.25.20:858][884]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.25.20:881][884]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.25.21:187][884]LogPlayLevel: PIE:  Blueprint regeneration took 329 ms (1 blueprints)
+[2016.02.29-06.25.21:188][884]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:25:21 PM)
+[2016.02.29-06.25.21:189][884]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.25.21:267][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078113s)
+[2016.02.29-06.25.21:269][884]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.25.21:271][884]LogPlayLevel: PIE: World Init took: (0.004262s)
+[2016.02.29-06.25.21:272][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.082837s)
+[2016.02.29-06.25.21:429][884]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.25.21:451][884]LogInit: FAudioDevice initialized.
+[2016.02.29-06.25.21:457][884]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.25.21:493][884]LogWorld: Game class is '2D_C'
+[2016.02.29-06.25.21:523][884]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.25.21
+[2016.02.29-06.25.21:524][884]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.25.21:525][884]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.25.21:527][884]LogWorld: Bringing up level for play took: 0.028008
+[2016.02.29-06.25.21:575][884]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 1.513
+[2016.02.29-06.25.31:316][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC3C07420
+[2016.02.29-06.25.32:858][473]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (barrote_Sprite12)
+[2016.02.29-06.25.43:004][948]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (barrote_Sprite21)
+[2016.02.29-06.25.45:796][ 85]Cmd: DELETE
+[2016.02.29-06.25.45:796][ 85]Cmd: ACTOR DELETE
+[2016.02.29-06.25.45:917][ 85]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2016.02.29-06.25.46:035][ 85]LogEditorActor: Deleted 1 Actors (0.120 secs)
+[2016.02.29-06.25.46:731][129]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (barrote_Sprite12)
+[2016.02.29-06.25.47:350][157]Cmd: EDIT COPY
+[2016.02.29-06.25.47:861][161]Cmd: EDIT PASTE
+[2016.02.29-06.35.01:555][139]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.35.10:509][166]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.35.11:655][166]LogSavePackage: Save=405.628937ms
+[2016.02.29-06.35.11:655][166]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_3_Auto11897D77C474A1805620A08A82C4F73E9.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Autosaves/Game/Niveles/Nivel_3_Auto1.umap'
+[2016.02.29-06.35.11:672][166]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Niveles/Nivel_3' took 0.856
+[2016.02.29-06.35.11:672][166]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.856
+[2016.02.29-06.36.17:100][826]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.36.17:123][826]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.36.17:433][826]LogPlayLevel: PIE:  Blueprint regeneration took 333 ms (1 blueprints)
+[2016.02.29-06.36.17:434][826]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:36:17 PM)
+[2016.02.29-06.36.17:435][826]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.36.17:468][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033398s)
+[2016.02.29-06.36.17:470][826]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.36.17:472][826]LogPlayLevel: PIE: World Init took: (0.003392s)
+[2016.02.29-06.36.17:472][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.037245s)
+[2016.02.29-06.36.17:573][826]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.36.17:594][826]LogInit: FAudioDevice initialized.
+[2016.02.29-06.36.17:599][826]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.36.17:637][826]LogWorld: Game class is '2D_C'
+[2016.02.29-06.36.17:667][826]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.36.17
+[2016.02.29-06.36.17:667][826]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.36.17:668][826]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.36.17:670][826]LogWorld: Bringing up level for play took: 0.027324
+[2016.02.29-06.36.17:717][826]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 -0.345
+[2016.02.29-06.36.33:086][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC6D6BBA0
+[2016.02.29-06.36.40:904][153]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.36.40:927][153]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.36.41:223][153]LogPlayLevel: PIE:  Blueprint regeneration took 319 ms (1 blueprints)
+[2016.02.29-06.36.41:223][153]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:36:41 PM)
+[2016.02.29-06.36.41:225][153]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.36.41:258][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033436s)
+[2016.02.29-06.36.41:260][153]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.36.41:262][153]LogPlayLevel: PIE: World Init took: (0.003334s)
+[2016.02.29-06.36.41:262][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.037215s)
+[2016.02.29-06.36.41:359][153]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.36.41:380][153]LogInit: FAudioDevice initialized.
+[2016.02.29-06.36.41:385][153]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.36.41:423][153]LogWorld: Game class is '2D_C'
+[2016.02.29-06.36.41:454][153]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.36.41
+[2016.02.29-06.36.41:454][153]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.36.41:456][153]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.36.41:457][153]LogWorld: Bringing up level for play took: 0.028326
+[2016.02.29-06.36.41:506][153]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 1.444
+[2016.02.29-06.37.20:860][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB8302D40
+[2016.02.29-06.37.21:404][698]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.37.21:428][698]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.37.21:726][698]LogPlayLevel: PIE:  Blueprint regeneration took 321 ms (1 blueprints)
+[2016.02.29-06.37.21:726][698]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:37:21 PM)
+[2016.02.29-06.37.21:727][698]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.37.21:760][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033028s)
+[2016.02.29-06.37.21:762][698]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.37.21:764][698]LogPlayLevel: PIE: World Init took: (0.003324s)
+[2016.02.29-06.37.21:764][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.036774s)
+[2016.02.29-06.37.21:860][698]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.37.21:882][698]LogInit: FAudioDevice initialized.
+[2016.02.29-06.37.21:887][698]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.37.21:926][698]LogWorld: Game class is '2D_C'
+[2016.02.29-06.37.21:958][698]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.37.21
+[2016.02.29-06.37.21:958][698]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.37.21:960][698]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.37.21:961][698]LogWorld: Bringing up level for play took: 0.029178
+[2016.02.29-06.37.22:010][698]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 -0.051
+[2016.02.29-06.37.44:102][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC0F02F20
+[2016.02.29-06.37.47:582][222]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.37.47:605][222]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.37.47:914][222]LogPlayLevel: PIE:  Blueprint regeneration took 332 ms (1 blueprints)
+[2016.02.29-06.37.47:915][222]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:37:47 PM)
+[2016.02.29-06.37.47:916][222]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.37.47:949][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033278s)
+[2016.02.29-06.37.47:951][222]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.37.47:953][222]LogPlayLevel: PIE: World Init took: (0.003298s)
+[2016.02.29-06.37.47:953][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.037006s)
+[2016.02.29-06.37.48:055][222]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.37.48:077][222]LogInit: FAudioDevice initialized.
+[2016.02.29-06.37.48:083][222]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.37.48:124][222]LogWorld: Game class is '2D_C'
+[2016.02.29-06.37.48:154][222]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.37.48
+[2016.02.29-06.37.48:154][222]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.37.48:156][222]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.37.48:158][222]LogWorld: Bringing up level for play took: 0.027289
+[2016.02.29-06.37.48:209][222]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 0.147
+[2016.02.29-06.38.09:064][504]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA64BF740
+[2016.02.29-06.38.43:021][772]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.38.43:044][772]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.38.43:356][772]LogPlayLevel: PIE:  Blueprint regeneration took 334 ms (1 blueprints)
+[2016.02.29-06.38.43:356][772]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:38:43 PM)
+[2016.02.29-06.38.43:358][772]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.38.43:391][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033219s)
+[2016.02.29-06.38.43:392][772]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.38.43:395][772]LogPlayLevel: PIE: World Init took: (0.003657s)
+[2016.02.29-06.38.43:395][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.037325s)
+[2016.02.29-06.38.43:497][772]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.38.43:518][772]LogInit: FAudioDevice initialized.
+[2016.02.29-06.38.43:527][772]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.38.43:569][772]LogWorld: Game class is '2D_C'
+[2016.02.29-06.38.43:599][772]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.38.43
+[2016.02.29-06.38.43:599][772]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.38.43:601][772]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.38.43:602][772]LogWorld: Bringing up level for play took: 0.028068
+[2016.02.29-06.38.43:652][772]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 1.59
+[2016.02.29-06.38.59:278][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DD095A8E0
+[2016.02.29-06.39.37:002][647]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (piso1_2_Sprite)
+[2016.02.29-06.39.51:139][170]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.39.51:161][170]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.39.51:488][170]LogPlayLevel: PIE:  Blueprint regeneration took 349 ms (1 blueprints)
+[2016.02.29-06.39.51:489][170]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:39:51 PM)
+[2016.02.29-06.39.51:490][170]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.39.51:523][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033321s)
+[2016.02.29-06.39.51:525][170]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.39.51:527][170]LogPlayLevel: PIE: World Init took: (0.003763s)
+[2016.02.29-06.39.51:527][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.037538s)
+[2016.02.29-06.39.51:625][170]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.39.51:641][170]LogInit: FAudioDevice initialized.
+[2016.02.29-06.39.51:647][170]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.39.51:686][170]LogWorld: Game class is '2D_C'
+[2016.02.29-06.39.51:717][170]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.39.51
+[2016.02.29-06.39.51:717][170]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.39.51:719][170]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.39.51:720][170]LogWorld: Bringing up level for play took: 0.027921
+[2016.02.29-06.39.51:769][170]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 -0.293
+[2016.02.29-06.41.18:303][339]LogPackageName: SearchForPackageOnDisk took   0.195s to resolve Menu.umap
+[2016.02.29-06.41.18:506][340]LogPackageName: SearchForPackageOnDisk took   0.182s to resolve Menu.umap
+[2016.02.29-06.41.18:506][340]LogNet: Browse: /Game/Niveles/Menu
+[2016.02.29-06.41.18:506][340]LogLoad: LoadMap: /Game/Niveles/Menu
+[2016.02.29-06.41.18:582][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA64BD8A0
+[2016.02.29-06.41.18:636][340]Cmd: MEM
+[2016.02.29-06.41.18:742][340]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.41.18:742][340]LogMemory: Process Physical Memory: 924.13 MB used, 1226.33 MB peak
+[2016.02.29-06.41.18:742][340]LogMemory: Process Virtual Memory: 1873.39 MB used, 2404.22 MB peak
+[2016.02.29-06.41.18:742][340]LogMemory: Physical Memory: 2919.30 MB used, 4092.53 MB total
+[2016.02.29-06.41.18:742][340]LogMemory: Virtual Memory: 2507.30 MB used, 134217728.00 MB total
+[2016.02.29-06.41.18:742][340]LogMemory: 
+[2016.02.29-06.41.18:742][340]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.41.19:994][340]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.41.20:001][340]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.41.20:008][340]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.41.20
+[2016.02.29-06.41.20:008][340]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.41.20:010][340]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.41.20:011][340]LogWorld: Bringing up level for play took: 0.003431
+[2016.02.29-06.41.20:012][340]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-06.41.25:460][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC3C04EA0
+[2016.02.29-06.41.54:197][735]LogEditorViewport: Clicking Background
+[2016.02.29-06.42.07:113][576]LogEditorViewport: Clicking on Actor (LMB): tubo_BP_C (tubo_BP5)
+[2016.02.29-06.42.10:276][730]LogEditorViewport: Clicking Background
+[2016.02.29-06.42.11:619][816]LogEditorViewport: Clicking on Actor (LMB): CaminaZombie_C (CaminaZombie5)
+[2016.02.29-06.42.15:991][ 32]LogEditorViewport: Clicking Background
+[2016.02.29-06.42.22:989][503]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.42.52:976][415]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.42.53:012][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-06.42.53:674][415]LogSavePackage: Save=373.606293ms
+[2016.02.29-06.42.53:674][415]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_354EBD6214834CD764585A0AD75739BEF.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap'
+[2016.02.29-06.42.55:089][497]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.42.58:843][767]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (piso1_3_Sprite4)
+[2016.02.29-06.43.00:401][844]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (piso1_3_Sprite4)
+[2016.02.29-06.43.01:205][884]LogEditorViewport: Clicking on Actor (LMB): BP_item4_C (BP_item4)
+[2016.02.29-06.43.03:698][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_item5_C (BP_item5)
+[2016.02.29-06.43.06:698][171]LogEditorViewport: Clicking on Actor (LMB): BP_item3_C (BP_item3)
+[2016.02.29-06.43.13:326][522]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.43.13:364][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-06.43.14:067][522]LogSavePackage: Save=384.783325ms
+[2016.02.29-06.43.14:067][522]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_340FB2BA84F6E890FA7D2D88D8A861167.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap'
+[2016.02.29-06.43.16:613][644]LogEditorViewport: Clicking on Actor (LMB): BP_item2_C (BP_item2)
+[2016.02.29-06.43.23:519][  1]LogEditorViewport: Clicking on Actor (LMB): BP_item_C (BP_item)
+[2016.02.29-06.43.28:345][248]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.43.28:379][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-06.43.29:056][248]LogSavePackage: Save=378.424744ms
+[2016.02.29-06.43.29:056][248]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_398B7941C4652F167E99AE6A44F04546C.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap'
+[2016.02.29-06.43.39:680][445]LogEditorViewport: Clicking Background
+[2016.02.29-06.43.53:847][659]LogEditorViewport: Clicking Background
+[2016.02.29-06.43.54:867][725]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.43.56:188][809]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.44.04:136][205]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.44.14:085][716]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.44.14:108][716]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.44.14:431][716]LogPlayLevel: PIE:  Blueprint regeneration took 346 ms (1 blueprints)
+[2016.02.29-06.44.14:431][716]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:44:14 PM)
+[2016.02.29-06.44.14:433][716]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.44.14:479][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046023s)
+[2016.02.29-06.44.14:480][716]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.44.14:482][716]LogPlayLevel: PIE: World Init took: (0.003397s)
+[2016.02.29-06.44.14:482][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.049868s)
+[2016.02.29-06.44.14:585][716]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.44.14:606][716]LogInit: FAudioDevice initialized.
+[2016.02.29-06.44.14:611][716]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.44.14:652][716]LogWorld: Game class is '2D_C'
+[2016.02.29-06.44.14:683][716]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.44.14
+[2016.02.29-06.44.14:683][716]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.44.14:685][716]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.44.14:686][716]LogWorld: Bringing up level for play took: 0.028578
+[2016.02.29-06.44.14:735][716]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 0.674
+[2016.02.29-06.44.25:504][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DD0408B80
+[2016.02.29-06.44.35:334][396]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.44.35:358][396]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.44.35:670][396]LogPlayLevel: PIE:  Blueprint regeneration took 335 ms (1 blueprints)
+[2016.02.29-06.44.35:670][396]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:44:35 PM)
+[2016.02.29-06.44.35:671][396]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.44.35:713][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041570s)
+[2016.02.29-06.44.35:714][396]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.44.35:717][396]LogPlayLevel: PIE: World Init took: (0.003580s)
+[2016.02.29-06.44.35:717][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.045774s)
+[2016.02.29-06.44.35:821][396]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.44.35:841][396]LogInit: FAudioDevice initialized.
+[2016.02.29-06.44.35:847][396]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.44.35:887][396]LogWorld: Game class is '2D_C'
+[2016.02.29-06.44.35:917][396]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.44.35
+[2016.02.29-06.44.35:917][396]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.44.35:919][396]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.44.35:921][396]LogWorld: Bringing up level for play took: 0.027747
+[2016.02.29-06.44.35:969][396]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 -0.093
+[2016.02.29-06.44.51:062][641]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA68947C0
+[2016.02.29-06.45.24:175][ 61]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.45.24:198][ 61]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.45.24:508][ 61]LogPlayLevel: PIE:  Blueprint regeneration took 332 ms (1 blueprints)
+[2016.02.29-06.45.24:508][ 61]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:45:24 PM)
+[2016.02.29-06.45.24:509][ 61]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.45.24:543][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033635s)
+[2016.02.29-06.45.24:544][ 61]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.45.24:546][ 61]LogPlayLevel: PIE: World Init took: (0.003381s)
+[2016.02.29-06.45.24:547][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.037511s)
+[2016.02.29-06.45.24:647][ 61]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.45.24:669][ 61]LogInit: FAudioDevice initialized.
+[2016.02.29-06.45.24:676][ 61]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.45.24:716][ 61]LogWorld: Game class is '2D_C'
+[2016.02.29-06.45.24:754][ 61]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.45.24
+[2016.02.29-06.45.24:754][ 61]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.45.24:756][ 61]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.45.24:758][ 61]LogWorld: Bringing up level for play took: 0.035798
+[2016.02.29-06.45.24:814][ 61]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 0.753
+[2016.02.29-06.45.37:823][218]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA6894EA0
+[2016.02.29-06.45.43:655][236]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.45.43:679][236]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.45.44:005][236]LogPlayLevel: PIE:  Blueprint regeneration took 349 ms (1 blueprints)
+[2016.02.29-06.45.44:005][236]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:45:44 PM)
+[2016.02.29-06.45.44:007][236]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.45.44:040][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033162s)
+[2016.02.29-06.45.44:041][236]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.45.44:043][236]LogPlayLevel: PIE: World Init took: (0.003303s)
+[2016.02.29-06.45.44:043][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.036906s)
+[2016.02.29-06.45.44:145][236]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.45.44:166][236]LogInit: FAudioDevice initialized.
+[2016.02.29-06.45.44:172][236]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.45.44:211][236]LogWorld: Game class is '2D_C'
+[2016.02.29-06.45.44:240][236]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.45.44
+[2016.02.29-06.45.44:240][236]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.45.44:242][236]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.45.44:243][236]LogWorld: Bringing up level for play took: 0.026760
+[2016.02.29-06.45.44:292][236]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 0.23
+[2016.02.29-06.46.58:103][135]LogPackageName: SearchForPackageOnDisk took   0.191s to resolve Menu.umap
+[2016.02.29-06.46.58:307][136]LogPackageName: SearchForPackageOnDisk took   0.182s to resolve Menu.umap
+[2016.02.29-06.46.58:307][136]LogNet: Browse: /Game/Niveles/Menu
+[2016.02.29-06.46.58:307][136]LogLoad: LoadMap: /Game/Niveles/Menu
+[2016.02.29-06.46.58:434][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB8302340
+[2016.02.29-06.46.58:435][136]Cmd: MEM
+[2016.02.29-06.46.58:538][136]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.46.58:539][136]LogMemory: Process Physical Memory: 941.34 MB used, 1226.33 MB peak
+[2016.02.29-06.46.58:539][136]LogMemory: Process Virtual Memory: 1891.74 MB used, 2404.22 MB peak
+[2016.02.29-06.46.58:539][136]LogMemory: Physical Memory: 2955.71 MB used, 4092.53 MB total
+[2016.02.29-06.46.58:539][136]LogMemory: Virtual Memory: 2519.99 MB used, 134217728.00 MB total
+[2016.02.29-06.46.58:539][136]LogMemory: 
+[2016.02.29-06.46.58:539][136]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.46.58:847][136]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.46.58:851][136]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.46.58:858][136]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2016.02.29-01.46.58
+[2016.02.29-06.46.58:858][136]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.46.58:859][136]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.46.58:860][136]LogWorld: Bringing up level for play took: 0.003660
+[2016.02.29-06.46.58:862][136]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-06.47.05:322][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DD08E4B80
+[2016.02.29-06.47.06:129][364]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.47.06:152][364]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.47.06:482][364]LogPlayLevel: PIE:  Blueprint regeneration took 353 ms (1 blueprints)
+[2016.02.29-06.47.06:482][364]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:47:06 PM)
+[2016.02.29-06.47.06:483][364]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.47.06:529][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045544s)
+[2016.02.29-06.47.06:530][364]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.47.06:533][364]LogPlayLevel: PIE: World Init took: (0.003515s)
+[2016.02.29-06.47.06:533][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.049548s)
+[2016.02.29-06.47.06:647][364]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.47.06:670][364]LogInit: FAudioDevice initialized.
+[2016.02.29-06.47.06:676][364]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.47.06:715][364]LogWorld: Game class is '2D_C'
+[2016.02.29-06.47.06:746][364]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.47.06
+[2016.02.29-06.47.06:746][364]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.47.06:748][364]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.47.06:749][364]LogWorld: Bringing up level for play took: 0.028575
+[2016.02.29-06.47.06:803][364]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 0.741
+[2016.02.29-06.47.44:126][ 17]LogPackageName: SearchForPackageOnDisk took   0.179s to resolve Menu.umap
+[2016.02.29-06.47.44:325][ 18]LogPackageName: SearchForPackageOnDisk took   0.178s to resolve Menu.umap
+[2016.02.29-06.47.44:325][ 18]LogNet: Browse: /Game/Niveles/Menu
+[2016.02.29-06.47.44:325][ 18]LogLoad: LoadMap: /Game/Niveles/Menu
+[2016.02.29-06.47.44:454][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DD7B727A0
+[2016.02.29-06.47.44:454][ 18]Cmd: MEM
+[2016.02.29-06.47.44:561][ 18]LogMemory: Platform Memory Stats for Windows
+[2016.02.29-06.47.44:561][ 18]LogMemory: Process Physical Memory: 943.71 MB used, 1226.33 MB peak
+[2016.02.29-06.47.44:562][ 18]LogMemory: Process Virtual Memory: 1911.89 MB used, 2404.22 MB peak
+[2016.02.29-06.47.44:562][ 18]LogMemory: Physical Memory: 2958.60 MB used, 4092.53 MB total
+[2016.02.29-06.47.44:562][ 18]LogMemory: Virtual Memory: 2538.99 MB used, 134217728.00 MB total
+[2016.02.29-06.47.44:562][ 18]LogMemory: 
+[2016.02.29-06.47.44:562][ 18]Allocator Stats for TBB: (not implemented)
+[2016.02.29-06.47.44:860][ 18]LogAIModule: Creating AISystem for world Menu
+[2016.02.29-06.47.44:863][ 18]LogWorld: Game class is 'GameMode'
+[2016.02.29-06.47.44:870][ 18]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Menu.Menu up for play (max tick rate 3) at 2016.02.29-01.47.44
+[2016.02.29-06.47.44:870][ 18]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameSession_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.47.44:871][ 18]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Menu.Menu:PersistentLevel.GameNetworkManager_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.47.44:872][ 18]LogWorld: Bringing up level for play took: 0.003393
+[2016.02.29-06.47.44:874][ 18]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.29-06.47.47:387][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA64E44A0
+[2016.02.29-06.51.20:945][ 59]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.51.20:977][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-06.51.21:671][ 59]LogSavePackage: Save=408.513306ms
+[2016.02.29-06.51.21:671][ 59]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_34210EA554CA40F83FEF619838CE1CAA2.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap'
+[2016.02.29-06.51.24:358][238]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.51.25:479][314]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.51.36:246][876]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.51.43:957][307]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.51.43:992][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Niveles/Nivel_3" FILE="../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.29-06.51.44:656][307]LogSavePackage: Save=373.780334ms
+[2016.02.29-06.51.44:656][307]LogSavePackage: Moving '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Saved/Nivel_3089ED156443CAE4ED6E0A2A0F288FAFD.tmp' to '../../../../../../Users/Jimmy/git/PoliHeath/Proyecto 4.8/Content/Niveles/Nivel_3.umap'
+[2016.02.29-06.51.55:403][986]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.29-06.51.55:426][986]LogPlayLevel: [PIE] Compiling Nivel_3 before PIE...
+[2016.02.29-06.51.55:685][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA68945E0
+[2016.02.29-06.51.55:776][986]LogPlayLevel: PIE:  Blueprint regeneration took 372 ms (1 blueprints)
+[2016.02.29-06.51.55:776][986]PIE: New page: PIE session: Nivel_3 (Feb 28, 2016, 8:51:55 PM)
+[2016.02.29-06.51.55:777][986]LogPlayLevel: Creating play world package: /Game/Niveles/UEDPIE_0_Nivel_3
+[2016.02.29-06.51.55:821][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043105s)
+[2016.02.29-06.51.55:822][986]LogAIModule: Creating AISystem for world Nivel_3
+[2016.02.29-06.51.55:824][986]LogPlayLevel: PIE: World Init took: (0.003239s)
+[2016.02.29-06.51.55:824][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Niveles/Nivel_3.Nivel_3 to /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 (0.046770s)
+[2016.02.29-06.51.55:922][986]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.29-06.51.55:943][986]LogInit: FAudioDevice initialized.
+[2016.02.29-06.51.55:947][986]LogD3D11RHI: InitD3DDevice
+[2016.02.29-06.51.55:982][986]LogWorld: Game class is '2D_C'
+[2016.02.29-06.51.56:012][986]LogWorld: Bringing World /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3 up for play (max tick rate 0) at 2016.02.29-01.51.56
+[2016.02.29-06.51.56:012][986]LogActor:Warning: GameSession /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameSession_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.51.56:014][986]LogActor:Warning: GameNetworkManager /Game/Niveles/UEDPIE_0_Nivel_3.Nivel_3:PersistentLevel.GameNetworkManager_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.29-06.51.56:015][986]LogWorld: Bringing up level for play took: 0.027617
+[2016.02.29-06.51.56:061][986]PIE: Info Play in editor start time for /Game/Niveles/UEDPIE_0_Nivel_3 -0
+[2016.02.29-06.52.07:271][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB8251940
+[2016.02.29-06.52.10:457][808]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.29-06.52.11:084][809]Cmd: QUIT_EDITOR
+[2016.02.29-06.52.12:676][809]LogExit: Preparing to exit.
+[2016.02.29-06.52.15:563][809]LogExit: Editor shut down
+[2016.02.29-06.52.15:564][809]LogExit: Transaction tracking system shut down
+[2016.02.29-06.52.15:761][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB46CDBC0
+[2016.02.29-06.52.15:761][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DB458EDE0
+[2016.02.29-06.52.15:786][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC1EACAE0
+[2016.02.29-06.52.15:790][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DA4E21620
+[2016.02.29-06.52.17:460][809]LogExit: Object subsystem successfully closed.
+[2016.02.29-06.52.17:786][809]LogD3D11RHI: Shutdown
+[2016.02.29-06.52.17:786][809]LogD3D11RHI: CleanupD3DDevice
+[2016.02.29-06.52.18:142][809]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.29-06.52.18:771][809]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (189)
+[2016.02.29-06.52.18:771][809]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2016.02.29-06.52.18:786][809]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2016.02.29-06.52.18:786][809]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2016.02.29-06.52.18:786][809]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2016.02.29-06.52.18:809][809]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2016.02.29-06.52.18:829][809]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2016.02.29-06.52.18:829][809]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2016.02.29-06.52.18:835][809]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2016.02.29-06.52.18:848][809]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2016.02.29-06.52.18:855][809]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2016.02.29-06.52.18:876][809]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2016.02.29-06.52.18:876][809]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2016.02.29-06.52.18:876][809]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2016.02.29-06.52.18:876][809]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2016.02.29-06.52.18:876][809]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2016.02.29-06.52.18:888][809]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2016.02.29-06.52.18:888][809]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2016.02.29-06.52.18:888][809]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2016.02.29-06.52.18:888][809]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2016.02.29-06.52.18:888][809]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2016.02.29-06.52.18:912][809]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2016.02.29-06.52.18:930][809]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2016.02.29-06.52.18:957][809]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2016.02.29-06.52.18:957][809]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2016.02.29-06.52.18:967][809]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2016.02.29-06.52.18:967][809]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2016.02.29-06.52.19:825][809]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2016.02.29-06.52.19:825][809]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2016.02.29-06.52.19:825][809]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2016.02.29-06.52.19:825][809]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2016.02.29-06.52.19:846][809]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2016.02.29-06.52.19:846][809]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2016.02.29-06.52.19:857][809]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2016.02.29-06.52.19:857][809]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2016.02.29-06.52.19:867][809]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2016.02.29-06.52.19:867][809]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2016.02.29-06.52.19:872][809]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2016.02.29-06.52.19:879][809]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2016.02.29-06.52.19:887][809]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2016.02.29-06.52.19:887][809]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2016.02.29-06.52.19:893][809]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2016.02.29-06.52.19:893][809]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2016.02.29-06.52.19:900][809]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2016.02.29-06.52.19:900][809]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2016.02.29-06.52.19:921][809]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2016.02.29-06.52.19:921][809]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2016.02.29-06.52.19:929][809]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2016.02.29-06.52.19:938][809]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2016.02.29-06.52.19:945][809]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2016.02.29-06.52.19:956][809]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2016.02.29-06.52.19:956][809]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2016.02.29-06.52.19:959][809]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2016.02.29-06.52.19:968][809]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2016.02.29-06.52.19:977][809]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2016.02.29-06.52.19:988][809]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2016.02.29-06.52.19:989][809]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2016.02.29-06.52.19:989][809]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2016.02.29-06.52.19:989][809]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2016.02.29-06.52.20:198][809]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2016.02.29-06.52.20:232][809]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2016.02.29-06.52.20:238][809]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2016.02.29-06.52.20:238][809]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2016.02.29-06.52.20:248][809]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2016.02.29-06.52.20:258][809]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2016.02.29-06.52.20:262][809]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2016.02.29-06.52.20:283][809]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2016.02.29-06.52.20:291][809]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2016.02.29-06.52.20:297][809]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2016.02.29-06.52.20:297][809]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2016.02.29-06.52.20:313][809]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2016.02.29-06.52.20:323][809]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2016.02.29-06.52.20:323][809]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2016.02.29-06.52.20:323][809]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2016.02.29-06.52.20:331][809]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2016.02.29-06.52.20:331][809]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2016.02.29-06.52.20:331][809]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2016.02.29-06.52.20:436][809]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2016.02.29-06.52.20:446][809]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2016.02.29-06.52.20:452][809]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2016.02.29-06.52.20:452][809]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2016.02.29-06.52.20:452][809]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2016.02.29-06.52.20:452][809]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2016.02.29-06.52.20:452][809]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2016.02.29-06.52.20:626][809]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2016.02.29-06.52.20:626][809]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2016.02.29-06.52.20:626][809]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2016.02.29-06.52.20:705][809]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2016.02.29-06.52.20:716][809]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2016.02.29-06.52.20:716][809]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2016.02.29-06.52.20:729][809]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2016.02.29-06.52.20:749][809]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2016.02.29-06.52.20:760][809]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2016.02.29-06.52.20:766][809]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2016.02.29-06.52.20:766][809]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2016.02.29-06.52.20:790][809]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2016.02.29-06.52.20:805][809]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2016.02.29-06.52.20:814][809]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2016.02.29-06.52.20:827][809]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2016.02.29-06.52.20:827][809]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2016.02.29-06.52.20:827][809]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2016.02.29-06.52.20:827][809]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2016.02.29-06.52.20:830][809]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2016.02.29-06.52.20:841][809]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2016.02.29-06.52.20:845][809]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2016.02.29-06.52.20:856][809]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2016.02.29-06.52.20:868][809]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2016.02.29-06.52.20:892][809]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.02.29-06.52.20:894][809]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.02.29-06.52.20:907][809]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2016.02.29-06.52.21:014][809]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2016.02.29-06.52.21:055][809]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2016.02.29-06.52.21:068][809]LogModuleManager: Shutting down and abandoning module Media (77)
+[2016.02.29-06.52.21:068][809]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2016.02.29-06.52.21:071][809]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2016.02.29-06.52.21:071][809]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2016.02.29-06.52.21:122][809]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2016.02.29-06.52.21:140][809]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2016.02.29-06.52.21:147][809]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2016.02.29-06.52.21:157][809]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2016.02.29-06.52.21:178][809]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2016.02.29-06.52.21:178][809]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2016.02.29-06.52.21:193][809]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2016.02.29-06.52.21:210][809]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2016.02.29-06.52.21:227][809]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2016.02.29-06.52.21:227][809]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2016.02.29-06.52.21:227][809]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2016.02.29-06.52.21:234][809]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2016.02.29-06.52.21:234][809]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2016.02.29-06.52.21:235][809]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2016.02.29-06.52.21:235][809]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2016.02.29-06.52.21:235][809]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2016.02.29-06.52.21:235][809]LogModuleManager: Shutting down and abandoning module Core (56)
+[2016.02.29-06.52.21:235][809]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2016.02.29-06.52.21:243][809]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2016.02.29-06.52.21:246][809]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2016.02.29-06.52.21:266][809]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2016.02.29-06.52.21:377][809]LogDerivedDataCache: Shutdown
+[2016.02.29-06.52.21:377][809]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2016.02.29-06.52.21:386][809]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2016.02.29-06.52.21:397][809]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2016.02.29-06.52.21:415][809]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2016.02.29-06.52.21:415][809]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2016.02.29-06.52.21:420][809]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2016.02.29-06.52.21:428][809]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2016.02.29-06.52.21:439][809]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2016.02.29-06.52.21:439][809]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2016.02.29-06.52.21:439][809]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2016.02.29-06.52.21:439][809]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2016.02.29-06.52.21:439][809]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2016.02.29-06.52.21:450][809]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2016.02.29-06.52.21:450][809]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2016.02.29-06.52.21:451][809]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2016.02.29-06.52.21:460][809]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.02.29-06.52.21:466][809]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2016.02.29-06.52.21:467][809]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.02.29-06.52.21:467][809]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.02.29-06.52.21:470][809]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.02.29-06.52.21:470][809]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.02.29-06.52.21:470][809]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.02.29-06.52.21:502][809]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.02.29-06.52.21:507][809]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.02.29-06.52.21:507][809]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.29-06.52.21:507][809]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.29-06.52.21:507][809]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.29-06.52.21:507][809]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.29-06.52.21:517][809]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.29-06.52.21:523][809]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.29-06.52.21:526][809]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.29-06.52.21:544][809]LogExit: Exiting.
+[2016.02.29-06.52.21:655][809]Log file closed, 02/29/16 01:52:21
